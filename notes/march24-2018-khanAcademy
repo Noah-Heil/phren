@@ -1,0 +1,48 @@
+Neurons Structure:
+
+Dendrites have receptors
+Dendrites grow from the Soma
+Soma also has Axons which usually end in Terminals
+Axon usually has a myelin sheath which covers and insulates the Axon
+
+We need to boost a signal moving down the Axon and to do that we need to have gaps in the Myelin Sheath and those gaps are called Nodes of Ranvier.
+Then inside the Nodes of Ranvier are Voltage Gated Channels
+
+The process of the signal moving down the Axon and being boosted down the Axon via the Voltage Gated Channels in the Nodes of Ranvier is called Saltatory Conduction
+
+
+Synapse Structure
+
+Synapse are where the Terminals of an Axon are contacting (but not specifically touching when communicating with chemical neurotransmitters) it's Target Cells.
+
+VAST Majority of Neurons receive signals from other cells connected to the Dendrites
+
+Neurons also receive (sometimes) connections to their soma 
+
+and some even receive directly to the Terminals
+
+Synapse consists of:
+Synaptic Cleft -- (Very small) Gap between one Axons Terminal (Presynaptic Membrane -- The surface of the Axon Terminal facing it's target) and a target (Postsynaptic Membrane -- The surface of the Target facing the Axons Terminal). The Synaptic Cleft also has (how many?) Astrocyte(s?).
+
+Astrocytes -- 
+
+Their function is to maintain an appropriate chemical environment for neuronal signaling by removing excess ions and recycling neurotransmitters release during synaptic transmission. Astrocytes provide a scaffolding-like support structure in the CNS, synaptic remodeling, are actively involved in astrocytosis (which happens when the brain suffers an injury or infection), help in homeostasis, regulation of blood, and energy provision among other important functions. 
+
+The role of astrocytes is actually in the process of redefinition. In addition to the answers provided, astrocytes are also partially responsible for the modulation neuronal activity through the release of neurotransmitters. It is not currently known how large of an effect this has on neuronal behavior, but it complicates our long held theories about neurons being the messengers and glial cells (such as astrocytes) being purely support cells.
+
+An astrocyte is a type of glial cell that supports neurons, sequesters ions, reuptakes synaptic neurotransmitters, and "insulates" synapses (via astrocytic end feet). They are star-shaped, as can be expected from their root word, -aster, which is Greek for "star." If it helps you remember it better, "astronaut" comes from the Greek words for "star sailor."
+
+Presynaptic neurons release pre-packaged neurotransmitters by exocytosis via SNARE proteins that anchor the synaptic vesicles to the presynaptic cell membrane. Quantal release (synchronized neurotransmitter release) follows. 
+The neurotransmitters bind to postsynaptic receptors and affect a change in that cell, either by activating second messengers or by initiating/suppressing an action potential, etc.
+Temporal and spatial summation can also be discussed here, as can factors that influence cell excitability.
+Your question is rather vague, so if you continue to have a specific question, I would be happy to answer it.
+
+The main advantage is for the computational properties of the brain; while an electrical synapse can only represent one type of signal, a signal in a chemical synapse can have several different effects on the postsynaptic cell, depending on the receptors that the post-synaptic terminal has. If you go on a little more about this topic you will find out about excitatory post synaptic potentials and inhibitory post synaptic potentials, wich should give you a clearer insight on the matter
+
+
+Neuronal synapses (chemical) video
+
+Calcium Ion Channel (voltage gated) (+2 charge) Normally closed -- works similar to a sodium gated channel when it opens calcium also flows into the cell
+
+Vesicles -- Membrane bound stuff inside a cell. It is held near the Presynaptic Membrane via SNARE protienes and when the calcium floods in the calcium bonds with the SNARE protienes causing them to move the neurotransmitter filled Vesicles closer to and eventually opens the Presynaptic Membrane and Vesicle so as to release the Neurotransmitters contained in the Vesicle.
+

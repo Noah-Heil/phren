@@ -1,0 +1,7 @@
+I am looking into maybe loading this db into a graph database like the following:
+https://dgraph.io/
+
+
+docker pull dgraph/dgraph
+
+
