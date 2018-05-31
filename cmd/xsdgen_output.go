@@ -1,4 +1,4 @@
-package drugdb
+package cmd
 
 import (
 	"bytes"

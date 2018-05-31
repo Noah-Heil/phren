@@ -17,6 +17,7 @@ package cmd
 import (
 	"bufio"
 	"fmt"
+	"io/ioutil"
 	"os"
 	"path/filepath"
 	"strings"
@@ -122,4 +123,10 @@ func PickUpFlagChanges() {
 	case strings.Compare(setOutput, "stdout") == 0:
 		log.SetOutput(os.Stdout)
 	}
+}
+
+// ReadFile reads an XML file passed to the function
+func ReadFile(xmlFile *os.File) {
+	byteValue, _ := ioutil.ReadAll(xmlFile)
+
 }
