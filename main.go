@@ -1,7 +1,9 @@
 package main
 
 import (
+	"bufio"
 	"fmt"
+	"os"
 )
 
 // // Person stub
@@ -128,6 +130,45 @@ func init() {
 	// }
 }
 
+// OpenXMLFile Opens and XML File
+func OpenXMLFile(FileName string) (xmlFile *os.File) {
+	// Open our xmlFile
+	xmlFile, err := os.Open(FileName)
+	// if we os.Open returns an error then handle it
+	if err != nil {
+		fmt.Println(err)
+	}
+
+	fmt.Printf("Successfully Opened %s\n", FileName)
+	// defer the closing of our xmlFile so that we can parse it later on
+	defer xmlFile.Close()
+
+	return xmlFile
+}
+
+// GetXMLFileName gets the name of the xml file we want to read from
+func GetXMLFileName() string {
+	reader := bufio.NewReader(os.Stdin)
+	fmt.Print("Enter text: ")
+	text, _ := reader.ReadString('\n')
+	fmt.Println(text)
+
+	// fmt.Println("Enter text: ")
+	// text2 := ""
+	// fmt.Scanln(text2)
+	// fmt.Println(text2)
+
+	// ln := ""
+	// fmt.Sscanln("%v", ln)
+	// fmt.Println(ln)
+
+	return text
+}
+
 func main() {
 	fmt.Println("hello world")
+	fmt.Println("What XML file would you like to read from?")
+	FileName := GetXMLFileName()
+	OpenXMLFile(FileName)
+
 }
