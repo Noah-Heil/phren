@@ -37,7 +37,8 @@ Cobra is a CLI library for Go that empowers applications.
 This application is a tool to generate the needed files
 to quickly create a Cobra application.`,
 	Run: func(cmd *cobra.Command, args []string) {
-		log.Debug("Entered Run cmd")
+		PickUpFlagChanges()
+		log.WithFields(log.Fields{"Log Level Flag": loglevel}).Debug("Entered Run cmd")
 		fmt.Println("What XML file would you like to read from?")
 		FileName := GetXMLFileName(".xml")
 		log.WithFields(log.Fields{"FileName": FileName, "Location": "main func past GetXMLFileName"}).Debug("FileName retrieved from user")
@@ -54,25 +55,6 @@ func init() {
 	// Cobra supports Persistent Flags which will work for this command
 	// and all subcommands, e.g.:
 
-	switch {
-	case strings.Compare(loglevel, "debug") == 0:
-		log.SetLevel(log.DebugLevel)
-	case strings.Compare(loglevel, "info") == 0:
-		log.SetLevel(log.InfoLevel)
-	case strings.Compare(loglevel, "error") == 0:
-		log.SetLevel(log.ErrorLevel)
-	case strings.Compare(loglevel, "fatal") == 0:
-		log.SetLevel(log.FatalLevel)
-	case strings.Compare(loglevel, "panic") == 0:
-		log.SetLevel(log.PanicLevel)
-	default:
-		log.SetLevel(log.WarnLevel)
-	}
-
-	switch {
-	case strings.Compare(setOutput, "stdout") == 0:
-		log.SetOutput(os.Stdout)
-	}
 	// Cobra supports local flags which will only run when this command
 	// is called directly, e.g.:
 	// runCmd.Flags().BoolP("toggle", "t", false, "Help message for toggle")
@@ -117,4 +99,27 @@ func GetXMLFileName(ValidExtension string) string {
 	}
 	log.WithFields(log.Fields{"FileName": FileName, "Location": "exiting GetXMLFileName func"}).Debug("FileName is valid; returning to main")
 	return FileName
+}
+
+// PickUpFlagChanges picks up and applies any flags that have been passed via cli
+func PickUpFlagChanges() {
+	switch {
+	case strings.Compare(loglevel, "debug") == 0:
+		log.SetLevel(log.DebugLevel)
+	case strings.Compare(loglevel, "info") == 0:
+		log.SetLevel(log.InfoLevel)
+	case strings.Compare(loglevel, "error") == 0:
+		log.SetLevel(log.ErrorLevel)
+	case strings.Compare(loglevel, "fatal") == 0:
+		log.SetLevel(log.FatalLevel)
+	case strings.Compare(loglevel, "panic") == 0:
+		log.SetLevel(log.PanicLevel)
+	default:
+		log.SetLevel(log.WarnLevel)
+	}
+
+	switch {
+	case strings.Compare(setOutput, "stdout") == 0:
+		log.SetOutput(os.Stdout)
+	}
 }

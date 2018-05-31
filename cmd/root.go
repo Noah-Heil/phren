@@ -17,10 +17,8 @@ package cmd
 import (
 	"fmt"
 	"os"
-	"strings"
 
 	homedir "github.com/mitchellh/go-homedir"
-	log "github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 )
@@ -62,26 +60,6 @@ func init() {
 	rootCmd.PersistentFlags().StringVar(&cfgFile, "config", "", "config file (default is $HOME/.phren.yaml)")
 	rootCmd.PersistentFlags().StringVar(&loglevel, "logginglevel", "warn", "Defines at what level the application will log")
 	rootCmd.PersistentFlags().StringVar(&setOutput, "setoutput", "os.Stdout", "sets the output for logrus in the application")
-
-	switch {
-	case strings.Compare(loglevel, "debug") == 0:
-		log.SetLevel(log.DebugLevel)
-	case strings.Compare(loglevel, "info") == 0:
-		log.SetLevel(log.InfoLevel)
-	case strings.Compare(loglevel, "error") == 0:
-		log.SetLevel(log.ErrorLevel)
-	case strings.Compare(loglevel, "fatal") == 0:
-		log.SetLevel(log.FatalLevel)
-	case strings.Compare(loglevel, "panic") == 0:
-		log.SetLevel(log.PanicLevel)
-	default:
-		log.SetLevel(log.WarnLevel)
-	}
-
-	switch {
-	case strings.Compare(setOutput, "stdout") == 0:
-		log.SetOutput(os.Stdout)
-	}
 
 	// Cobra also supports local flags, which will only run
 	// when this action is called directly.
