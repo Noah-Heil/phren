@@ -17,3 +17,6 @@
 .DS_Store
 
 db/fulldatabase.xml
+
+# ignore the binaries
+phren
