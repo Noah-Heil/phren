@@ -6,20 +6,19 @@ import (
 	"time"
 )
 
+// Actionlisttype list
 type Actionlisttype struct {
 	Action []string `xml:"http://www.drugbank.ca action,omitempty"`
 }
 
+// Affectedorganismlisttype list
 type Affectedorganismlisttype struct {
 	Affectedorganism []string `xml:"http://www.drugbank.ca affected-organism,omitempty"`
 }
 
+// Ahfscodelisttype list
 type Ahfscodelisttype struct {
 	Ahfscode []string `xml:"http://www.drugbank.ca ahfs-code,omitempty"`
-}
-
-type Articlelisttype struct {
-	Article []Articletype `xml:"http://www.drugbank.ca article,omitempty"`
 }
 
 // Articletype container
@@ -28,16 +27,21 @@ type Articletype struct {
 	Citation string `xml:"http://www.drugbank.ca citation"`
 }
 
-// Atccodeleveltype container
-type Atccodeleveltype struct {
-	Value string `xml:",chardata"`
-	Code  string `xml:"code,attr"`
+// Articlelisttype list
+type Articlelisttype struct {
+	Article []Articletype `xml:"http://www.drugbank.ca article,omitempty"`
 }
 
 // Atccodetype container
 type Atccodetype struct {
 	Level []Atccodeleveltype `xml:"http://www.drugbank.ca level"`
 	Code  string             `xml:"code,attr,omitempty"`
+}
+
+// Atccodeleveltype container
+type Atccodeleveltype struct {
+	Value string `xml:",chardata"`
+	Code  string `xml:"code,attr"`
 }
 
 // Atccodelisttype list
@@ -65,7 +69,7 @@ type Calculatedpropertytype struct {
 
 // Carriertype container
 type Carriertype struct {
-	Id          string            `xml:"http://www.drugbank.ca id"`
+	ID          string            `xml:"http://www.drugbank.ca id"`
 	Name        string            `xml:"http://www.drugbank.ca name"`
 	Organism    string            `xml:"http://www.drugbank.ca organism"`
 	Actions     Actionlisttype    `xml:"http://www.drugbank.ca actions"`
@@ -303,7 +307,7 @@ type Enzymelisttype struct {
 
 // Enzymetype a type for enzymes
 type Enzymetype struct {
-	Id                 string            `xml:"http://www.drugbank.ca id"`
+	ID                 string            `xml:"http://www.drugbank.ca id"`
 	Name               string            `xml:"http://www.drugbank.ca name"`
 	Organism           string            `xml:"http://www.drugbank.ca organism"`
 	Actions            Actionlisttype    `xml:"http://www.drugbank.ca actions"`
@@ -350,7 +354,7 @@ type Externallinkresourcetype string
 // Externallinktype container
 type Externallinktype struct {
 	Resource Externallinkresourcetype `xml:"http://www.drugbank.ca resource"`
-	Url      string                   `xml:"http://www.drugbank.ca url"`
+	URL      string                   `xml:"http://www.drugbank.ca url"`
 }
 
 // Externallinklisttype list type for external lists
@@ -399,7 +403,7 @@ type Knownactiontype string
 // Linktype container
 type Linktype struct {
 	Title string `xml:"http://www.drugbank.ca title"`
-	Url   string `xml:"http://www.drugbank.ca url"`
+	URL   string `xml:"http://www.drugbank.ca url"`
 }
 
 // Linklisttype list
@@ -411,7 +415,7 @@ type Linklisttype struct {
 type Manufacturertype struct {
 	Value   string `xml:",chardata"`
 	Generic bool   `xml:"generic,attr,omitempty"`
-	Url     string `xml:"url,attr,omitempty"`
+	URL     string `xml:"url,attr,omitempty"`
 }
 
 // Manufacturerlisttype list
@@ -439,7 +443,7 @@ type Organism struct {
 // Packagertype container
 type Packagertype struct {
 	Name string `xml:"http://www.drugbank.ca name"`
-	Url  string `xml:"http://www.drugbank.ca url"`
+	URL  string `xml:"http://www.drugbank.ca url"`
 }
 
 // Packagerlisttype list
@@ -721,7 +725,7 @@ type Synonymlisttype struct {
 
 // Targettype target type container
 type Targettype struct {
-	Id          string            `xml:"http://www.drugbank.ca id"`
+	ID          string            `xml:"http://www.drugbank.ca id"`
 	Name        string            `xml:"http://www.drugbank.ca name"`
 	Organism    string            `xml:"http://www.drugbank.ca organism"`
 	Actions     Actionlisttype    `xml:"http://www.drugbank.ca actions"`
@@ -749,7 +753,7 @@ type Textbooklisttype struct {
 
 // Transportertype type to contain transporter construct
 type Transportertype struct {
-	Id          string            `xml:"http://www.drugbank.ca id"`
+	ID          string            `xml:"http://www.drugbank.ca id"`
 	Name        string            `xml:"http://www.drugbank.ca name"`
 	Organism    string            `xml:"http://www.drugbank.ca organism"`
 	Actions     Actionlisttype    `xml:"http://www.drugbank.ca actions"`
