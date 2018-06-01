@@ -16,6 +16,7 @@ package cmd
 
 import (
 	"bufio"
+	"encoding/xml"
 	"fmt"
 	"io/ioutil"
 	"os"
@@ -26,6 +27,8 @@ import (
 	log "github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"
 )
+
+var drug Drugtype
 
 // runCmd represents the run command
 var runCmd = &cobra.Command{
@@ -41,10 +44,11 @@ to quickly create a Cobra application.`,
 		PickUpFlagChanges()
 		log.WithFields(log.Fields{"Log Level Flag": loglevel}).Debug("Entered Run cmd")
 		fmt.Println("What XML file would you like to read from?")
-		FileName := GetXMLFileName(".xml")
-		log.WithFields(log.Fields{"FileName": FileName, "Location": "main func past GetXMLFileName"}).Debug("FileName retrieved from user")
+		// FileName := GetXMLFileName(".xml")
+		// log.WithFields(log.Fields{"FileName": FileName, "Location": "main func past GetXMLFileName"}).Debug("FileName retrieved from user")
 
-		OpenXMLFile(FileName)
+		// ReadFile(OpenXMLFile(FileName))
+		ReadFile()
 	},
 }
 
@@ -71,6 +75,15 @@ func OpenXMLFile(FileName string) (xmlFile *os.File) {
 		return
 	}
 	fmt.Printf(color.GreenString("Successfully Opened %s\n", FileName))
+	if xmlFile != nil {
+		b, err := ioutil.ReadFile(FileName)
+		if err != nil {
+			fmt.Print(err)
+		}
+		xml.Unmarshal(b, &drug)
+		fmt.Printf("%+v\n", drug)
+
+	}
 	defer xmlFile.Close() // defer the closing of our xmlFile so that we can parse it later on
 	return xmlFile
 }
@@ -126,7 +139,6 @@ func PickUpFlagChanges() {
 }
 
 // ReadFile reads an XML file passed to the function
-func ReadFile(xmlFile *os.File) {
-	byteValue, _ := ioutil.ReadAll(xmlFile)
-
+func ReadFile() {
+	OpenXMLFile("Lepirudin.xml")
 }

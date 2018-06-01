@@ -20,3 +20,6 @@ db/fulldatabase.xml
 
 # ignore the binaries
 phren
+
+.vscode/
+debug
