@@ -411,10 +411,7 @@ type Packagertype struct {
 	Url  string `xml:"http://www.drugbank.ca url"`
 }
 
-type Patentlisttype struct {
-	Patent []Patenttype `xml:"http://www.drugbank.ca patent,omitempty"`
-}
-
+// Patenttype container
 type Patenttype struct {
 	Number             string `xml:"http://www.drugbank.ca number"`
 	Country            string `xml:"http://www.drugbank.ca country"`
@@ -423,13 +420,29 @@ type Patenttype struct {
 	Pediatricextension bool   `xml:"http://www.drugbank.ca pediatric-extension"`
 }
 
-type Pathwaydruglisttype struct {
-	Drug []Pathwaydrugtype `xml:"http://www.drugbank.ca drug"`
+// Patentlisttype list
+type Patentlisttype struct {
+	Patent []Patenttype `xml:"http://www.drugbank.ca patent,omitempty"`
 }
 
+// Pathwaytype container
+type Pathwaytype struct {
+	Smpdbid  string                `xml:"http://www.drugbank.ca smpdb-id"`
+	Name     string                `xml:"http://www.drugbank.ca name"`
+	Category string                `xml:"http://www.drugbank.ca category"`
+	Drugs    Pathwaydruglisttype   `xml:"http://www.drugbank.ca drugs"`
+	Enzymes  Pathwayenzymelisttype `xml:"http://www.drugbank.ca enzymes"`
+}
+
+// Pathwaydrugtype container
 type Pathwaydrugtype struct {
 	Drugbankid Drugbankdrugsaltidtype `xml:"http://www.drugbank.ca drugbank-id"`
 	Name       string                 `xml:"http://www.drugbank.ca name"`
+}
+
+// Pathwaydruglisttype list
+type Pathwaydruglisttype struct {
+	Drug []Pathwaydrugtype `xml:"http://www.drugbank.ca drug"`
 }
 
 type Pathwayenzymelisttype struct {
@@ -440,47 +453,11 @@ type Pathwaylisttype struct {
 	Pathway []Pathwaytype `xml:"http://www.drugbank.ca pathway,omitempty"`
 }
 
-type Pathwaytype struct {
-	Smpdbid  string                `xml:"http://www.drugbank.ca smpdb-id"`
-	Name     string                `xml:"http://www.drugbank.ca name"`
-	Category string                `xml:"http://www.drugbank.ca category"`
-	Drugs    Pathwaydruglisttype   `xml:"http://www.drugbank.ca drugs"`
-	Enzymes  Pathwayenzymelisttype `xml:"http://www.drugbank.ca enzymes"`
-}
-
 type Pdbentrylisttype struct {
 	Pdbentry []string `xml:"http://www.drugbank.ca pdb-entry,omitempty"`
 }
 
-type Pfamlisttype struct {
-	Pfam []Pfamtype `xml:"http://www.drugbank.ca pfam,omitempty"`
-}
-
-type Pfamtype struct {
-	Identifier string `xml:"http://www.drugbank.ca identifier"`
-	Name       string `xml:"http://www.drugbank.ca name"`
-}
-
-type Polypeptideexternalidentifierlisttype struct {
-	Externalidentifier []Polypeptideexternalidentifiertype `xml:"http://www.drugbank.ca external-identifier,omitempty"`
-}
-
-// May be one of UniProtKB, UniProt Accession, HUGO Gene Nomenclature Committee (HGNC), Human Protein Reference Database (HPRD), GenAtlas, GeneCards, GenBank Gene Database, GenBank Protein Database, ChEMBL, IUPHAR, Guide to Pharmacology
-type Polypeptideexternalidentifierresourcetype string
-
-type Polypeptideexternalidentifiertype struct {
-	Resource   Polypeptideexternalidentifierresourcetype `xml:"http://www.drugbank.ca resource"`
-	Identifier string                                    `xml:"http://www.drugbank.ca identifier"`
-}
-
-type Polypeptidelisttype struct {
-	Polypeptide []Polypeptidetype `xml:"http://www.drugbank.ca polypeptide,omitempty"`
-}
-
-type Polypeptidesynonymlisttype struct {
-	Synonym []string `xml:"http://www.drugbank.ca synonym,omitempty"`
-}
-
+// Polypeptidetype container
 type Polypeptidetype struct {
 	Name                 string                                `xml:"http://www.drugbank.ca name"`
 	Generalfunction      string                                `xml:"http://www.drugbank.ca general-function"`
@@ -503,27 +480,54 @@ type Polypeptidetype struct {
 	Source               string                                `xml:"source,attr"`
 }
 
-type Pricelisttype struct {
-	Price []Pricetype `xml:"http://www.drugbank.ca price,omitempty"`
+// Pfamtype container
+type Pfamtype struct {
+	Identifier string `xml:"http://www.drugbank.ca identifier"`
+	Name       string `xml:"http://www.drugbank.ca name"`
 }
 
-// The price for the given drug in US or Canadian currency.
+// Pfamlisttype list
+type Pfamlisttype struct {
+	Pfam []Pfamtype `xml:"http://www.drugbank.ca pfam,omitempty"`
+}
+
+// Polypeptideexternalidentifierresourcetype May be one of UniProtKB, UniProt Accession, HUGO Gene Nomenclature Committee (HGNC), Human Protein Reference Database (HPRD), GenAtlas, GeneCards, GenBank Gene Database, GenBank Protein Database, ChEMBL, IUPHAR, Guide to Pharmacology
+type Polypeptideexternalidentifierresourcetype string
+
+// Polypeptideexternalidentifierlisttype list
+type Polypeptideexternalidentifierlisttype struct {
+	Externalidentifier []Polypeptideexternalidentifiertype `xml:"http://www.drugbank.ca external-identifier,omitempty"`
+}
+
+// Polypeptideexternalidentifiertype container
+type Polypeptideexternalidentifiertype struct {
+	Resource   Polypeptideexternalidentifierresourcetype `xml:"http://www.drugbank.ca resource"`
+	Identifier string                                    `xml:"http://www.drugbank.ca identifier"`
+}
+
+// Polypeptidesynonymlisttype list
+type Polypeptidesynonymlisttype struct {
+	Synonym []string `xml:"http://www.drugbank.ca synonym,omitempty"`
+}
+
+// Polypeptidelisttype list
+type Polypeptidelisttype struct {
+	Polypeptide []Polypeptidetype `xml:"http://www.drugbank.ca polypeptide,omitempty"`
+}
+
+// Pricetype The price for the given drug in US or Canadian currency.
 type Pricetype struct {
 	Description string `xml:"http://www.drugbank.ca description"`
 	Cost        Cost   `xml:"http://www.drugbank.ca cost"`
 	Unit        string `xml:"http://www.drugbank.ca unit"`
 }
 
-// May be one of US, Canada, EU
-type Productcountrytype string
-
-type Productlisttype struct {
-	Product []Producttype `xml:"http://www.drugbank.ca product,omitempty"`
+// Pricelisttype list
+type Pricelisttype struct {
+	Price []Pricetype `xml:"http://www.drugbank.ca price,omitempty"`
 }
 
-// May be one of FDA NDC, DPD, EMA
-type Productsourcetype string
-
+// Producttype container for products
 type Producttype struct {
 	Name                 string             `xml:"http://www.drugbank.ca name"`
 	Labeller             string             `xml:"http://www.drugbank.ca labeller"`
@@ -545,25 +549,36 @@ type Producttype struct {
 	Source               Productsourcetype  `xml:"http://www.drugbank.ca source"`
 }
 
+// Productsourcetype May be one of FDA NDC, DPD, EMA
+type Productsourcetype string
+
+// Productcountrytype May be one of US, Canada, EU
+type Productcountrytype string
+
+// Productlisttype list
+type Productlisttype struct {
+	Product []Producttype `xml:"http://www.drugbank.ca product,omitempty"`
+}
+
+// Reactionelementtype container
 type Reactionelementtype struct {
 	Drugbankid string `xml:"http://www.drugbank.ca drugbank-id"`
 	Name       string `xml:"http://www.drugbank.ca name"`
 }
 
-type Reactionenzymelisttype struct {
-	Enzyme []Reactionenzymetype `xml:"http://www.drugbank.ca enzyme,omitempty"`
-}
-
+// Reactionenzymetype container
 type Reactionenzymetype struct {
 	Drugbankid string `xml:"http://www.drugbank.ca drugbank-id"`
 	Name       string `xml:"http://www.drugbank.ca name"`
 	Uniprotid  string `xml:"http://www.drugbank.ca uniprot-id"`
 }
 
-type Reactionlisttype struct {
-	Reaction []Reactiontype `xml:"http://www.drugbank.ca reaction,omitempty"`
+// Reactionenzymelisttype list
+type Reactionenzymelisttype struct {
+	Enzyme []Reactionenzymetype `xml:"http://www.drugbank.ca enzyme,omitempty"`
 }
 
+// Reactiontype container
 type Reactiontype struct {
 	Sequence     string                 `xml:"http://www.drugbank.ca sequence"`
 	Leftelement  Reactionelementtype    `xml:"http://www.drugbank.ca left-element"`
@@ -571,16 +586,19 @@ type Reactiontype struct {
 	Enzymes      Reactionenzymelisttype `xml:"http://www.drugbank.ca enzymes"`
 }
 
+// Reactionlisttype list
+type Reactionlisttype struct {
+	Reaction []Reactiontype `xml:"http://www.drugbank.ca reaction,omitempty"`
+}
+
+// Referencelisttype list
 type Referencelisttype struct {
 	Articles  Articlelisttype  `xml:"http://www.drugbank.ca articles"`
 	Textbooks Textbooklisttype `xml:"http://www.drugbank.ca textbooks"`
 	Links     Linklisttype     `xml:"http://www.drugbank.ca links"`
 }
 
-type Saltlisttype struct {
-	Salt []Salttype `xml:"http://www.drugbank.ca salt,omitempty"`
-}
-
+// Salttype container
 type Salttype struct {
 	Drugbankid       []Drugbankdrugsaltidtype `xml:"http://www.drugbank.ca drugbank-id,omitempty"`
 	Name             string                   `xml:"http://www.drugbank.ca name"`
@@ -591,24 +609,29 @@ type Salttype struct {
 	Monoisotopicmass float32                  `xml:"http://www.drugbank.ca monoisotopic-mass,omitempty"`
 }
 
+// Saltlisttype list
+type Saltlisttype struct {
+	Salt []Salttype `xml:"http://www.drugbank.ca salt,omitempty"`
+}
+
+// Sequence container
 type Sequence struct {
 	Value  string `xml:",chardata"`
 	Format string `xml:"format,attr,omitempty"`
 }
 
-type Sequencelisttype struct {
-	Sequence []Sequence `xml:"http://www.drugbank.ca sequence,omitempty"`
-}
-
+// Sequencetype container
 type Sequencetype struct {
 	Value  string `xml:",chardata"`
 	Format string `xml:"format,attr,omitempty"`
 }
 
-type Snpadversedrugreactionlisttype struct {
-	Reaction []Snpadversedrugreactiontype `xml:"http://www.drugbank.ca reaction,omitempty"`
+// Sequencelisttype list
+type Sequencelisttype struct {
+	Sequence []Sequence `xml:"http://www.drugbank.ca sequence,omitempty"`
 }
 
+// Snpadversedrugreactiontype container
 type Snpadversedrugreactiontype struct {
 	Proteinname     string `xml:"http://www.drugbank.ca protein-name"`
 	Genesymbol      string `xml:"http://www.drugbank.ca gene-symbol"`
@@ -620,10 +643,12 @@ type Snpadversedrugreactiontype struct {
 	Pubmedid        string `xml:"http://www.drugbank.ca pubmed-id"`
 }
 
-type Snpeffectlisttype struct {
-	Effect []Snpeffecttype `xml:"http://www.drugbank.ca effect,omitempty"`
+// Snpadversedrugreactionlisttype list
+type Snpadversedrugreactionlisttype struct {
+	Reaction []Snpadversedrugreactiontype `xml:"http://www.drugbank.ca reaction,omitempty"`
 }
 
+// Snpeffecttype container
 type Snpeffecttype struct {
 	Proteinname    string `xml:"http://www.drugbank.ca protein-name"`
 	Genesymbol     string `xml:"http://www.drugbank.ca gene-symbol"`
@@ -633,6 +658,11 @@ type Snpeffecttype struct {
 	Definingchange string `xml:"http://www.drugbank.ca defining-change"`
 	Description    string `xml:"http://www.drugbank.ca description"`
 	Pubmedid       string `xml:"http://www.drugbank.ca pubmed-id"`
+}
+
+// Snpeffectlisttype list
+type Snpeffectlisttype struct {
+	Effect []Snpeffecttype `xml:"http://www.drugbank.ca effect,omitempty"`
 }
 
 // Statetype May be one of solid, liquid, gas
