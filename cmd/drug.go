@@ -22,45 +22,48 @@ type Articlelisttype struct {
 	Article []Articletype `xml:"http://www.drugbank.ca article,omitempty"`
 }
 
+// Articletype container
 type Articletype struct {
 	Pubmedid string `xml:"http://www.drugbank.ca pubmed-id"`
 	Citation string `xml:"http://www.drugbank.ca citation"`
 }
 
+// Atccodeleveltype container
 type Atccodeleveltype struct {
 	Value string `xml:",chardata"`
 	Code  string `xml:"code,attr"`
 }
 
-type Atccodelisttype struct {
-	Atccode []Atccodetype `xml:"http://www.drugbank.ca atc-code,omitempty"`
-}
-
+// Atccodetype container
 type Atccodetype struct {
 	Level []Atccodeleveltype `xml:"http://www.drugbank.ca level"`
 	Code  string             `xml:"code,attr,omitempty"`
 }
 
-// May be one of logP, logS, Water Solubility, IUPAC Name, Traditional IUPAC Name, Molecular Weight, Monoisotopic Weight, SMILES, Molecular Formula, InChI, InChIKey, Polar Surface Area (PSA), Refractivity, Polarizability, Rotatable Bond Count, H Bond Acceptor Count, H Bond Donor Count, pKa (strongest acidic), pKa (strongest basic), Physiological Charge, Number of Rings, Bioavailability, Rule of Five, Ghose Filter, MDDR-Like Rule
+// Atccodelisttype list
+type Atccodelisttype struct {
+	Atccode []Atccodetype `xml:"http://www.drugbank.ca atc-code,omitempty"`
+}
+
+// Calculatedpropertykindtype May be one of logP, logS, Water Solubility, IUPAC Name, Traditional IUPAC Name, Molecular Weight, Monoisotopic Weight, SMILES, Molecular Formula, InChI, InChIKey, Polar Surface Area (PSA), Refractivity, Polarizability, Rotatable Bond Count, H Bond Acceptor Count, H Bond Donor Count, pKa (strongest acidic), pKa (strongest basic), Physiological Charge, Number of Rings, Bioavailability, Rule of Five, Ghose Filter, MDDR-Like Rule
 type Calculatedpropertykindtype string
 
+// Calculatedpropertylisttype list
 type Calculatedpropertylisttype struct {
 	Property []Calculatedpropertytype `xml:"http://www.drugbank.ca property,omitempty"`
 }
 
-// May be one of ChemAxon, ALOGPS
+// Calculatedpropertysourcetype May be one of ChemAxon, ALOGPS
 type Calculatedpropertysourcetype string
 
+// Calculatedpropertytype container
 type Calculatedpropertytype struct {
 	Kind   Calculatedpropertykindtype   `xml:"http://www.drugbank.ca kind"`
 	Value  string                       `xml:"http://www.drugbank.ca value"`
 	Source Calculatedpropertysourcetype `xml:"http://www.drugbank.ca source"`
 }
 
-type Carrierlisttype struct {
-	Carrier []Carriertype `xml:"http://www.drugbank.ca carrier,omitempty"`
-}
-
+// Carriertype container
 type Carriertype struct {
 	Id          string            `xml:"http://www.drugbank.ca id"`
 	Name        string            `xml:"http://www.drugbank.ca name"`
@@ -72,16 +75,23 @@ type Carriertype struct {
 	Position    int               `xml:"position,attr,omitempty"`
 }
 
-type Categorylisttype struct {
-	Category []Categorytype `xml:"http://www.drugbank.ca category,omitempty"`
+// Carrierlisttype list
+type Carrierlisttype struct {
+	Carrier []Carriertype `xml:"http://www.drugbank.ca carrier,omitempty"`
 }
 
+// Categorytype container
 type Categorytype struct {
 	Category string `xml:"http://www.drugbank.ca category"`
 	Meshid   string `xml:"http://www.drugbank.ca mesh-id"`
 }
 
-// Drug classification is obtained from ClassyFire (http://classyfire.wishartlab.com).
+// Categorylisttype list
+type Categorylisttype struct {
+	Category []Categorytype `xml:"http://www.drugbank.ca category,omitempty"`
+}
+
+// Classificationtype Drug classification is obtained from ClassyFire (http://classyfire.wishartlab.com).
 type Classificationtype struct {
 	Description       string   `xml:"http://www.drugbank.ca description"`
 	Directparent      string   `xml:"http://www.drugbank.ca direct-parent"`
@@ -93,27 +103,31 @@ type Classificationtype struct {
 	Substituent       []string `xml:"http://www.drugbank.ca substituent,omitempty"`
 }
 
+// Cost container
 type Cost struct {
 	Value    string `xml:",chardata"`
 	Currency string `xml:"currency,attr"`
 }
 
-type Dosagelisttype struct {
-	Dosage []Dosagetype `xml:"http://www.drugbank.ca dosage,omitempty"`
-}
-
+// Dosagetype container
 type Dosagetype struct {
 	Form     string `xml:"http://www.drugbank.ca form"`
 	Route    string `xml:"http://www.drugbank.ca route"`
 	Strength string `xml:"http://www.drugbank.ca strength"`
 }
 
-// The DrugBank ID is used to uniquely identify a drug or salt entry. There is a primary ID and several secondary IDs that come from older ID formats or merged entries.
+// Dosagelisttype list
+type Dosagelisttype struct {
+	Dosage []Dosagetype `xml:"http://www.drugbank.ca dosage,omitempty"`
+}
+
+// Drugbankdrugsaltidtype The DrugBank ID is used to uniquely identify a drug or salt entry. There is a primary ID and several secondary IDs that come from older ID formats or merged entries.
 type Drugbankdrugsaltidtype struct {
 	Drugbankdrugsaltidvalue Drugbankdrugsaltidvalue `xml:",chardata"`
 	Primary                 bool                    `xml:"primary,attr,omitempty"`
 }
 
+// UnmarshalXML unloads XML from Drugbankdrugsaltidtype structure
 func (t *Drugbankdrugsaltidtype) UnmarshalXML(d *xml.Decoder, start xml.StartElement) error {
 	type T Drugbankdrugsaltidtype
 	var overlay struct {
@@ -134,6 +148,7 @@ type Drugbankmetaboliteidtype struct {
 	Primary                   bool                      `xml:"primary,attr,omitempty"`
 }
 
+// UnmarshalXML unloads XML from Drugbankmetaboliteidtype structure
 func (t *Drugbankmetaboliteidtype) UnmarshalXML(d *xml.Decoder, start xml.StartElement) error {
 	type T Drugbankmetaboliteidtype
 	var overlay struct {
@@ -155,6 +170,7 @@ type Drugbanktype struct {
 	Exportedon time.Time  `xml:"exported-on,attr"`
 }
 
+// MarshalXML loads xml into drugbanktype structure
 func (t *Drugbanktype) MarshalXML(e *xml.Encoder, start xml.StartElement) error {
 	type T Drugbanktype
 	var layout struct {
@@ -165,6 +181,8 @@ func (t *Drugbanktype) MarshalXML(e *xml.Encoder, start xml.StartElement) error 
 	layout.Exportedon = (*xsdDate)(&layout.T.Exportedon)
 	return e.EncodeElement(layout, start)
 }
+
+// UnmarshalXML unloads XML from drugbanktype structure
 func (t *Drugbanktype) UnmarshalXML(d *xml.Decoder, start xml.StartElement) error {
 	type T Drugbanktype
 	var overlay struct {
@@ -297,6 +315,13 @@ type Enzymetype struct {
 	Position           int               `xml:"position,attr,omitempty"`
 }
 
+// Experimentalpropertytype container
+type Experimentalpropertytype struct {
+	Kind   Experimentalpropertykindtype `xml:"http://www.drugbank.ca kind"`
+	Value  string                       `xml:"http://www.drugbank.ca value"`
+	Source string                       `xml:"http://www.drugbank.ca source"`
+}
+
 //Experimentalpropertykindtype May be one of Water Solubility, Melting Point, Boiling Point, logP, logS, Hydrophobicity, Isoelectric Point, caco2 Permeability, pKa, Molecular Weight, Molecular Formula
 type Experimentalpropertykindtype string
 
@@ -305,18 +330,13 @@ type Experimentalpropertylisttype struct {
 	Property []Experimentalpropertytype `xml:"http://www.drugbank.ca property,omitempty"`
 }
 
-type Experimentalpropertytype struct {
-	Kind   Experimentalpropertykindtype `xml:"http://www.drugbank.ca kind"`
-	Value  string                       `xml:"http://www.drugbank.ca value"`
-	Source string                       `xml:"http://www.drugbank.ca source"`
-}
+// Externalidentifierresourcetype May be one of UniProtKB, Wikipedia, ChEBI, ChEMBL, PubChem Compound, PubChem Substance, Drugs Product Database (DPD), KEGG Compound, KEGG Drug, ChemSpider, BindingDB, National Drug Code Directory, GenBank, Therapeutic Targets Database, PharmGKB, PDB, IUPHAR, Guide to Pharmacology
+type Externalidentifierresourcetype string
 
+// Externalidentifierlisttype list
 type Externalidentifierlisttype struct {
 	Externalidentifier []Externalidentifiertype `xml:"http://www.drugbank.ca external-identifier,omitempty"`
 }
-
-// Externalidentifierresourcetype May be one of UniProtKB, Wikipedia, ChEBI, ChEMBL, PubChem Compound, PubChem Substance, Drugs Product Database (DPD), KEGG Compound, KEGG Drug, ChemSpider, BindingDB, National Drug Code Directory, GenBank, Therapeutic Targets Database, PharmGKB, PDB, IUPHAR, Guide to Pharmacology
-type Externalidentifierresourcetype string
 
 // Externalidentifiertype type for external identifiers
 type Externalidentifiertype struct {
@@ -324,91 +344,107 @@ type Externalidentifiertype struct {
 	Identifier string                         `xml:"http://www.drugbank.ca identifier"`
 }
 
-// Externallinklisttype list type for external lists
-type Externallinklisttype struct {
-	Externallink []Externallinktype `xml:"http://www.drugbank.ca external-link,omitempty"`
-}
-
 // Externallinkresourcetype May be one of RxList, PDRhealth, Drugs.com
 type Externallinkresourcetype string
 
+// Externallinktype container
 type Externallinktype struct {
 	Resource Externallinkresourcetype `xml:"http://www.drugbank.ca resource"`
 	Url      string                   `xml:"http://www.drugbank.ca url"`
 }
 
+// Externallinklisttype list type for external lists
+type Externallinklisttype struct {
+	Externallink []Externallinktype `xml:"http://www.drugbank.ca external-link,omitempty"`
+}
+
+// Foodinteractionlisttype list
 type Foodinteractionlisttype struct {
 	Foodinteraction []string `xml:"http://www.drugbank.ca food-interaction,omitempty"`
 }
 
-type Goclassifierlisttype struct {
-	Goclassifier []Goclassifiertype `xml:"http://www.drugbank.ca go-classifier,omitempty"`
-}
-
+// Goclassifiertype container
 type Goclassifiertype struct {
 	Category    string `xml:"http://www.drugbank.ca category"`
 	Description string `xml:"http://www.drugbank.ca description"`
 }
 
+// Goclassifierlisttype list
+type Goclassifierlisttype struct {
+	Goclassifier []Goclassifiertype `xml:"http://www.drugbank.ca go-classifier,omitempty"`
+}
+
+// Grouptype May be one of approved, illicit, experimental, withdrawn, nutraceutical, investigational, vet_approved
+type Grouptype string
+
+// Grouplisttype list
 type Grouplisttype struct {
 	Group Grouptype `xml:"http://www.drugbank.ca group"`
 }
 
-// May be one of approved, illicit, experimental, withdrawn, nutraceutical, investigational, vet_approved
-type Grouptype string
-
-type Internationalbrandlisttype struct {
-	Internationalbrand []Internationalbrandtype `xml:"http://www.drugbank.ca international-brand,omitempty"`
-}
-
+// Internationalbrandtype container
 type Internationalbrandtype struct {
 	Name    string `xml:"http://www.drugbank.ca name"`
 	Company string `xml:"http://www.drugbank.ca company"`
 }
 
-// May be one of yes, no, unknown
-type Knownactiontype string
-
-type Linklisttype struct {
-	Link []Linktype `xml:"http://www.drugbank.ca link,omitempty"`
+// Internationalbrandlisttype list
+type Internationalbrandlisttype struct {
+	Internationalbrand []Internationalbrandtype `xml:"http://www.drugbank.ca international-brand,omitempty"`
 }
 
+// Knownactiontype May be one of yes, no, unknown
+type Knownactiontype string
+
+// Linktype container
 type Linktype struct {
 	Title string `xml:"http://www.drugbank.ca title"`
 	Url   string `xml:"http://www.drugbank.ca url"`
 }
 
-type Manufacturerlisttype struct {
-	Manufacturer []Manufacturertype `xml:"http://www.drugbank.ca manufacturer,omitempty"`
+// Linklisttype list
+type Linklisttype struct {
+	Link []Linktype `xml:"http://www.drugbank.ca link,omitempty"`
 }
 
+// Manufacturertype container
 type Manufacturertype struct {
 	Value   string `xml:",chardata"`
 	Generic bool   `xml:"generic,attr,omitempty"`
 	Url     string `xml:"url,attr,omitempty"`
 }
 
-type Mixturelisttype struct {
-	Mixture []Mixturetype `xml:"http://www.drugbank.ca mixture,omitempty"`
+// Manufacturerlisttype list
+type Manufacturerlisttype struct {
+	Manufacturer []Manufacturertype `xml:"http://www.drugbank.ca manufacturer,omitempty"`
 }
 
+// Mixturetype container
 type Mixturetype struct {
 	Name        string `xml:"http://www.drugbank.ca name"`
 	Ingredients string `xml:"http://www.drugbank.ca ingredients"`
 }
 
+// Mixturelisttype list
+type Mixturelisttype struct {
+	Mixture []Mixturetype `xml:"http://www.drugbank.ca mixture,omitempty"`
+}
+
+// Organism container
 type Organism struct {
 	Value          string `xml:",chardata"`
 	Ncbitaxonomyid string `xml:"ncbi-taxonomy-id,attr,omitempty"`
 }
 
-type Packagerlisttype struct {
-	Packager []Packagertype `xml:"http://www.drugbank.ca packager,omitempty"`
-}
-
+// Packagertype container
 type Packagertype struct {
 	Name string `xml:"http://www.drugbank.ca name"`
 	Url  string `xml:"http://www.drugbank.ca url"`
+}
+
+// Packagerlisttype list
+type Packagerlisttype struct {
+	Packager []Packagertype `xml:"http://www.drugbank.ca packager,omitempty"`
 }
 
 // Patenttype container
@@ -445,14 +481,17 @@ type Pathwaydruglisttype struct {
 	Drug []Pathwaydrugtype `xml:"http://www.drugbank.ca drug"`
 }
 
+// Pathwayenzymelisttype list
 type Pathwayenzymelisttype struct {
 	Uniprotid []string `xml:"http://www.drugbank.ca uniprot-id,omitempty"`
 }
 
+// Pathwaylisttype list
 type Pathwaylisttype struct {
 	Pathway []Pathwaytype `xml:"http://www.drugbank.ca pathway,omitempty"`
 }
 
+// Pdbentrylisttype list
 type Pdbentrylisttype struct {
 	Pdbentry []string `xml:"http://www.drugbank.ca pdb-entry,omitempty"`
 }
@@ -560,6 +599,19 @@ type Productlisttype struct {
 	Product []Producttype `xml:"http://www.drugbank.ca product,omitempty"`
 }
 
+// Reactiontype container
+type Reactiontype struct {
+	Sequence     string                 `xml:"http://www.drugbank.ca sequence"`
+	Leftelement  Reactionelementtype    `xml:"http://www.drugbank.ca left-element"`
+	Rightelement Reactionelementtype    `xml:"http://www.drugbank.ca right-element"`
+	Enzymes      Reactionenzymelisttype `xml:"http://www.drugbank.ca enzymes"`
+}
+
+// Reactionlisttype list
+type Reactionlisttype struct {
+	Reaction []Reactiontype `xml:"http://www.drugbank.ca reaction,omitempty"`
+}
+
 // Reactionelementtype container
 type Reactionelementtype struct {
 	Drugbankid string `xml:"http://www.drugbank.ca drugbank-id"`
@@ -576,19 +628,6 @@ type Reactionenzymetype struct {
 // Reactionenzymelisttype list
 type Reactionenzymelisttype struct {
 	Enzyme []Reactionenzymetype `xml:"http://www.drugbank.ca enzyme,omitempty"`
-}
-
-// Reactiontype container
-type Reactiontype struct {
-	Sequence     string                 `xml:"http://www.drugbank.ca sequence"`
-	Leftelement  Reactionelementtype    `xml:"http://www.drugbank.ca left-element"`
-	Rightelement Reactionelementtype    `xml:"http://www.drugbank.ca right-element"`
-	Enzymes      Reactionenzymelisttype `xml:"http://www.drugbank.ca enzymes"`
-}
-
-// Reactionlisttype list
-type Reactionlisttype struct {
-	Reaction []Reactiontype `xml:"http://www.drugbank.ca reaction,omitempty"`
 }
 
 // Referencelisttype list
@@ -673,6 +712,11 @@ type Synonymtype struct {
 	Value    string `xml:",chardata"`
 	Language string `xml:"language,attr,omitempty"`
 	Coder    string `xml:"coder,attr,omitempty"`
+}
+
+// Synonymlisttype list
+type Synonymlisttype struct {
+	Synonym []Synonymtype `xml:"http://www.drugbank.ca synonym,omitempty"`
 }
 
 // Targettype target type container
