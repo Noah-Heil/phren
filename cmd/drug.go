@@ -125,10 +125,10 @@ func (t *Drugbankdrugsaltidtype) UnmarshalXML(d *xml.Decoder, start xml.StartEle
 	return d.DecodeElement(&overlay, &start)
 }
 
-// Must match the pattern DB[0-9]{5}|DBSALT[0-9]{6}|APRD[0-9]{5}|BIOD[0-9]{5}|BTD[0-9]{5}|EXPT[0-9]{5}|NUTR[0-9]{5}
+// Drugbankdrugsaltidvalue Must match the pattern DB[0-9]{5}|DBSALT[0-9]{6}|APRD[0-9]{5}|BIOD[0-9]{5}|BTD[0-9]{5}|EXPT[0-9]{5}|NUTR[0-9]{5}
 type Drugbankdrugsaltidvalue string
 
-// The metabolite DrugBank ID uniquely identifies a metabolite entry. Multiple IDs indicate a merged entry.
+// Drugbankmetaboliteidtype The metabolite DrugBank ID uniquely identifies a metabolite entry. Multiple IDs indicate a merged entry.
 type Drugbankmetaboliteidtype struct {
 	Drugbankmetaboliteidvalue Drugbankmetaboliteidvalue `xml:",chardata"`
 	Primary                   bool                      `xml:"primary,attr,omitempty"`
@@ -145,10 +145,10 @@ func (t *Drugbankmetaboliteidtype) UnmarshalXML(d *xml.Decoder, start xml.StartE
 	return d.DecodeElement(&overlay, &start)
 }
 
-// Must match the pattern DBMET[0-9]{5}
+// Drugbankmetaboliteidvalue Must match the pattern DBMET[0-9]{5}
 type Drugbankmetaboliteidvalue string
 
-// This is the root element type for the DrugBank database schema.
+// Drugbanktype This is the root element type for the DrugBank database schema.
 type Drugbanktype struct {
 	Drug       []Drugtype `xml:"http://www.drugbank.ca drug"`
 	Version    string     `xml:"version,attr"`
@@ -176,16 +176,19 @@ func (t *Drugbanktype) UnmarshalXML(d *xml.Decoder, start xml.StartElement) erro
 	return d.DecodeElement(&overlay, &start)
 }
 
+// Druginteractionlisttype struct for a list of drug interaction types
 type Druginteractionlisttype struct {
 	Druginteraction []Druginteractiontype `xml:"http://www.drugbank.ca drug-interaction,omitempty"`
 }
 
+// Druginteractiontype struct for drug interaction types
 type Druginteractiontype struct {
 	Drugbankid  Drugbankdrugsaltidtype `xml:"http://www.drugbank.ca drugbank-id"`
 	Name        string                 `xml:"http://www.drugbank.ca name"`
 	Description string                 `xml:"http://www.drugbank.ca description"`
 }
 
+// Drugtype Main drug datastructure
 type Drugtype struct {
 	Drugbankid              []Drugbankdrugsaltidtype       `xml:"http://www.drugbank.ca drugbank-id"`
 	Name                    string                         `xml:"http://www.drugbank.ca name"`
@@ -247,6 +250,7 @@ type Drugtype struct {
 	Updated                 time.Time                      `xml:"updated,attr"`
 }
 
+// MarshalXML Used to marshal drugtype into XML
 func (t *Drugtype) MarshalXML(e *xml.Encoder, start xml.StartElement) error {
 	type T Drugtype
 	var layout struct {
@@ -259,6 +263,8 @@ func (t *Drugtype) MarshalXML(e *xml.Encoder, start xml.StartElement) error {
 	layout.Updated = (*xsdDate)(&layout.T.Updated)
 	return e.EncodeElement(layout, start)
 }
+
+// UnmarshalXML Used to UnmarshalXML into go structs
 func (t *Drugtype) UnmarshalXML(d *xml.Decoder, start xml.StartElement) error {
 	type T Drugtype
 	var overlay struct {
@@ -272,10 +278,12 @@ func (t *Drugtype) UnmarshalXML(d *xml.Decoder, start xml.StartElement) error {
 	return d.DecodeElement(&overlay, &start)
 }
 
+// Enzymelisttype list of enzyme types
 type Enzymelisttype struct {
 	Enzyme []Enzymetype `xml:"http://www.drugbank.ca enzyme,omitempty"`
 }
 
+// Enzymetype a type for enzymes
 type Enzymetype struct {
 	Id                 string            `xml:"http://www.drugbank.ca id"`
 	Name               string            `xml:"http://www.drugbank.ca name"`
@@ -289,9 +297,10 @@ type Enzymetype struct {
 	Position           int               `xml:"position,attr,omitempty"`
 }
 
-// May be one of Water Solubility, Melting Point, Boiling Point, logP, logS, Hydrophobicity, Isoelectric Point, caco2 Permeability, pKa, Molecular Weight, Molecular Formula
+//Experimentalpropertykindtype May be one of Water Solubility, Melting Point, Boiling Point, logP, logS, Hydrophobicity, Isoelectric Point, caco2 Permeability, pKa, Molecular Weight, Molecular Formula
 type Experimentalpropertykindtype string
 
+// Experimentalpropertylisttype list of experimental property
 type Experimentalpropertylisttype struct {
 	Property []Experimentalpropertytype `xml:"http://www.drugbank.ca property,omitempty"`
 }
@@ -306,19 +315,21 @@ type Externalidentifierlisttype struct {
 	Externalidentifier []Externalidentifiertype `xml:"http://www.drugbank.ca external-identifier,omitempty"`
 }
 
-// May be one of UniProtKB, Wikipedia, ChEBI, ChEMBL, PubChem Compound, PubChem Substance, Drugs Product Database (DPD), KEGG Compound, KEGG Drug, ChemSpider, BindingDB, National Drug Code Directory, GenBank, Therapeutic Targets Database, PharmGKB, PDB, IUPHAR, Guide to Pharmacology
+// Externalidentifierresourcetype May be one of UniProtKB, Wikipedia, ChEBI, ChEMBL, PubChem Compound, PubChem Substance, Drugs Product Database (DPD), KEGG Compound, KEGG Drug, ChemSpider, BindingDB, National Drug Code Directory, GenBank, Therapeutic Targets Database, PharmGKB, PDB, IUPHAR, Guide to Pharmacology
 type Externalidentifierresourcetype string
 
+// Externalidentifiertype type for external identifiers
 type Externalidentifiertype struct {
 	Resource   Externalidentifierresourcetype `xml:"http://www.drugbank.ca resource"`
 	Identifier string                         `xml:"http://www.drugbank.ca identifier"`
 }
 
+// Externallinklisttype list type for external lists
 type Externallinklisttype struct {
 	Externallink []Externallinktype `xml:"http://www.drugbank.ca external-link,omitempty"`
 }
 
-// May be one of RxList, PDRhealth, Drugs.com
+// Externallinkresourcetype May be one of RxList, PDRhealth, Drugs.com
 type Externallinkresourcetype string
 
 type Externallinktype struct {
@@ -624,23 +635,17 @@ type Snpeffecttype struct {
 	Pubmedid       string `xml:"http://www.drugbank.ca pubmed-id"`
 }
 
-// May be one of solid, liquid, gas
+// Statetype May be one of solid, liquid, gas
 type Statetype string
 
-type Synonymlisttype struct {
-	Synonym []Synonymtype `xml:"http://www.drugbank.ca synonym,omitempty"`
-}
-
+// Synonymtype type to contain synonymtype
 type Synonymtype struct {
 	Value    string `xml:",chardata"`
 	Language string `xml:"language,attr,omitempty"`
 	Coder    string `xml:"coder,attr,omitempty"`
 }
 
-type Targetlisttype struct {
-	Target []Targettype `xml:"http://www.drugbank.ca target,omitempty"`
-}
-
+// Targettype target type container
 type Targettype struct {
 	Id          string            `xml:"http://www.drugbank.ca id"`
 	Name        string            `xml:"http://www.drugbank.ca name"`
@@ -652,19 +657,23 @@ type Targettype struct {
 	Position    int               `xml:"position,attr,omitempty"`
 }
 
-type Textbooklisttype struct {
-	Textbook []Textbooktype `xml:"http://www.drugbank.ca textbook,omitempty"`
+// Targetlisttype list of targetlisttype
+type Targetlisttype struct {
+	Target []Targettype `xml:"http://www.drugbank.ca target,omitempty"`
 }
 
+// Textbooktype type to contain textbook entries
 type Textbooktype struct {
 	Isbn     string `xml:"http://www.drugbank.ca isbn"`
 	Citation string `xml:"http://www.drugbank.ca citation"`
 }
 
-type Transporterlisttype struct {
-	Transporter []Transportertype `xml:"http://www.drugbank.ca transporter,omitempty"`
+// Textbooklisttype list type for textbooktype
+type Textbooklisttype struct {
+	Textbook []Textbooktype `xml:"http://www.drugbank.ca textbook,omitempty"`
 }
 
+// Transportertype type to contain transporter construct
 type Transportertype struct {
 	Id          string            `xml:"http://www.drugbank.ca id"`
 	Name        string            `xml:"http://www.drugbank.ca name"`
@@ -676,17 +685,27 @@ type Transportertype struct {
 	Position    int               `xml:"position,attr,omitempty"`
 }
 
-// May be one of small molecule, biotech
+// Transporterlisttype list type for transporter
+type Transporterlisttype struct {
+	Transporter []Transportertype `xml:"http://www.drugbank.ca transporter,omitempty"`
+}
+
+// Type May be one of small molecule, biotech
 type Type string
 
 type xsdDate time.Time
 
+// UnmarshalText unmarshals time
 func (t *xsdDate) UnmarshalText(text []byte) error {
 	return _unmarshalTime(text, (*time.Time)(t), "2006-01-02")
 }
+
+// MarshalText marhsals time
 func (t xsdDate) MarshalText() ([]byte, error) {
 	return []byte((time.Time)(t).Format("2006-01-02")), nil
 }
+
+// MarshalXML Marshals XML for time
 func (t xsdDate) MarshalXML(e *xml.Encoder, start xml.StartElement) error {
 	if (time.Time)(t).IsZero() {
 		return nil
@@ -697,6 +716,8 @@ func (t xsdDate) MarshalXML(e *xml.Encoder, start xml.StartElement) error {
 	}
 	return e.EncodeElement(m, start)
 }
+
+// MarshalXMLAttr unmarshals time
 func (t xsdDate) MarshalXMLAttr(name xml.Name) (xml.Attr, error) {
 	if (time.Time)(t).IsZero() {
 		return xml.Attr{}, nil
@@ -704,6 +725,7 @@ func (t xsdDate) MarshalXMLAttr(name xml.Name) (xml.Attr, error) {
 	m, err := t.MarshalText()
 	return xml.Attr{Name: name, Value: string(m)}, err
 }
+
 func _unmarshalTime(text []byte, t *time.Time, format string) (err error) {
 	s := string(bytes.TrimSpace(text))
 	*t, err = time.Parse(format, s)
