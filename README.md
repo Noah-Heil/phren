@@ -102,15 +102,18 @@ Go applications are easy to run because they are usually compiled into simple qu
 - [ ] Map Out An Example Set of Side Effects
 - [ ] Comparison Method
 - [ ] Map Side Effects to Drug Targets
+- [ ] Narrow down what Drugs targets map to which Side Effects by mapping the side effects to the drug targets and then comparing drugs and their side effects to one another.
 
 ### Advanced Functionality
 
-- [ ]
-- [ ]
-- [ ]
-- [ ]
-- [ ]
-- [x] completed
+- [ ] Take a drug and give me the information I request about it.
+- [ ] Take a Person Object who has a list of Side Effects and Evaluate a new Drug (Like a new drug that has been suggested by the psychiatrist)
+- [ ] Take a Person Object who has a list of Side Effects and search your database to find and suggest a new drug based off current side effects and drugs (including possible drug interaction)
+- [ ] Find Possible Drug Targets that Work Together/Interfear with one another.
+- [ ] Suggest a natural supplement that could be used to replace or help your current medication.
+- [ ] Include the ability to analyze Genomic Data and utilize it to better suggest possible drugs.
+- [ ] Modify to Evaluate and Correlate Side Effects from Mulitple People (other family members and then in the future possibly random people or people who Genomic Data is similar to yours)
+- [ ] Scrape feedback/review data from webmd?
 
 ## Contributing
 
