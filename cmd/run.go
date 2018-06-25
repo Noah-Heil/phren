@@ -28,7 +28,7 @@ import (
 	"github.com/spf13/cobra"
 )
 
-var drug Drugtype
+var drug Drugbanktype
 
 // runCmd represents the run command
 var runCmd = &cobra.Command{
@@ -44,11 +44,10 @@ to quickly create a Cobra application.`,
 		PickUpFlagChanges()
 		log.WithFields(log.Fields{"Log Level Flag": loglevel}).Debug("Entered Run cmd")
 		fmt.Println("What XML file would you like to read from?")
-		// FileName := GetXMLFileName(".xml")
-		// log.WithFields(log.Fields{"FileName": FileName, "Location": "main func past GetXMLFileName"}).Debug("FileName retrieved from user")
+		FileName := GetXMLFileName(".xml")
+		log.WithFields(log.Fields{"FileName": FileName, "Location": "main func past GetXMLFileName"}).Debug("FileName retrieved from user")
 
-		// ReadFile(OpenXMLFile(FileName))
-		ReadFile()
+		ReadFile(FileName)
 	},
 }
 
@@ -68,7 +67,9 @@ func init() {
 // OpenXMLFile Opens and XML File
 func OpenXMLFile(FileName string) (xmlFile *os.File) {
 	log.WithFields(log.Fields{"FileName": FileName, "Location": "Begin OpenXMLFile"}).Debug("Entering OpenXMLFile")
-	xmlFile, err := os.Open(strings.TrimSpace(FileName)) // Open our xmlFile
+	FileName = strings.TrimSpace(FileName)
+	log.WithFields(log.Fields{"FileName": FileName, "Location": "Trim that ending newline char"}).Debug("Moving to Open file in OpenXMLFile")
+	xmlFile, err := os.Open(FileName) // Open our xmlFile
 	if err != nil {
 		log.WithFields(log.Fields{"FileName": FileName, "Location": "open err check", "Error": err}).Error("Failed to open file")
 		fmt.Println(color.HiRedString("%+v\n", err))
@@ -139,6 +140,6 @@ func PickUpFlagChanges() {
 }
 
 // ReadFile reads an XML file passed to the function
-func ReadFile() {
-	OpenXMLFile("Lepirudin.xml")
+func ReadFile(fileName string) {
+	OpenXMLFile(fileName)
 }
