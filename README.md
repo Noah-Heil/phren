@@ -28,6 +28,8 @@ In your journey to help your loved ones to find a normal, stable life you will p
 
 ## Getting Started
 
+It doesn't do much right now but I am working towards it doing more. Currently it reads in a specific drug database into an internal data contruct.
+
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
 ### Prerequisites
@@ -89,6 +91,26 @@ Go applications are easy to run because they are usually compiled into simple qu
 ## Built With
 
 * golang
+
+## Road Map
+
+### Basic Functionality
+
+- [x] Get Drug Data (Maybe a crawler? Or can I find it from somewhere?)
+- [x] Load Drug Data (Found a Good Drug DB from www.drugbank.ca)
+- [ ] Build Side Effect Data Type (Primative -- but take notes for advancing the Data type in the future)
+- [ ] Map Out An Example Set of Side Effects
+- [ ] Comparison Method
+- [ ] Map Side Effects to Drug Targets
+
+### Advanced Functionality
+
+- [ ]
+- [ ]
+- [ ]
+- [ ]
+- [ ]
+- [x] completed
 
 ## Contributing
 
