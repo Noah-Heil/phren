@@ -1,0 +1,9 @@
+version: "2"
+
+services:
+  simple-app:
+    image: noahheil/ibm-simple-app:latest
+    ports:
+     - "80:8080"
+    labels: 
+      kompose.service.type: nodeport

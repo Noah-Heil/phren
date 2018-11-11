@@ -1,0 +1,4040 @@
+<drug type="small molecule" created="2007-11-18" updated="2018-03-02">
+  <drugbank-id primary="true">DB06016</drugbank-id>
+  <name>Cariprazine</name>
+  <description>Cariprazine is an antipsychotic drug developed by Gedeon Richter and marketed by Actavis under the trade name Vraylar. Cariprazine acts as a D2 and D3 receptor partial agonist, with high selectivity towards the D3 receptor. This mechanism is relatively unique, since many other antipsychotics are D2 and 5-HT2A agonists. Cariprazine was approved by the FDA in September 2015 and is indicated in the treatment of schizophrenia and bipolar disorder. Action on the dopaminergic systems makes it also potentially useful as an add-on therapy in major depressive disorder. </description>
+  <cas-number>839712-12-8</cas-number>
+  <unii>F6RJL8B278</unii>
+  <average-mass>427.41</average-mass>
+  <monoisotopic-mass>426.1953171</monoisotopic-mass>
+  <state>solid</state>
+  <groups>
+    <group>approved</group>
+    <group>investigational</group>
+  </groups>
+  <general-references>
+    <articles>
+      <article>
+        <pubmed-id>23320989</pubmed-id>
+        <citation>Citrome L: Cariprazine: chemistry, pharmacodynamics, pharmacokinetics, and metabolism, clinical efficacy, safety, and tolerability. Expert Opin Drug Metab Toxicol. 2013 Feb;9(2):193-206. doi: 10.1517/17425255.2013.759211.</citation>
+      </article>
+      <article>
+        <pubmed-id>26510944</pubmed-id>
+        <citation>McCormack PL: Cariprazine: First Global Approval. Drugs. 2015 Nov;75(17):2035-43. doi: 10.1007/s40265-015-0494-7.</citation>
+      </article>
+    </articles>
+    <textbooks/>
+    <links/>
+  </general-references>
+  <synthesis-reference>Agai-Csongor E, Domany G, Nogradi K, Galambos J, Vago I, Keseru GM, Greiner I, Laszlovszky I, Gere A, Schmidt E, Kiss B, Vastag M, Tihanyi K, Saghy K, Laszy J, Gyertyan I, Zajer-Balazs M, Gemesi L, Kapas M, Szombathelyi Z: Discovery of cariprazine (RGH-188): a novel antipsychotic acting on dopamine D3/D2 receptors. Bioorg Med Chem Lett. 2012 May 15;22(10):3437-40. doi: 10.1016/j.bmcl.2012.03.104. Epub 2012 Apr 4. [Pubmed](http://www.ncbi.nlm.nih.gov/pubmed/22537450)</synthesis-reference>
+  <indication>Cariprazine is an atypical antipsychotic indicated for the treatment of schizophrenia and for the acute treatment of manic or mixed episodes associated with bipolar I&#13;
+disorder.</indication>
+  <pharmacodynamics>Cariprazine acts as a partial agonist at the dopamine D3 and D2 receptors with high binding affinity. Cariprazine acts as an antagonist at 5-HT2B and 5-HT2A receptors with high and moderate binding affinity as well as it binds to the histamine H1 receptors. Cariprazine shows lower binding affinity to the serotonin 5­ HT2C and α1A- adrenergic receptors and has no appreciable affinity for cholinergic muscarinic receptors.</pharmacodynamics>
+  <mechanism-of-action>The mechanism of action of cariprazine in schizophrenia and bipolar I disorder is unknown. However, the efficacy of cariprazine could be mediated through a combination of partial agonist activity at central dopamine D2 and serotonin 5-HT1A receptors and antagonist activity at serotonin 5-HT2A receptors. Cariprazine forms two major metabolites, desmethyl cariprazine (DCAR) and didesmethyl cariprazine (DDCAR), that have in vitro receptor binding profiles similar to the parent drug.</mechanism-of-action>
+  <toxicity>Accidental acute overdosage (48 mg/day) was reported in one patient. This patient experienced orthostasis and sedation. The patient fully recovered the same day.&#13;
+Elderly patients with dementia-related psychosis treated with antipsychotic drugs are at an increased risk of death. Cariprazine is not approved for the treatment of patients with dementia-related psychosis.</toxicity>
+  <metabolism>Cariprazine is extensively metabolized by hydroxylation and demethylation. It is primarily metabolized by CYP3A4, and CYP2D6 to a lesser extent to active metabolites desmethyl cariprazine (DCAR) and didesmethyl cariprazine (DDCAR). DCAR is then further metabolized to DDCAR by CYP3A4 and CYP2D6, and DDCAR is then metabolized by CYP3A4 to a hydroxylated metabolite. Both DCAR and DDCAR display similar functions and are as pharmacologically potent as the parent drug. </metabolism>
+  <absorption/>
+  <half-life>~1 week for the combined drug. </half-life>
+  <protein-binding>Cariprazine and its metabolites are highly protein bound (91-97%).</protein-binding>
+  <route-of-elimination>Urine (21% of dose)</route-of-elimination>
+  <volume-of-distribution/>
+  <clearance/>
+  <classification>
+    <description>This compound belongs to the class of organic compounds known as phenylpiperazines. These are compounds containing a phenylpiperazine skeleton, which consists of a piperazine bound to a phenyl group.</description>
+    <direct-parent>Phenylpiperazines</direct-parent>
+    <kingdom>Organic compounds</kingdom>
+    <superclass>Organoheterocyclic compounds</superclass>
+    <class>Diazinanes</class>
+    <subclass>Piperazines</subclass>
+    <alternative-parent>Aniline and substituted anilines</alternative-parent>
+    <alternative-parent>Aryl chlorides</alternative-parent>
+    <alternative-parent>Azacyclic compounds</alternative-parent>
+    <alternative-parent>Carbonyl compounds</alternative-parent>
+    <alternative-parent>Dialkylarylamines</alternative-parent>
+    <alternative-parent>Dichlorobenzenes</alternative-parent>
+    <alternative-parent>Hydrocarbon derivatives</alternative-parent>
+    <alternative-parent>N-alkylpiperazines</alternative-parent>
+    <alternative-parent>N-arylpiperazines</alternative-parent>
+    <alternative-parent>Organic oxides</alternative-parent>
+    <alternative-parent>Organochlorides</alternative-parent>
+    <alternative-parent>Organopnictogen compounds</alternative-parent>
+    <alternative-parent>Trialkylamines</alternative-parent>
+    <alternative-parent>Ureas</alternative-parent>
+    <substituent>1,2-dichlorobenzene</substituent>
+    <substituent>Amine</substituent>
+    <substituent>Aniline or substituted anilines</substituent>
+    <substituent>Aromatic heteromonocyclic compound</substituent>
+    <substituent>Aryl chloride</substituent>
+    <substituent>Aryl halide</substituent>
+    <substituent>Azacycle</substituent>
+    <substituent>Benzenoid</substituent>
+    <substituent>Carbonic acid derivative</substituent>
+    <substituent>Carbonyl group</substituent>
+    <substituent>Chlorobenzene</substituent>
+    <substituent>Dialkylarylamine</substituent>
+    <substituent>Halobenzene</substituent>
+    <substituent>Hydrocarbon derivative</substituent>
+    <substituent>Monocyclic benzene moiety</substituent>
+    <substituent>N-alkylpiperazine</substituent>
+    <substituent>N-arylpiperazine</substituent>
+    <substituent>Organic nitrogen compound</substituent>
+    <substituent>Organic oxide</substituent>
+    <substituent>Organic oxygen compound</substituent>
+    <substituent>Organochloride</substituent>
+    <substituent>Organohalogen compound</substituent>
+    <substituent>Organonitrogen compound</substituent>
+    <substituent>Organooxygen compound</substituent>
+    <substituent>Organopnictogen compound</substituent>
+    <substituent>Phenylpiperazine</substituent>
+    <substituent>Tertiary aliphatic amine</substituent>
+    <substituent>Tertiary aliphatic/aromatic amine</substituent>
+    <substituent>Tertiary amine</substituent>
+    <substituent>Urea</substituent>
+  </classification>
+  <salts>
+    <salt>
+      <drugbank-id primary="true">DBSALT001260</drugbank-id>
+      <name>Cariprazine hydrochloride</name>
+      <unii>KQD7C255YG</unii>
+      <cas-number>1083076-69-0</cas-number>
+      <inchikey>GPPJWWMREQHLQT-BHQIMSFRSA-N</inchikey>
+      <average-mass>463.87</average-mass>
+      <monoisotopic-mass>462.1719948</monoisotopic-mass>
+    </salt>
+  </salts>
+  <synonyms>
+    <synonym language="" coder="IUPAC">trans-N-{4-[2-[4-(2,3-dichlorophenyl)piperazine-1-yl]ethyl]cyclohexyl}-N’,N’-dimethylurea hydrochloride</synonym>
+  </synonyms>
+  <products>
+    <product>
+      <name>Vraylar</name>
+      <labeller>Allergan</labeller>
+      <ndc-id/>
+      <ndc-product-code>61874-115</ndc-product-code>
+      <dpd-id/>
+      <ema-product-code/>
+      <ema-ma-number/>
+      <started-marketing-on>2015-09-17</started-marketing-on>
+      <ended-marketing-on/>
+      <dosage-form>Capsule, gelatin coated</dosage-form>
+      <strength>1.5 mg/1</strength>
+      <route>Oral</route>
+      <fda-application-number>NDA204370</fda-application-number>
+      <generic>false</generic>
+      <over-the-counter>false</over-the-counter>
+      <approved>true</approved>
+      <country>US</country>
+      <source>FDA NDC</source>
+    </product>
+    <product>
+      <name>Vraylar</name>
+      <labeller>Allergan</labeller>
+      <ndc-id/>
+      <ndc-product-code>61874-130</ndc-product-code>
+      <dpd-id/>
+      <ema-product-code/>
+      <ema-ma-number/>
+      <started-marketing-on>2015-09-17</started-marketing-on>
+      <ended-marketing-on/>
+      <dosage-form>Capsule, gelatin coated</dosage-form>
+      <strength>3 mg/1</strength>
+      <route>Oral</route>
+      <fda-application-number>NDA204370</fda-application-number>
+      <generic>false</generic>
+      <over-the-counter>false</over-the-counter>
+      <approved>true</approved>
+      <country>US</country>
+      <source>FDA NDC</source>
+    </product>
+    <product>
+      <name>Vraylar</name>
+      <labeller>Allergan</labeller>
+      <ndc-id/>
+      <ndc-product-code>61874-145</ndc-product-code>
+      <dpd-id/>
+      <ema-product-code/>
+      <ema-ma-number/>
+      <started-marketing-on>2015-09-17</started-marketing-on>
+      <ended-marketing-on/>
+      <dosage-form>Capsule, gelatin coated</dosage-form>
+      <strength>4.5 mg/1</strength>
+      <route>Oral</route>
+      <fda-application-number>NDA204370</fda-application-number>
+      <generic>false</generic>
+      <over-the-counter>false</over-the-counter>
+      <approved>true</approved>
+      <country>US</country>
+      <source>FDA NDC</source>
+    </product>
+    <product>
+      <name>Vraylar</name>
+      <labeller>Allergan</labeller>
+      <ndc-id/>
+      <ndc-product-code>61874-160</ndc-product-code>
+      <dpd-id/>
+      <ema-product-code/>
+      <ema-ma-number/>
+      <started-marketing-on>2015-09-17</started-marketing-on>
+      <ended-marketing-on/>
+      <dosage-form>Capsule, gelatin coated</dosage-form>
+      <strength>6 mg/1</strength>
+      <route>Oral</route>
+      <fda-application-number>NDA204370</fda-application-number>
+      <generic>false</generic>
+      <over-the-counter>false</over-the-counter>
+      <approved>true</approved>
+      <country>US</country>
+      <source>FDA NDC</source>
+    </product>
+    <product>
+      <name>Vraylar</name>
+      <labeller>Allergan</labeller>
+      <ndc-id/>
+      <ndc-product-code>61874-170</ndc-product-code>
+      <dpd-id/>
+      <ema-product-code/>
+      <ema-ma-number/>
+      <started-marketing-on>2015-09-17</started-marketing-on>
+      <ended-marketing-on/>
+      <dosage-form>Kit</dosage-form>
+      <strength/>
+      <route>Oral</route>
+      <fda-application-number>NDA204370</fda-application-number>
+      <generic>false</generic>
+      <over-the-counter>false</over-the-counter>
+      <approved>true</approved>
+      <country>US</country>
+      <source>FDA NDC</source>
+    </product>
+  </products>
+  <international-brands/>
+  <mixtures>
+    <mixture>
+      <name>Vraylar</name>
+      <ingredients>Cariprazine</ingredients>
+    </mixture>
+    <mixture>
+      <name>Vraylar</name>
+      <ingredients>Cariprazine</ingredients>
+    </mixture>
+    <mixture>
+      <name>Vraylar</name>
+      <ingredients>Cariprazine</ingredients>
+    </mixture>
+    <mixture>
+      <name>Vraylar</name>
+      <ingredients>Cariprazine</ingredients>
+    </mixture>
+    <mixture>
+      <name>Vraylar</name>
+      <ingredients>Cariprazine</ingredients>
+    </mixture>
+  </mixtures>
+  <packagers/>
+  <manufacturers/>
+  <prices/>
+  <categories>
+    <category>
+      <category>Antipsychotic Agents</category>
+      <mesh-id>D014150</mesh-id>
+    </category>
+    <category>
+      <category>Antipsychotic Agents (Second Generation [Atypical])</category>
+      <mesh-id/>
+    </category>
+    <category>
+      <category>Atypical Antipsychotic</category>
+      <mesh-id/>
+    </category>
+    <category>
+      <category>Cytochrome P-450 CYP2D6 Substrates</category>
+      <mesh-id/>
+    </category>
+    <category>
+      <category>Cytochrome P-450 CYP3A4 Substrates</category>
+      <mesh-id/>
+    </category>
+    <category>
+      <category>Heterocyclic Compounds</category>
+      <mesh-id>D006571</mesh-id>
+    </category>
+    <category>
+      <category>Heterocyclic Compounds, 1-Ring</category>
+      <mesh-id>D006573</mesh-id>
+    </category>
+    <category>
+      <category>Nervous System</category>
+      <mesh-id>D009420</mesh-id>
+    </category>
+    <category>
+      <category>Psycholeptics</category>
+      <mesh-id/>
+    </category>
+  </categories>
+  <affected-organisms>
+    <affected-organism>Humans and other mammals</affected-organism>
+  </affected-organisms>
+  <dosages>
+    <dosage>
+      <form>Capsule, gelatin coated</form>
+      <route>Oral</route>
+      <strength>1.5 mg/1</strength>
+    </dosage>
+    <dosage>
+      <form>Capsule, gelatin coated</form>
+      <route>Oral</route>
+      <strength>3 mg/1</strength>
+    </dosage>
+    <dosage>
+      <form>Capsule, gelatin coated</form>
+      <route>Oral</route>
+      <strength>4.5 mg/1</strength>
+    </dosage>
+    <dosage>
+      <form>Capsule, gelatin coated</form>
+      <route>Oral</route>
+      <strength>6 mg/1</strength>
+    </dosage>
+    <dosage>
+      <form>Kit</form>
+      <route>Oral</route>
+      <strength/>
+    </dosage>
+  </dosages>
+  <atc-codes>
+    <atc-code code="N05AX15">
+      <level code="N05AX">Other antipsychotics</level>
+      <level code="N05A">ANTIPSYCHOTICS</level>
+      <level code="N05">PSYCHOLEPTICS</level>
+      <level code="N">NERVOUS SYSTEM</level>
+    </atc-code>
+  </atc-codes>
+  <ahfs-codes/>
+  <pdb-entries/>
+  <fda-label>//s3-us-west-2.amazonaws.com/drugbank/fda_labels/DB06016.pdf?1444785645</fda-label>
+  <msds>//s3-us-west-2.amazonaws.com/drugbank/msds/DB06016.pdf?1444787082</msds>
+  <patents>
+    <patent>
+      <number>7737142</number>
+      <country>United States</country>
+      <approved>2007-03-27</approved>
+      <expires>2027-03-27</expires>
+      <pediatric-extension>false</pediatric-extension>
+    </patent>
+    <patent>
+      <number>7943621</number>
+      <country>United States</country>
+      <approved>2008-12-16</approved>
+      <expires>2028-12-16</expires>
+      <pediatric-extension>false</pediatric-extension>
+    </patent>
+  </patents>
+  <food-interactions/>
+  <drug-interactions>
+    <drug-interaction>
+      <drugbank-id>DB06273</drugbank-id>
+      <name>Tocilizumab</name>
+      <description>The serum concentration of Cariprazine can be decreased when it is combined with Tocilizumab.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB00422</drugbank-id>
+      <name>Methylphenidate</name>
+      <description>The risk or severity of adverse effects can be increased when Cariprazine is combined with Methylphenidate.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB00765</drugbank-id>
+      <name>Metyrosine</name>
+      <description>The risk or severity of adverse effects can be increased when Metyrosine is combined with Cariprazine.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB09097</drugbank-id>
+      <name>Quinagolide</name>
+      <description>The therapeutic efficacy of Quinagolide can be decreased when used in combination with Cariprazine.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB01356</drugbank-id>
+      <name>Lithium</name>
+      <description>Lithium may increase the neurotoxic activities of Cariprazine.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB09330</drugbank-id>
+      <name>Osimertinib</name>
+      <description>The serum concentration of Cariprazine can be increased when it is combined with Osimertinib.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB00559</drugbank-id>
+      <name>Bosentan</name>
+      <description>The serum concentration of Cariprazine can be decreased when it is combined with Bosentan.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB09063</drugbank-id>
+      <name>Ceritinib</name>
+      <description>The serum concentration of Cariprazine can be increased when it is combined with Ceritinib.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB00188</drugbank-id>
+      <name>Bortezomib</name>
+      <description>The metabolism of Cariprazine can be decreased when combined with Bortezomib.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB00196</drugbank-id>
+      <name>Fluconazole</name>
+      <description>The metabolism of Cariprazine can be decreased when combined with Fluconazole.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB00208</drugbank-id>
+      <name>Ticlopidine</name>
+      <description>The metabolism of Cariprazine can be decreased when combined with Ticlopidine.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB00227</drugbank-id>
+      <name>Lovastatin</name>
+      <description>The metabolism of Cariprazine can be decreased when combined with Lovastatin.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB00243</drugbank-id>
+      <name>Ranolazine</name>
+      <description>The metabolism of Cariprazine can be decreased when combined with Ranolazine.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB00246</drugbank-id>
+      <name>Ziprasidone</name>
+      <description>The metabolism of Cariprazine can be decreased when combined with Ziprasidone.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB00270</drugbank-id>
+      <name>Isradipine</name>
+      <description>The metabolism of Cariprazine can be decreased when combined with Isradipine.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB00320</drugbank-id>
+      <name>Dihydroergotamine</name>
+      <description>The metabolism of Cariprazine can be decreased when combined with Dihydroergotamine.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB00343</drugbank-id>
+      <name>Diltiazem</name>
+      <description>The metabolism of Cariprazine can be decreased when combined with Diltiazem.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB00619</drugbank-id>
+      <name>Imatinib</name>
+      <description>The metabolism of Cariprazine can be decreased when combined with Imatinib.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB01319</drugbank-id>
+      <name>Fosamprenavir</name>
+      <description>The metabolism of Cariprazine can be decreased when combined with Fosamprenavir.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB00199</drugbank-id>
+      <name>Erythromycin</name>
+      <description>The metabolism of Cariprazine can be decreased when combined with Erythromycin.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB00203</drugbank-id>
+      <name>Sildenafil</name>
+      <description>The metabolism of Cariprazine can be decreased when combined with Sildenafil.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB00257</drugbank-id>
+      <name>Clotrimazole</name>
+      <description>The metabolism of Cariprazine can be decreased when combined with Clotrimazole.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB00176</drugbank-id>
+      <name>Fluvoxamine</name>
+      <description>The metabolism of Cariprazine can be decreased when combined with Fluvoxamine.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB00285</drugbank-id>
+      <name>Venlafaxine</name>
+      <description>The metabolism of Cariprazine can be decreased when combined with Venlafaxine.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB00091</drugbank-id>
+      <name>Cyclosporine</name>
+      <description>The metabolism of Cariprazine can be decreased when combined with Cyclosporine.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB00661</drugbank-id>
+      <name>Verapamil</name>
+      <description>The metabolism of Cariprazine can be decreased when combined with Verapamil.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB04855</drugbank-id>
+      <name>Dronedarone</name>
+      <description>The metabolism of Cariprazine can be decreased when combined with Dronedarone.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB04868</drugbank-id>
+      <name>Nilotinib</name>
+      <description>The metabolism of Cariprazine can be decreased when combined with Nilotinib.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB00289</drugbank-id>
+      <name>Atomoxetine</name>
+      <description>The metabolism of Cariprazine can be decreased when combined with Atomoxetine.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB00283</drugbank-id>
+      <name>Clemastine</name>
+      <description>The metabolism of Cariprazine can be decreased when combined with Clemastine.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB00254</drugbank-id>
+      <name>Doxycycline</name>
+      <description>The metabolism of Cariprazine can be decreased when combined with Doxycycline.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB08865</drugbank-id>
+      <name>Crizotinib</name>
+      <description>The metabolism of Cariprazine can be decreased when combined with Crizotinib.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB09074</drugbank-id>
+      <name>Olaparib</name>
+      <description>The metabolism of Cariprazine can be decreased when combined with Olaparib.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB06636</drugbank-id>
+      <name>Isavuconazonium</name>
+      <description>The metabolism of Cariprazine can be decreased when combined with Isavuconazonium.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB00263</drugbank-id>
+      <name>Sulfisoxazole</name>
+      <description>The metabolism of Cariprazine can be decreased when combined with Sulfisoxazole.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB12332</drugbank-id>
+      <name>Rucaparib</name>
+      <description>The metabolism of Cariprazine can be decreased when combined with Rucaparib.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB00264</drugbank-id>
+      <name>Metoprolol</name>
+      <description>The metabolism of Cariprazine can be decreased when combined with Metoprolol.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB00476</drugbank-id>
+      <name>Duloxetine</name>
+      <description>The metabolism of Cariprazine can be decreased when combined with Duloxetine.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB00477</drugbank-id>
+      <name>Chlorpromazine</name>
+      <description>The metabolism of Cariprazine can be decreased when combined with Chlorpromazine.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB00496</drugbank-id>
+      <name>Darifenacin</name>
+      <description>The metabolism of Cariprazine can be decreased when combined with Darifenacin.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB00502</drugbank-id>
+      <name>Haloperidol</name>
+      <description>The metabolism of Cariprazine can be decreased when combined with Haloperidol.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB01151</drugbank-id>
+      <name>Desipramine</name>
+      <description>The metabolism of Cariprazine can be decreased when combined with Desipramine.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB01242</drugbank-id>
+      <name>Clomipramine</name>
+      <description>The metabolism of Cariprazine can be decreased when combined with Clomipramine.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB01075</drugbank-id>
+      <name>Diphenhydramine</name>
+      <description>The metabolism of Cariprazine can be decreased when combined with Diphenhydramine.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB00215</drugbank-id>
+      <name>Citalopram</name>
+      <description>The metabolism of Cariprazine can be decreased when combined with Citalopram.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB00363</drugbank-id>
+      <name>Clozapine</name>
+      <description>The metabolism of Cariprazine can be decreased when combined with Clozapine.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB00458</drugbank-id>
+      <name>Imipramine</name>
+      <description>The metabolism of Cariprazine can be decreased when combined with Imipramine.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB00468</drugbank-id>
+      <name>Quinine</name>
+      <description>The metabolism of Cariprazine can be decreased when combined with Quinine.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB00482</drugbank-id>
+      <name>Celecoxib</name>
+      <description>The metabolism of Cariprazine can be decreased when combined with Celecoxib.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB00501</drugbank-id>
+      <name>Cimetidine</name>
+      <description>The metabolism of Cariprazine can be decreased when combined with Cimetidine.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB00622</drugbank-id>
+      <name>Nicardipine</name>
+      <description>The metabolism of Cariprazine can be decreased when combined with Nicardipine.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB00752</drugbank-id>
+      <name>Tranylcypromine</name>
+      <description>The metabolism of Cariprazine can be decreased when combined with Tranylcypromine.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB01104</drugbank-id>
+      <name>Sertraline</name>
+      <description>The metabolism of Cariprazine can be decreased when combined with Sertraline.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB00333</drugbank-id>
+      <name>Methadone</name>
+      <description>The metabolism of Cariprazine can be decreased when combined with Methadone.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB00608</drugbank-id>
+      <name>Chloroquine</name>
+      <description>The metabolism of Cariprazine can be decreased when combined with Chloroquine.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB00951</drugbank-id>
+      <name>Isoniazid</name>
+      <description>The metabolism of Cariprazine can be decreased when combined with Isoniazid.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB06708</drugbank-id>
+      <name>Lumefantrine</name>
+      <description>The metabolism of Cariprazine can be decreased when combined with Lumefantrine.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB06697</drugbank-id>
+      <name>Artemether</name>
+      <description>The metabolism of Cariprazine can be decreased when combined with Artemether.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB00195</drugbank-id>
+      <name>Betaxolol</name>
+      <description>The metabolism of Cariprazine can be decreased when combined with Betaxolol.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB00169</drugbank-id>
+      <name>Cholecalciferol</name>
+      <description>The metabolism of Cariprazine can be decreased when combined with Cholecalciferol.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB04871</drugbank-id>
+      <name>Lorcaserin</name>
+      <description>The metabolism of Cariprazine can be decreased when combined with Lorcaserin.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB08893</drugbank-id>
+      <name>Mirabegron</name>
+      <description>The metabolism of Cariprazine can be decreased when combined with Mirabegron.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB09039</drugbank-id>
+      <name>Eliglustat</name>
+      <description>The metabolism of Cariprazine can be decreased when combined with Eliglustat.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB00349</drugbank-id>
+      <name>Clobazam</name>
+      <description>The metabolism of Cariprazine can be decreased when combined with Clobazam.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB09291</drugbank-id>
+      <name>Rolapitant</name>
+      <description>The metabolism of Cariprazine can be decreased when combined with Rolapitant.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB00420</drugbank-id>
+      <name>Promazine</name>
+      <description>The metabolism of Cariprazine can be decreased when combined with Promazine.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB09238</drugbank-id>
+      <name>Manidipine</name>
+      <description>The metabolism of Cariprazine can be decreased when combined with Manidipine.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB09065</drugbank-id>
+      <name>Cobicistat</name>
+      <description>The serum concentration of Cariprazine can be increased when it is combined with Cobicistat.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB01264</drugbank-id>
+      <name>Darunavir</name>
+      <description>The serum concentration of Cariprazine can be increased when it is combined with Darunavir.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB00022</drugbank-id>
+      <name>Peginterferon alfa-2b</name>
+      <description>The serum concentration of Cariprazine can be decreased when it is combined with Peginterferon alfa-2b.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB00656</drugbank-id>
+      <name>Trazodone</name>
+      <description>The risk or severity of adverse effects can be increased when Trazodone is combined with Cariprazine.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB06684</drugbank-id>
+      <name>Vilazodone</name>
+      <description>The risk or severity of adverse effects can be increased when Vilazodone is combined with Cariprazine.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB09068</drugbank-id>
+      <name>Vortioxetine</name>
+      <description>The risk or severity of adverse effects can be increased when Vortioxetine is combined with Cariprazine.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB00193</drugbank-id>
+      <name>Tramadol</name>
+      <description>The risk or severity of adverse effects can be increased when Tramadol is combined with Cariprazine.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB00216</drugbank-id>
+      <name>Eletriptan</name>
+      <description>The risk or severity of adverse effects can be increased when Eletriptan is combined with Cariprazine.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB00248</drugbank-id>
+      <name>Cabergoline</name>
+      <description>The risk or severity of adverse effects can be increased when Cabergoline is combined with Cariprazine.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB00315</drugbank-id>
+      <name>Zolmitriptan</name>
+      <description>The risk or severity of adverse effects can be increased when Zolmitriptan is combined with Cariprazine.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB00321</drugbank-id>
+      <name>Amitriptyline</name>
+      <description>The risk or severity of adverse effects can be increased when Amitriptyline is combined with Cariprazine.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB00344</drugbank-id>
+      <name>Protriptyline</name>
+      <description>The risk or severity of adverse effects can be increased when Protriptyline is combined with Cariprazine.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB00370</drugbank-id>
+      <name>Mirtazapine</name>
+      <description>The risk or severity of adverse effects can be increased when Mirtazapine is combined with Cariprazine.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB00454</drugbank-id>
+      <name>Pethidine</name>
+      <description>The risk or severity of adverse effects can be increased when Pethidine is combined with Cariprazine.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB00490</drugbank-id>
+      <name>Buspirone</name>
+      <description>The risk or severity of adverse effects can be increased when Buspirone is combined with Cariprazine.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB00514</drugbank-id>
+      <name>Dextromethorphan</name>
+      <description>The risk or severity of adverse effects can be increased when Dextromethorphan is combined with Cariprazine.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB00540</drugbank-id>
+      <name>Nortriptyline</name>
+      <description>The risk or severity of adverse effects can be increased when Nortriptyline is combined with Cariprazine.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB00543</drugbank-id>
+      <name>Amoxapine</name>
+      <description>The risk or severity of adverse effects can be increased when Amoxapine is combined with Cariprazine.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB00601</drugbank-id>
+      <name>Linezolid</name>
+      <description>The risk or severity of adverse effects can be increased when Linezolid is combined with Cariprazine.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB00669</drugbank-id>
+      <name>Sumatriptan</name>
+      <description>The risk or severity of adverse effects can be increased when Sumatriptan is combined with Cariprazine.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB00696</drugbank-id>
+      <name>Ergotamine</name>
+      <description>The risk or severity of adverse effects can be increased when Ergotamine is combined with Cariprazine.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB00726</drugbank-id>
+      <name>Trimipramine</name>
+      <description>The risk or severity of adverse effects can be increased when Trimipramine is combined with Cariprazine.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB00780</drugbank-id>
+      <name>Phenelzine</name>
+      <description>The risk or severity of adverse effects can be increased when Phenelzine is combined with Cariprazine.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB00813</drugbank-id>
+      <name>Fentanyl</name>
+      <description>The risk or severity of adverse effects can be increased when Fentanyl is combined with Cariprazine.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB00918</drugbank-id>
+      <name>Almotriptan</name>
+      <description>The risk or severity of adverse effects can be increased when Almotriptan is combined with Cariprazine.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB00924</drugbank-id>
+      <name>Cyclobenzaprine</name>
+      <description>The risk or severity of adverse effects can be increased when Cyclobenzaprine is combined with Cariprazine.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB00934</drugbank-id>
+      <name>Maprotiline</name>
+      <description>The risk or severity of adverse effects can be increased when Maprotiline is combined with Cariprazine.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB00952</drugbank-id>
+      <name>Naratriptan</name>
+      <description>The risk or severity of adverse effects can be increased when Naratriptan is combined with Cariprazine.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB00953</drugbank-id>
+      <name>Rizatriptan</name>
+      <description>The risk or severity of adverse effects can be increased when Rizatriptan is combined with Cariprazine.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB00998</drugbank-id>
+      <name>Frovatriptan</name>
+      <description>The risk or severity of adverse effects can be increased when Frovatriptan is combined with Cariprazine.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB01037</drugbank-id>
+      <name>Selegiline</name>
+      <description>The risk or severity of adverse effects can be increased when Selegiline is combined with Cariprazine.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB01049</drugbank-id>
+      <name>Ergoloid mesylate</name>
+      <description>The risk or severity of adverse effects can be increased when Ergoloid mesylate is combined with Cariprazine.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB01069</drugbank-id>
+      <name>Promethazine</name>
+      <description>The risk or severity of adverse effects can be increased when Promethazine is combined with Cariprazine.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB01142</drugbank-id>
+      <name>Doxepin</name>
+      <description>The risk or severity of adverse effects can be increased when Doxepin is combined with Cariprazine.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB01168</drugbank-id>
+      <name>Procarbazine</name>
+      <description>The risk or severity of adverse effects can be increased when Procarbazine is combined with Cariprazine.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB01171</drugbank-id>
+      <name>Moclobemide</name>
+      <description>The risk or severity of adverse effects can be increased when Moclobemide is combined with Cariprazine.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB01175</drugbank-id>
+      <name>Escitalopram</name>
+      <description>The risk or severity of adverse effects can be increased when Escitalopram is combined with Cariprazine.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB01247</drugbank-id>
+      <name>Isocarboxazid</name>
+      <description>The risk or severity of adverse effects can be increased when Isocarboxazid is combined with Cariprazine.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB01253</drugbank-id>
+      <name>Ergonovine</name>
+      <description>The risk or severity of adverse effects can be increased when Ergonovine is combined with Cariprazine.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB01367</drugbank-id>
+      <name>Rasagiline</name>
+      <description>The risk or severity of adverse effects can be increased when Rasagiline is combined with Cariprazine.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB04896</drugbank-id>
+      <name>Milnacipran</name>
+      <description>The risk or severity of adverse effects can be increased when Milnacipran is combined with Cariprazine.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB06204</drugbank-id>
+      <name>Tapentadol</name>
+      <description>The risk or severity of adverse effects can be increased when Tapentadol is combined with Cariprazine.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB06700</drugbank-id>
+      <name>Desvenlafaxine</name>
+      <description>The risk or severity of adverse effects can be increased when Desvenlafaxine is combined with Cariprazine.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB08918</drugbank-id>
+      <name>Levomilnacipran</name>
+      <description>The risk or severity of adverse effects can be increased when Levomilnacipran is combined with Cariprazine.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB09042</drugbank-id>
+      <name>Tedizolid Phosphate</name>
+      <description>The risk or severity of adverse effects can be increased when Tedizolid Phosphate is combined with Cariprazine.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB00852</drugbank-id>
+      <name>Pseudoephedrine</name>
+      <description>Cariprazine may decrease the stimulatory activities of Pseudoephedrine.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB00937</drugbank-id>
+      <name>Diethylpropion</name>
+      <description>Cariprazine may decrease the stimulatory activities of Diethylpropion.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB01255</drugbank-id>
+      <name>Lisdexamfetamine</name>
+      <description>Cariprazine may decrease the stimulatory activities of Lisdexamfetamine.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB01576</drugbank-id>
+      <name>Dextroamphetamine</name>
+      <description>Cariprazine may decrease the stimulatory activities of Dextroamphetamine.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB00182</drugbank-id>
+      <name>Amphetamine</name>
+      <description>Cariprazine may decrease the stimulatory activities of Amphetamine.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB00191</drugbank-id>
+      <name>Phentermine</name>
+      <description>Cariprazine may decrease the stimulatory activities of Phentermine.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB00865</drugbank-id>
+      <name>Benzphetamine</name>
+      <description>Cariprazine may decrease the stimulatory activities of Benzphetamine.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB01365</drugbank-id>
+      <name>Mephentermine</name>
+      <description>Cariprazine may decrease the stimulatory activities of Mephentermine.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB01442</drugbank-id>
+      <name>MMDA</name>
+      <description>Cariprazine may decrease the stimulatory activities of MMDA.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB01454</drugbank-id>
+      <name>Midomafetamine</name>
+      <description>Cariprazine may decrease the stimulatory activities of Midomafetamine.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB01467</drugbank-id>
+      <name>2,5-Dimethoxy-4-ethylamphetamine</name>
+      <description>Cariprazine may decrease the stimulatory activities of 2,5-Dimethoxy-4-ethylamphetamine.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB01484</drugbank-id>
+      <name>4-Bromo-2,5-dimethoxyamphetamine</name>
+      <description>Cariprazine may decrease the stimulatory activities of 4-Bromo-2,5-dimethoxyamphetamine.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB01509</drugbank-id>
+      <name>3,4-Methylenedioxyamphetamine</name>
+      <description>Cariprazine may decrease the stimulatory activities of 3,4-Methylenedioxyamphetamine.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB01556</drugbank-id>
+      <name>Chlorphentermine</name>
+      <description>Cariprazine may decrease the stimulatory activities of Chlorphentermine.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB01577</drugbank-id>
+      <name>Methamphetamine</name>
+      <description>Cariprazine may decrease the stimulatory activities of Methamphetamine.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB09352</drugbank-id>
+      <name>Hydroxyamphetamine</name>
+      <description>Cariprazine may decrease the stimulatory activities of Hydroxyamphetamine.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB09480</drugbank-id>
+      <name>Iofetamine I-123</name>
+      <description>Cariprazine may decrease the stimulatory activities of Iofetamine I-123.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB12080</drugbank-id>
+      <name>Ritobegron</name>
+      <description>Cariprazine may decrease the stimulatory activities of Ritobegron.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB13108</drugbank-id>
+      <name>Mephedrone</name>
+      <description>Cariprazine may decrease the stimulatory activities of Mephedrone.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB13624</drugbank-id>
+      <name>Methoxyphenamine</name>
+      <description>Cariprazine may decrease the stimulatory activities of Methoxyphenamine.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB13703</drugbank-id>
+      <name>Gepefrine</name>
+      <description>Cariprazine may decrease the stimulatory activities of Gepefrine.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB13940</drugbank-id>
+      <name>2,5-Dimethoxy-4-ethylthioamphetamine</name>
+      <description>Cariprazine may decrease the stimulatory activities of 2,5-Dimethoxy-4-ethylthioamphetamine.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB00673</drugbank-id>
+      <name>Aprepitant</name>
+      <description>The serum concentration of Cariprazine can be increased when it is combined with Aprepitant.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB01254</drugbank-id>
+      <name>Dasatinib</name>
+      <description>The serum concentration of Cariprazine can be increased when it is combined with Dasatinib.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB12161</drugbank-id>
+      <name>Deutetrabenazine</name>
+      <description>The risk or severity of adverse effects can be increased when Cariprazine is combined with Deutetrabenazine.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB08881</drugbank-id>
+      <name>Vemurafenib</name>
+      <description>The risk or severity of QTc prolongation can be increased when Vemurafenib is combined with Cariprazine.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB06288</drugbank-id>
+      <name>Amisulpride</name>
+      <description>Cariprazine may increase the antipsychotic activities of Amisulpride.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB01233</drugbank-id>
+      <name>Metoclopramide</name>
+      <description>The risk or severity of adverse effects can be increased when Metoclopramide is combined with Cariprazine.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB00391</drugbank-id>
+      <name>Sulpiride</name>
+      <description>Cariprazine may increase the antipsychotic activities of Sulpiride.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB02703</drugbank-id>
+      <name>Fusidic Acid</name>
+      <description>The serum concentration of Cariprazine can be increased when it is combined with Fusidic Acid.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB09195</drugbank-id>
+      <name>Lorpiprazole</name>
+      <description>The serum concentration of Cariprazine can be increased when it is combined with Lorpiprazole.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB00872</drugbank-id>
+      <name>Conivaptan</name>
+      <description>The serum concentration of Conivaptan can be increased when it is combined with Cariprazine.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB11642</drugbank-id>
+      <name>Pitolisant</name>
+      <description>The serum concentration of Cariprazine can be decreased when it is combined with Pitolisant.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB11633</drugbank-id>
+      <name>Isavuconazole</name>
+      <description>The serum concentration of Cariprazine can be increased when it is combined with Isavuconazole.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB00648</drugbank-id>
+      <name>Mitotane</name>
+      <description>The serum concentration of Cariprazine can be decreased when it is combined with Mitotane.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB05812</drugbank-id>
+      <name>Abiraterone</name>
+      <description>The serum concentration of Cariprazine can be increased when it is combined with Abiraterone.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB09118</drugbank-id>
+      <name>Stiripentol</name>
+      <description>The serum concentration of Cariprazine can be increased when it is combined with Stiripentol.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB00915</drugbank-id>
+      <name>Amantadine</name>
+      <description>The therapeutic efficacy of Amantadine can be decreased when used in combination with Cariprazine.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB00714</drugbank-id>
+      <name>Apomorphine</name>
+      <description>The therapeutic efficacy of Apomorphine can be decreased when used in combination with Cariprazine.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB01200</drugbank-id>
+      <name>Bromocriptine</name>
+      <description>The therapeutic efficacy of Bromocriptine can be decreased when used in combination with Cariprazine.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB01235</drugbank-id>
+      <name>Levodopa</name>
+      <description>The therapeutic efficacy of Levodopa can be decreased when used in combination with Cariprazine.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB12478</drugbank-id>
+      <name>Piribedil</name>
+      <description>The therapeutic efficacy of Piribedil can be decreased when used in combination with Cariprazine.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB00413</drugbank-id>
+      <name>Pramipexole</name>
+      <description>The therapeutic efficacy of Pramipexole can be decreased when used in combination with Cariprazine.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB00268</drugbank-id>
+      <name>Ropinirole</name>
+      <description>The therapeutic efficacy of Ropinirole can be decreased when used in combination with Cariprazine.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB05271</drugbank-id>
+      <name>Rotigotine</name>
+      <description>The therapeutic efficacy of Rotigotine can be decreased when used in combination with Cariprazine.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB01071</drugbank-id>
+      <name>Mequitazine</name>
+      <description>Cariprazine may increase the arrhythmogenic activities of Mequitazine.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB00238</drugbank-id>
+      <name>Nevirapine</name>
+      <description>The metabolism of Cariprazine can be increased when combined with Nevirapine.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB00615</drugbank-id>
+      <name>Rifabutin</name>
+      <description>The metabolism of Cariprazine can be increased when combined with Rifabutin.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB01045</drugbank-id>
+      <name>Rifampicin</name>
+      <description>The metabolism of Cariprazine can be increased when combined with Rifampicin.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB00564</drugbank-id>
+      <name>Carbamazepine</name>
+      <description>The metabolism of Cariprazine can be increased when combined with Carbamazepine.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB01320</drugbank-id>
+      <name>Fosphenytoin</name>
+      <description>The metabolism of Cariprazine can be increased when combined with Fosphenytoin.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB00312</drugbank-id>
+      <name>Pentobarbital</name>
+      <description>The metabolism of Cariprazine can be increased when combined with Pentobarbital.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB01174</drugbank-id>
+      <name>Phenobarbital</name>
+      <description>The metabolism of Cariprazine can be increased when combined with Phenobarbital.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB00252</drugbank-id>
+      <name>Phenytoin</name>
+      <description>The metabolism of Cariprazine can be increased when combined with Phenytoin.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB00794</drugbank-id>
+      <name>Primidone</name>
+      <description>The metabolism of Cariprazine can be increased when combined with Primidone.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB01201</drugbank-id>
+      <name>Rifapentine</name>
+      <description>The metabolism of Cariprazine can be increased when combined with Rifapentine.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB09280</drugbank-id>
+      <name>Lumacaftor</name>
+      <description>The metabolism of Cariprazine can be increased when combined with Lumacaftor.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB00220</drugbank-id>
+      <name>Nelfinavir</name>
+      <description>The metabolism of Cariprazine can be decreased when combined with Nelfinavir.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB00224</drugbank-id>
+      <name>Indinavir</name>
+      <description>The metabolism of Cariprazine can be decreased when combined with Indinavir.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB00582</drugbank-id>
+      <name>Voriconazole</name>
+      <description>The metabolism of Cariprazine can be decreased when combined with Voriconazole.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB00976</drugbank-id>
+      <name>Telithromycin</name>
+      <description>The metabolism of Cariprazine can be decreased when combined with Telithromycin.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB01026</drugbank-id>
+      <name>Ketoconazole</name>
+      <description>The metabolism of Cariprazine can be decreased when combined with Ketoconazole.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB01072</drugbank-id>
+      <name>Atazanavir</name>
+      <description>The metabolism of Cariprazine can be decreased when combined with Atazanavir.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB01149</drugbank-id>
+      <name>Nefazodone</name>
+      <description>The metabolism of Cariprazine can be decreased when combined with Nefazodone.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB01167</drugbank-id>
+      <name>Itraconazole</name>
+      <description>The metabolism of Cariprazine can be decreased when combined with Itraconazole.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB01211</drugbank-id>
+      <name>Clarithromycin</name>
+      <description>The metabolism of Cariprazine can be decreased when combined with Clarithromycin.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB01232</drugbank-id>
+      <name>Saquinavir</name>
+      <description>The metabolism of Cariprazine can be decreased when combined with Saquinavir.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB01263</drugbank-id>
+      <name>Posaconazole</name>
+      <description>The metabolism of Cariprazine can be decreased when combined with Posaconazole.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB01601</drugbank-id>
+      <name>Lopinavir</name>
+      <description>The metabolism of Cariprazine can be decreased when combined with Lopinavir.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB01118</drugbank-id>
+      <name>Amiodarone</name>
+      <description>The metabolism of Cariprazine can be decreased when combined with Amiodarone.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB05521</drugbank-id>
+      <name>Telaprevir</name>
+      <description>The metabolism of Cariprazine can be decreased when combined with Telaprevir.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB08873</drugbank-id>
+      <name>Boceprevir</name>
+      <description>The metabolism of Cariprazine can be decreased when combined with Boceprevir.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB09054</drugbank-id>
+      <name>Idelalisib</name>
+      <description>The metabolism of Cariprazine can be decreased when combined with Idelalisib.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB00834</drugbank-id>
+      <name>Mifepristone</name>
+      <description>The serum concentration of Cariprazine can be increased when it is combined with Mifepristone.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB00503</drugbank-id>
+      <name>Ritonavir</name>
+      <description>The metabolism of Cariprazine can be decreased when combined with Ritonavir.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB00679</drugbank-id>
+      <name>Thioridazine</name>
+      <description>The metabolism of Cariprazine can be decreased when combined with Thioridazine.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB00715</drugbank-id>
+      <name>Paroxetine</name>
+      <description>The metabolism of Cariprazine can be decreased when combined with Paroxetine.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB01012</drugbank-id>
+      <name>Cinacalcet</name>
+      <description>The metabolism of Cariprazine can be decreased when combined with Cinacalcet.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB00705</drugbank-id>
+      <name>Delavirdine</name>
+      <description>The metabolism of Cariprazine can be decreased when combined with Delavirdine.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB00857</drugbank-id>
+      <name>Terbinafine</name>
+      <description>The metabolism of Cariprazine can be decreased when combined with Terbinafine.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB00908</drugbank-id>
+      <name>Quinidine</name>
+      <description>The metabolism of Cariprazine can be decreased when combined with Quinidine.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB01156</drugbank-id>
+      <name>Bupropion</name>
+      <description>The metabolism of Cariprazine can be decreased when combined with Bupropion.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB01403</drugbank-id>
+      <name>Methotrimeprazine</name>
+      <description>The metabolism of Cariprazine can be decreased when combined with Methotrimeprazine.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB00472</drugbank-id>
+      <name>Fluoxetine</name>
+      <description>The metabolism of Cariprazine can be decreased when combined with Fluoxetine.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB00907</drugbank-id>
+      <name>Cocaine</name>
+      <description>The metabolism of Cariprazine can be decreased when combined with Cocaine.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB00932</drugbank-id>
+      <name>Tipranavir</name>
+      <description>The metabolism of Cariprazine can be decreased when combined with Tipranavir.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB06595</drugbank-id>
+      <name>Midostaurin</name>
+      <description>The metabolism of Cariprazine can be decreased when combined with Midostaurin.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB09167</drugbank-id>
+      <name>Dosulepin</name>
+      <description>The metabolism of Cariprazine can be decreased when combined with Dosulepin.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB08899</drugbank-id>
+      <name>Enzalutamide</name>
+      <description>The serum concentration of Cariprazine can be decreased when it is combined with Enzalutamide.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB06290</drugbank-id>
+      <name>Simeprevir</name>
+      <description>The serum concentration of Cariprazine can be increased when it is combined with Simeprevir.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB06603</drugbank-id>
+      <name>Panobinostat</name>
+      <description>The serum concentration of Cariprazine can be increased when it is combined with Panobinostat.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB01323</drugbank-id>
+      <name>St. John's Wort</name>
+      <description>The serum concentration of Cariprazine can be decreased when it is combined with St. John's Wort.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB11901</drugbank-id>
+      <name>Apalutamide</name>
+      <description>The serum concentration of Cariprazine can be decreased when it is combined with Apalutamide.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB08912</drugbank-id>
+      <name>Dabrafenib</name>
+      <description>The serum concentration of Cariprazine can be decreased when it is combined with Dabrafenib.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB01609</drugbank-id>
+      <name>Deferasirox</name>
+      <description>The serum concentration of Cariprazine can be decreased when it is combined with Deferasirox.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB06717</drugbank-id>
+      <name>Fosaprepitant</name>
+      <description>The serum concentration of Cariprazine can be increased when it is combined with Fosaprepitant.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB04844</drugbank-id>
+      <name>Tetrabenazine</name>
+      <description>The risk or severity of adverse effects can be increased when Tetrabenazine is combined with Cariprazine.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB08820</drugbank-id>
+      <name>Ivacaftor</name>
+      <description>The serum concentration of Cariprazine can be increased when it is combined with Ivacaftor.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB08933</drugbank-id>
+      <name>Luliconazole</name>
+      <description>The serum concentration of Cariprazine can be increased when it is combined with Luliconazole.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB11767</drugbank-id>
+      <name>Sarilumab</name>
+      <description>The therapeutic efficacy of Cariprazine can be decreased when used in combination with Sarilumab.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB09048</drugbank-id>
+      <name>Netupitant</name>
+      <description>The serum concentration of Cariprazine can be increased when it is combined with Netupitant.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB09073</drugbank-id>
+      <name>Palbociclib</name>
+      <description>The serum concentration of Cariprazine can be increased when it is combined with Palbociclib.</description>
+    </drug-interaction>
+    <drug-interaction>
+      <drugbank-id>DB09036</drugbank-id>
+      <name>Siltuximab</name>
+      <description>The serum concentration of Cariprazine can be decreased when it is combined with Siltuximab.</description>
+    </drug-interaction>
+  </drug-interactions>
+  <calculated-properties>
+    <property>
+      <kind>logP</kind>
+      <value>4.56</value>
+      <source>ALOGPS</source>
+    </property>
+    <property>
+      <kind>logS</kind>
+      <value>-4.2</value>
+      <source>ALOGPS</source>
+    </property>
+    <property>
+      <kind>Water Solubility</kind>
+      <value>2.79e-02 g/l</value>
+      <source>ALOGPS</source>
+    </property>
+    <property>
+      <kind>logP</kind>
+      <value>4.06</value>
+      <source>ChemAxon</source>
+    </property>
+    <property>
+      <kind>IUPAC Name</kind>
+      <value>3,3-dimethyl-1-[(1r,4r)-4-{2-[4-(2,3-dichlorophenyl)piperazin-1-yl]ethyl}cyclohexyl]urea</value>
+      <source>ChemAxon</source>
+    </property>
+    <property>
+      <kind>Traditional IUPAC Name</kind>
+      <value>cariprazine</value>
+      <source>ChemAxon</source>
+    </property>
+    <property>
+      <kind>Molecular Weight</kind>
+      <value>427.41</value>
+      <source>ChemAxon</source>
+    </property>
+    <property>
+      <kind>Monoisotopic Weight</kind>
+      <value>426.1953171</value>
+      <source>ChemAxon</source>
+    </property>
+    <property>
+      <kind>SMILES</kind>
+      <value>CN(C)C(=O)N[C@H]1CC[C@H](CCN2CCN(CC2)C2=C(Cl)C(Cl)=CC=C2)CC1</value>
+      <source>ChemAxon</source>
+    </property>
+    <property>
+      <kind>Molecular Formula</kind>
+      <value>C21H32Cl2N4O</value>
+      <source>ChemAxon</source>
+    </property>
+    <property>
+      <kind>InChI</kind>
+      <value>InChI=1S/C21H32Cl2N4O/c1-25(2)21(28)24-17-8-6-16(7-9-17)10-11-26-12-14-27(15-13-26)19-5-3-4-18(22)20(19)23/h3-5,16-17H,6-15H2,1-2H3,(H,24,28)/t16-,17-</value>
+      <source>ChemAxon</source>
+    </property>
+    <property>
+      <kind>InChIKey</kind>
+      <value>KPWSJANDNDDRMB-QAQDUYKDSA-N</value>
+      <source>ChemAxon</source>
+    </property>
+    <property>
+      <kind>Polar Surface Area (PSA)</kind>
+      <value>38.82</value>
+      <source>ChemAxon</source>
+    </property>
+    <property>
+      <kind>Refractivity</kind>
+      <value>117.81</value>
+      <source>ChemAxon</source>
+    </property>
+    <property>
+      <kind>Polarizability</kind>
+      <value>48.07</value>
+      <source>ChemAxon</source>
+    </property>
+    <property>
+      <kind>Rotatable Bond Count</kind>
+      <value>5</value>
+      <source>ChemAxon</source>
+    </property>
+    <property>
+      <kind>H Bond Acceptor Count</kind>
+      <value>3</value>
+      <source>ChemAxon</source>
+    </property>
+    <property>
+      <kind>H Bond Donor Count</kind>
+      <value>1</value>
+      <source>ChemAxon</source>
+    </property>
+    <property>
+      <kind>pKa (strongest acidic)</kind>
+      <value>15.68</value>
+      <source>ChemAxon</source>
+    </property>
+    <property>
+      <kind>pKa (strongest basic)</kind>
+      <value>7.91</value>
+      <source>ChemAxon</source>
+    </property>
+    <property>
+      <kind>Physiological Charge</kind>
+      <value>1</value>
+      <source>ChemAxon</source>
+    </property>
+    <property>
+      <kind>Number of Rings</kind>
+      <value>3</value>
+      <source>ChemAxon</source>
+    </property>
+    <property>
+      <kind>Bioavailability</kind>
+      <value>1</value>
+      <source>ChemAxon</source>
+    </property>
+    <property>
+      <kind>Rule of Five</kind>
+      <value>1</value>
+      <source>ChemAxon</source>
+    </property>
+    <property>
+      <kind>Ghose Filter</kind>
+      <value>1</value>
+      <source>ChemAxon</source>
+    </property>
+    <property>
+      <kind>MDDR-Like Rule</kind>
+      <value>0</value>
+      <source>ChemAxon</source>
+    </property>
+  </calculated-properties>
+  <experimental-properties/>
+  <external-identifiers>
+    <external-identifier>
+      <resource>ChEBI</resource>
+      <identifier>90933</identifier>
+    </external-identifier>
+    <external-identifier>
+      <resource>PubChem Compound</resource>
+      <identifier>11154555</identifier>
+    </external-identifier>
+    <external-identifier>
+      <resource>PubChem Substance</resource>
+      <identifier>310264859</identifier>
+    </external-identifier>
+    <external-identifier>
+      <resource>KEGG Drug</resource>
+      <identifier>D09997</identifier>
+    </external-identifier>
+    <external-identifier>
+      <resource>ChemSpider</resource>
+      <identifier>25999972</identifier>
+    </external-identifier>
+    <external-identifier>
+      <resource>BindingDB</resource>
+      <identifier>50443101</identifier>
+    </external-identifier>
+    <external-identifier>
+      <resource>Wikipedia</resource>
+      <identifier>Cariprazine</identifier>
+    </external-identifier>
+    <external-identifier>
+      <resource>ChEMBL</resource>
+      <identifier>CHEMBL2028019</identifier>
+    </external-identifier>
+  </external-identifiers>
+  <external-links>
+    <external-link>
+      <resource>Drugs.com</resource>
+      <url>http://www.drugs.com/mtm/cariprazine.html</url>
+    </external-link>
+  </external-links>
+  <pathways/>
+  <reactions/>
+  <snp-effects/>
+  <snp-adverse-drug-reactions/>
+  <targets>
+    <target>
+      <id>BE0000581</id>
+      <name>D(3) dopamine receptor</name>
+      <organism>Human</organism>
+      <actions>
+        <action>agonist</action>
+        <action>partial agonist</action>
+      </actions>
+      <references>
+        <articles>
+          <article>
+            <pubmed-id>23320989</pubmed-id>
+            <citation>Citrome L: Cariprazine: chemistry, pharmacodynamics, pharmacokinetics, and metabolism, clinical efficacy, safety, and tolerability. Expert Opin Drug Metab Toxicol. 2013 Feb;9(2):193-206. doi: 10.1517/17425255.2013.759211.</citation>
+          </article>
+        </articles>
+        <textbooks/>
+        <links/>
+      </references>
+      <known-action>yes</known-action>
+      <polypeptide id="P35462" source="Swiss-Prot">
+    <name>D(3) dopamine receptor</name>
+    <general-function>G-protein coupled amine receptor activity</general-function>
+    <specific-function>Dopamine receptor whose activity is mediated by G proteins which inhibit adenylyl cyclase. Promotes cell proliferation.</specific-function>
+    <gene-name>DRD3</gene-name>
+    <locus>3q13.3</locus>
+    <cellular-location>Cell membrane</cellular-location>
+    <transmembrane-regions>33-55
+66-88
+105-126
+150-170
+188-212
+330-351
+367-388</transmembrane-regions>
+    <signal-regions/>
+    <theoretical-pi>9.07</theoretical-pi>
+    <molecular-weight>44224.335</molecular-weight>
+    <chromosome-location>3</chromosome-location>
+    <organism ncbi-taxonomy-id="9606">Human</organism>
+    <external-identifiers>
+      <external-identifier>
+        <resource>HUGO Gene Nomenclature Committee (HGNC)</resource>
+        <identifier>HGNC:3024</identifier>
+      </external-identifier>
+      <external-identifier>
+        <resource>GenAtlas</resource>
+        <identifier>DRD3</identifier>
+      </external-identifier>
+      <external-identifier>
+        <resource>GenBank Gene Database</resource>
+        <identifier>U32499</identifier>
+      </external-identifier>
+      <external-identifier>
+        <resource>GenBank Protein Database</resource>
+        <identifier>927342</identifier>
+      </external-identifier>
+      <external-identifier>
+        <resource>IUPHAR</resource>
+        <identifier>216</identifier>
+      </external-identifier>
+      <external-identifier>
+        <resource>Guide to Pharmacology</resource>
+        <identifier>216</identifier>
+      </external-identifier>
+      <external-identifier>
+        <resource>UniProtKB</resource>
+        <identifier>P35462</identifier>
+      </external-identifier>
+      <external-identifier>
+        <resource>UniProt Accession</resource>
+        <identifier>DRD3_HUMAN</identifier>
+      </external-identifier>
+    </external-identifiers>
+    <synonyms>
+      <synonym>Dopamine D3 receptor</synonym>
+    </synonyms>
+    <amino-acid-sequence format="FASTA">&gt;lcl|BSEQ0001159|D(3) dopamine receptor
+MASLSQLSSHLNYTCGAENSTGASQARPHAYYALSYCALILAIVFGNGLVCMAVLKERAL
+QTTTNYLVVSLAVADLLVATLVMPWVVYLEVTGGVWNFSRICCDVFVTLDVMMCTASILN
+LCAISIDRYTAVVMPVHYQHGTGQSSCRRVALMITAVWVLAFAVSCPLLFGFNTTGDPTV
+CSISNPDFVIYSSVVSFYLPFGVTVLVYARIYVVLKQRRRKRILTRQNSQCNSVRPGFPQ
+QTLSPDPAHLELKRYYSICQDTALGGPGFQERGGELKREEKTRNSLSPTIAPKLSLEVRK
+LSNGRLSTSLKLGPLQPRGVPLREKKATQMVAIVLGAFIVCWLPFFLTHVLNTHCQTCHV
+SPELYSATTWLGYVNSALNPVIYTTFNIEFRKAFLKILSC</amino-acid-sequence>
+    <gene-sequence format="FASTA">&gt;lcl|BSEQ0021269|D(3) dopamine receptor (DRD3)
+ATGGCATCTCTGAGCCAGCTGAGTGGCCACCTGAACTACACCTGTGGGGCAGAGAACTCC
+ACAGGTGCCAGCCAGGCCCGCCCACATGCCTACTATGCCCTCTCCTACTGCGCGCTCATC
+CTGGCCATCGTCTTCGGCAATGGCCTGGTGTGCATGGCTGTGCTGAAGGAGCGGGCCCTG
+CAGACTACCACCAACTACTTAGTAGTGAGCCTGGCTGTGGCAGACTTGCTGGTGGCCACC
+TTGGTGATGCCCTGGGTGGTATACCTGGAGGTGACAGGTGGAGTCTGGAATTTCAGCCGC
+ATTTGCTGTGATGTTTTTGTCACCCTGGATGTCATGATGTGTACAGCCAGCATCCTTAAT
+CTCTGTGCCATCAGCATAGACAGGTACACTGCAGTGGTCATGCCCGTTCACTACCAGCAT
+GGCACGGGACAGAGCTCCTGTCGGCGCGTGGCCCTCATGATCACGGCCGTCTGGGTACTG
+GCCTTTGCTGTGTCCTGCCCTCTTCTGTTTGGCTTTAATACCACAGGGGACCCCACTGTC
+TGCTCCATCTCCAACCCTGATTTTGTCATCTACTCTTCAGTGGTGTCCTTCTACCTGCCC
+TTTGGAGTGACTGTCCTTGTCTATGCCAGAATCTATGTGGTGCTGAAACAAAGGAGACGG
+AAAAGGATCCTCACTCGACAGAACAGTCAGTGCAACAGTGTCAGGCCTGGCTTCCCCCAA
+CAAACCCTCTCTCCTGACCCGGCACATCTGGAGCTGAAGCGTTACTACAGCATCTGCCAG
+GACACTGCCTTGGGTGGACCAGGCTTCCAAGAAAGAGGAGGAGAGTTGAAAAGAGAGGAG
+AAGACTCGGAATTCCCTGAGTCCCACCATAGCGCCCAAGCTCAGCTTAGAAGTTCGAAAA
+CTCAGCAATGGCAGATTATCGACATCTTTGAAGCTGGGGCCCCTGCAACCTCGGGGAGTG
+CCACTTCGGGAGAAGAAGGCAACCCAAATGGTGGCCATTGTGCTTGGGGCCTTCATTGTC
+TGCTGGCTGCCCTTCTTCTTGACCCATGTTCTCAATACCCACTGCCAGACATGCCACGTG
+TCCCCAGAGCTTTACAGTGCCACGACATGGCTGGGCTACGTGAATAGCGCCCTCAACCCT
+GTGATCTATACCACCTTCAATATCGAGTTCCGGAAAGCCTTCCTCAAGATCCTGTCTTGC
+TGA</gene-sequence>
+    <pfams>
+      <pfam>
+        <identifier>PF00001</identifier>
+        <name>7tm_1</name>
+      </pfam>
+    </pfams>
+    <go-classifiers>
+      <go-classifier>
+        <category>component</category>
+        <description>plasma membrane</description>
+      </go-classifier>
+      <go-classifier>
+        <category>component</category>
+        <description>endocytic vesicle</description>
+      </go-classifier>
+      <go-classifier>
+        <category>component</category>
+        <description>integral component of plasma membrane</description>
+      </go-classifier>
+      <go-classifier>
+        <category>component</category>
+        <description>apical part of cell</description>
+      </go-classifier>
+      <go-classifier>
+        <category>component</category>
+        <description>cell projection</description>
+      </go-classifier>
+      <go-classifier>
+        <category>function</category>
+        <description>drug binding</description>
+      </go-classifier>
+      <go-classifier>
+        <category>function</category>
+        <description>dopamine neurotransmitter receptor activity, coupled via Gi/Go</description>
+      </go-classifier>
+      <go-classifier>
+        <category>function</category>
+        <description>dopamine binding</description>
+      </go-classifier>
+      <go-classifier>
+        <category>function</category>
+        <description>G-protein coupled amine receptor activity</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>response to cocaine</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>negative regulation of dopamine receptor signaling pathway</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>musculoskeletal movement, spinal reflex action</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>regulation of blood volume by renin-angiotensin</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>response to amphetamine</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>negative regulation of oligodendrocyte differentiation</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>synaptic transmission, dopaminergic</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>negative regulation of sodium</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>regulation of locomotion involved in locomotory behavior</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>response to drug</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>negative regulation of transcription from RNA polymerase II promoter</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>G-protein coupled receptor internalization</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>negative regulation of adenylate cyclase activity</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>adenylate cyclase-inhibiting dopamine receptor signaling pathway</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>regulation of lipid metabolic process</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>positive regulation of renal sodium excretion</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>arachidonic acid secretion</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>synaptic transmission</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>regulation of multicellular organism growth</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>negative regulation of protein kinase B signaling</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>social behavior</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>negative regulation of protein secretion</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>acid secretion</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>positive regulation of mitotic nuclear division</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>positive regulation of transcription from RNA polymerase II promoter</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>response to histamine</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>regulation of circadian sleep/wake cycle, sleep</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>G-protein coupled receptor signaling pathway</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>positive regulation of cytokinesis</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>adenylate cyclase-activating dopamine receptor signaling pathway</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>regulation of cAMP metabolic process</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>sensory perception of chemical stimulus</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>learning or memory</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>cellular calcium ion homeostasis</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>positive regulation of dopamine receptor signaling pathway</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>visual learning</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>positive regulation of cell proliferation</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>prepulse inhibition</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>learning</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>regulation of dopamine uptake involved in synaptic transmission</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>response to morphine</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>dopamine metabolic process</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>regulation of dopamine secretion</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>negative regulation of blood pressure</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>gastric emptying</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>behavioral response to cocaine</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>locomotory behavior</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>circadian regulation of gene expression</description>
+      </go-classifier>
+    </go-classifiers>
+  </polypeptide>
+    </target>
+    <target>
+      <id>BE0000756</id>
+      <name>D(2) dopamine receptor</name>
+      <organism>Human</organism>
+      <actions>
+        <action>agonist</action>
+        <action>partial agonist</action>
+      </actions>
+      <references>
+        <articles>
+          <article>
+            <pubmed-id>23320989</pubmed-id>
+            <citation>Citrome L: Cariprazine: chemistry, pharmacodynamics, pharmacokinetics, and metabolism, clinical efficacy, safety, and tolerability. Expert Opin Drug Metab Toxicol. 2013 Feb;9(2):193-206. doi: 10.1517/17425255.2013.759211.</citation>
+          </article>
+        </articles>
+        <textbooks/>
+        <links/>
+      </references>
+      <known-action>yes</known-action>
+      <polypeptide id="P14416" source="Swiss-Prot">
+    <name>D(2) dopamine receptor</name>
+    <general-function>Potassium channel regulator activity</general-function>
+    <specific-function>Dopamine receptor whose activity is mediated by G proteins which inhibit adenylyl cyclase.</specific-function>
+    <gene-name>DRD2</gene-name>
+    <locus>11q23</locus>
+    <cellular-location>Cell membrane</cellular-location>
+    <transmembrane-regions>38-60
+71-93
+109-130
+152-172
+189-213
+374-395
+410-431</transmembrane-regions>
+    <signal-regions/>
+    <theoretical-pi>9.85</theoretical-pi>
+    <molecular-weight>50618.91</molecular-weight>
+    <chromosome-location>11</chromosome-location>
+    <organism ncbi-taxonomy-id="9606">Human</organism>
+    <external-identifiers>
+      <external-identifier>
+        <resource>HUGO Gene Nomenclature Committee (HGNC)</resource>
+        <identifier>HGNC:3023</identifier>
+      </external-identifier>
+      <external-identifier>
+        <resource>GenAtlas</resource>
+        <identifier>DRD2</identifier>
+      </external-identifier>
+      <external-identifier>
+        <resource>GenBank Gene Database</resource>
+        <identifier>M30625</identifier>
+      </external-identifier>
+      <external-identifier>
+        <resource>GenBank Protein Database</resource>
+        <identifier>181432</identifier>
+      </external-identifier>
+      <external-identifier>
+        <resource>IUPHAR</resource>
+        <identifier>215</identifier>
+      </external-identifier>
+      <external-identifier>
+        <resource>Guide to Pharmacology</resource>
+        <identifier>215</identifier>
+      </external-identifier>
+      <external-identifier>
+        <resource>UniProtKB</resource>
+        <identifier>P14416</identifier>
+      </external-identifier>
+      <external-identifier>
+        <resource>UniProt Accession</resource>
+        <identifier>DRD2_HUMAN</identifier>
+      </external-identifier>
+    </external-identifiers>
+    <synonyms>
+      <synonym>Dopamine D2 receptor</synonym>
+    </synonyms>
+    <amino-acid-sequence format="FASTA">&gt;lcl|BSEQ0001508|D(2) dopamine receptor
+MDPLNLSWYDDDLERQNWSRPFNGSDGKADRPHYNYYATLLTLLIAVIVFGNVLVCMAVS
+REKALQTTTNYLIVSLAVADLLVATLVMPWVVYLEVVGEWKFSRIHCDIFVTLDVMMCTA
+SILNLCAISIDRYTAVAMPMLYNTRYSSKRRVTVMISIVWVLSFTISCPLLFGLNNADQN
+ECIIANPAFVVYSSIVSFYVPFIVTLLVYIKIYIVLRRRRKRVNTKRSSRAFRAHLRAPL
+KGNCTHPEDMKLCTVIMKSNGSFPVNRRRVEAARRAQELEMEMLSSTSPPERTRYSPIPP
+SHHQLTLPDPSHHGLHSTPDSPAKPEKNGHAKDHPKIAKIFEIQTMPNGKTRTSLKTMSR
+RKLSQQKEKKATQMLAIVLGVFIICWLPFFITHILNIHCDCNIPPVLYSAFTWLGYVNSA
+VNPIIYTTFNIEFRKAFLKILHC</amino-acid-sequence>
+    <gene-sequence format="FASTA">&gt;lcl|BSEQ0021274|D(2) dopamine receptor (DRD2)
+ATGGATCCACTGAATCTGTCCTGGTATGATGATGATCTGGAGAGGCAGAACTGGAGCCGG
+CCCTTCAACGGGTCAGACGGGAAGGCGGACAGACCCCACTACAACTACTATGCCACACTG
+CTCACCCTGCTCATCGCTGTCATCGTCTTCGGCAACGTGCTGGTGTGCATGGCTGTGTCC
+CGCGAGAAGGCGCTGCAGACCACCACCAACTACCTGATCGTCAGCCTCGCAGTGGCCGAC
+CTCCTCGTCGCCACACTGGTCATGCCCTGGGTTGTCTACCTGGAGGTGGTAGGTGAGTGG
+AAATTCAGCAGGATTCACTGTGACATCTTCGTCACTCTGGACGTCATGATGTGCACGGCG
+AGCATCCTGAACTTGTGTGCCATCAGCATCGACAGGTACACAGCTGTGGCCATGCCCATG
+CTGTACAATACGCGCTACAGCTCCAAGCGCCGGGTCACCGTCATGATCTCCATCGTCTGG
+GTCCTGTCCTTCACCATCTCCTGCCCACTCCTCTTCGGACTCAATAACGCAGACCAGAAC
+GAGTGCATCATTGCCAACCCGGCCTTCGTGGTCTACTCCTCCATCGTCTCCTTCTACGTG
+CCCTTCATTGTCACCCTGCTGGTCTACATCAAGATCTACATTGTCCTCCGCAGACGCCGC
+AAGCGAGTCAACACCAAACGCAGCAGCCGAGCTTTCAGGGCCCACCTGAGGGCTCCACTA
+AAGGGCAACTGTACTCACCCCGAGGACATGAAACTCTGCACCGTTATCATGAAGTCTAAT
+GGGAGTTTCCCAGTGAACAGGCGGAGAGTGGAGGCTGCCCGGCGAGCCCAGGAGCTGGAG
+ATGGAGATGCTCTCCAGCACCAGCCCACCCGAGAGGACCCGGTACAGCCCCATCCCACCC
+AGCCACCACCAGCTGACTCTCCCCGACCCGTCCCACCATGGTCTCCACAGCACTCCCGAC
+AGCCCCGCCAAACCAGAGAAGAATGGGCATGCCAAAGACCACCCCAAGATTGCCAAGATC
+TTTGAGATCCAGACCATGCCCAATGGCAAAACCCGGACCTCCCTCAAGACCATGAGCCGT
+AGGAAGCTCTCCCAGCAGAAGGAGAAGAAAGCCACTCAGATGCTCGCCATTGTTCTCGGC
+GTGTTCATCATCTGCTGGCTGCCCTTCTTCATCACACACATCCTGAACATACACTGTGAC
+TGCAACATCCCGCCTGTCCTGTACAGCGCCTTCACGTGGCTGGGCTATGTCAACAGCGCC
+GTGAACCCCATCATCTACACCACCTTCAACATTGAGTTCCGCAAGGCCTTCCTGAAGATC
+CTCCACTGCTGA</gene-sequence>
+    <pfams>
+      <pfam>
+        <identifier>PF00001</identifier>
+        <name>7tm_1</name>
+      </pfam>
+    </pfams>
+    <go-classifiers>
+      <go-classifier>
+        <category>component</category>
+        <description>postsynaptic density</description>
+      </go-classifier>
+      <go-classifier>
+        <category>component</category>
+        <description>axon</description>
+      </go-classifier>
+      <go-classifier>
+        <category>component</category>
+        <description>axon terminus</description>
+      </go-classifier>
+      <go-classifier>
+        <category>component</category>
+        <description>perikaryon</description>
+      </go-classifier>
+      <go-classifier>
+        <category>component</category>
+        <description>intracellular</description>
+      </go-classifier>
+      <go-classifier>
+        <category>component</category>
+        <description>dendrite</description>
+      </go-classifier>
+      <go-classifier>
+        <category>component</category>
+        <description>dendritic spine</description>
+      </go-classifier>
+      <go-classifier>
+        <category>component</category>
+        <description>endocytic vesicle</description>
+      </go-classifier>
+      <go-classifier>
+        <category>component</category>
+        <description>plasma membrane</description>
+      </go-classifier>
+      <go-classifier>
+        <category>component</category>
+        <description>sperm flagellum</description>
+      </go-classifier>
+      <go-classifier>
+        <category>component</category>
+        <description>synaptic vesicle membrane</description>
+      </go-classifier>
+      <go-classifier>
+        <category>component</category>
+        <description>acrosomal vesicle</description>
+      </go-classifier>
+      <go-classifier>
+        <category>component</category>
+        <description>ciliary membrane</description>
+      </go-classifier>
+      <go-classifier>
+        <category>component</category>
+        <description>lateral plasma membrane</description>
+      </go-classifier>
+      <go-classifier>
+        <category>component</category>
+        <description>cytosol</description>
+      </go-classifier>
+      <go-classifier>
+        <category>component</category>
+        <description>nonmotile primary cilium</description>
+      </go-classifier>
+      <go-classifier>
+        <category>component</category>
+        <description>integral component of plasma membrane</description>
+      </go-classifier>
+      <go-classifier>
+        <category>function</category>
+        <description>drug binding</description>
+      </go-classifier>
+      <go-classifier>
+        <category>function</category>
+        <description>dopamine binding</description>
+      </go-classifier>
+      <go-classifier>
+        <category>function</category>
+        <description>identical protein binding</description>
+      </go-classifier>
+      <go-classifier>
+        <category>function</category>
+        <description>dopamine neurotransmitter receptor activity, coupled via Gi/Go</description>
+      </go-classifier>
+      <go-classifier>
+        <category>function</category>
+        <description>potassium channel regulator activity</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>adenohypophysis development</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>negative regulation of dopamine receptor signaling pathway</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>regulation of synaptic transmission, GABAergic</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>G-protein coupled receptor internalization</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>positive regulation of glial cell-derived neurotrophic factor secretion</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>phospholipase C-activating dopamine receptor signaling pathway</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>response to nicotine</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>arachidonic acid secretion</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>positive regulation of G-protein coupled receptor protein signaling pathway</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>prepulse inhibition</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>regulation of locomotion involved in locomotory behavior</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>negative regulation of dopamine secretion</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>response to morphine</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>neurological system process involved in regulation of systemic arterial blood pressure</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>response to cocaine</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>negative regulation of insulin secretion</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>behavioral response to ethanol</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>regulation of long-term neuronal synaptic plasticity</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>sensory perception of smell</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>response to toxic substance</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>protein localization</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>auditory behavior</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>response to drug</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>synaptic transmission, dopaminergic</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>response to inactivity</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>negative regulation of protein secretion</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>regulation of synapse structural plasticity</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>Wnt signaling pathway</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>positive regulation of multicellular organism growth</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>regulation of phosphoprotein phosphatase activity</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>negative regulation of adenylate cyclase activity</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>intracellular signal transduction</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>negative regulation of synaptic transmission, glutamatergic</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>negative regulation of voltage-gated calcium channel activity</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>branching morphogenesis of a nerve</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>axonogenesis</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>response to light stimulus</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>positive regulation of renal sodium excretion</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>regulation of cAMP metabolic process</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>positive regulation of cytosolic calcium ion concentration involved in phospholipase C-activating G-protein coupled signaling pathway</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>temperature homeostasis</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>positive regulation of dopamine uptake involved in synaptic transmission</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>orbitofrontal cortex development</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>behavioral response to cocaine</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>negative regulation of protein kinase B signaling</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>cerebral cortex GABAergic interneuron migration</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>dopamine metabolic process</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>regulation of sodium ion transport</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>response to histamine</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>regulation of dopamine secretion</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>regulation of heart rate</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>negative regulation of cytosolic calcium ion concentration</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>pigmentation</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>positive regulation of growth hormone secretion</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>grooming behavior</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>adult walking behavior</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>positive regulation of cytokinesis</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>circadian regulation of gene expression</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>phosphatidylinositol metabolic process</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>synapse assembly</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>peristalsis</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>feeding behavior</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>positive regulation of long-term synaptic potentiation</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>locomotory behavior</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>long-term memory</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>positive regulation of neuroblast proliferation</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>associative learning</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>positive regulation of ERK1 and ERK2 cascade</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>neuron-neuron synaptic transmission</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>negative regulation of cell proliferation</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>regulation of potassium ion transport</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>negative regulation of circadian sleep/wake cycle, sleep</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>response to amphetamine</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>visual learning</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>positive regulation of urine volume</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>cellular calcium ion homeostasis</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>positive regulation of transcription from RNA polymerase II promoter</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>response to axon injury</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>negative regulation of innate immune response</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>release of sequestered calcium ion into cytosol</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>regulation of dopamine uptake involved in synaptic transmission</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>striatum development</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>response to iron ion</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>positive regulation of receptor internalization</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>negative regulation of blood pressure</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>response to hypoxia</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>negative regulation of cell migration</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>adenylate cyclase-inhibiting dopamine receptor signaling pathway</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>activation of protein kinase activity</description>
+      </go-classifier>
+    </go-classifiers>
+  </polypeptide>
+    </target>
+    <target position="3">
+      <id>BE0000291</id>
+      <name>5-hydroxytryptamine receptor 1A</name>
+      <organism>Human</organism>
+      <actions>
+        <action>agonist</action>
+        <action>partial agonist</action>
+      </actions>
+      <references>
+        <articles>
+          <article>
+            <pubmed-id>26510944</pubmed-id>
+            <citation>McCormack PL: Cariprazine: First Global Approval. Drugs. 2015 Nov;75(17):2035-43. doi: 10.1007/s40265-015-0494-7.</citation>
+          </article>
+        </articles>
+        <textbooks/>
+        <links/>
+      </references>
+      <known-action>yes</known-action>
+      <polypeptide id="P08908" source="Swiss-Prot">
+    <name>5-hydroxytryptamine receptor 1A</name>
+    <general-function>Serotonin receptor activity</general-function>
+    <specific-function>G-protein coupled receptor for 5-hydroxytryptamine (serotonin). Also functions as a receptor for various drugs and psychoactive substances. Ligand binding causes a conformation change that triggers signaling via guanine nucleotide-binding proteins (G proteins) and modulates the activity of down-stream effectors, such as adenylate cyclase. Beta-arrestin family members inhibit signaling via G proteins and mediate activation of alternative signaling pathways. Signaling inhibits adenylate cyclase activity and activates a phosphatidylinositol-calcium second messenger system that regulates the release of Ca(2+) ions from intracellular stores. Plays a role in the regulation of 5-hydroxytryptamine release and in the regulation of dopamine and 5-hydroxytryptamine metabolism. Plays a role in the regulation of dopamine and 5-hydroxytryptamine levels in the brain, and thereby affects neural activity, mood and behavior. Plays a role in the response to anxiogenic stimuli.</specific-function>
+    <gene-name>HTR1A</gene-name>
+    <locus>5q11.2-q13</locus>
+    <cellular-location>Cell membrane</cellular-location>
+    <transmembrane-regions>37-62
+74-98
+111-132
+153-178
+192-217
+346-367
+379-403</transmembrane-regions>
+    <signal-regions/>
+    <theoretical-pi>9.05</theoretical-pi>
+    <molecular-weight>46106.335</molecular-weight>
+    <chromosome-location>5</chromosome-location>
+    <organism ncbi-taxonomy-id="9606">Human</organism>
+    <external-identifiers>
+      <external-identifier>
+        <resource>HUGO Gene Nomenclature Committee (HGNC)</resource>
+        <identifier>HGNC:5286</identifier>
+      </external-identifier>
+      <external-identifier>
+        <resource>GenAtlas</resource>
+        <identifier>HTR1A</identifier>
+      </external-identifier>
+      <external-identifier>
+        <resource>GenBank Gene Database</resource>
+        <identifier>M28269</identifier>
+      </external-identifier>
+      <external-identifier>
+        <resource>GenBank Protein Database</resource>
+        <identifier>189928</identifier>
+      </external-identifier>
+      <external-identifier>
+        <resource>IUPHAR</resource>
+        <identifier>1</identifier>
+      </external-identifier>
+      <external-identifier>
+        <resource>Guide to Pharmacology</resource>
+        <identifier>1</identifier>
+      </external-identifier>
+      <external-identifier>
+        <resource>UniProtKB</resource>
+        <identifier>P08908</identifier>
+      </external-identifier>
+      <external-identifier>
+        <resource>UniProt Accession</resource>
+        <identifier>5HT1A_HUMAN</identifier>
+      </external-identifier>
+    </external-identifiers>
+    <synonyms>
+      <synonym>5-HT-1A</synonym>
+      <synonym>ADRB2RL1</synonym>
+      <synonym>ADRBRL1</synonym>
+      <synonym>G-21</synonym>
+      <synonym>Serotonin receptor 1A</synonym>
+    </synonyms>
+    <amino-acid-sequence format="FASTA">&gt;lcl|BSEQ0018934|5-hydroxytryptamine receptor 1A
+MDVLSPGQGNNTTSPPAPFETGGNTTGISDVTVSYQVITSLLLGTLIFCAVLGNACVVAA
+IALERSLQNVANYLIGSLAVTDLMVSVLVLPMAALYQVLNKWTLGQVTCDLFIALDVLCC
+TSSILHLCAIALDRYWAITDPIDYVNKRTPRRAAALISLTWLIGFLISIPPMLGWRTPED
+RSDPDACTISKDHGYTIYSTFGAFYIPLLLMLVLYGRIFRAARFRIRKTVKKVEKTGADT
+RHGASPAPQPKKSVNGESGSRNWRLGVESKAGGALCANGAVRQGDDGAALEVIEVHRVGN
+SKEHLPLPSEAGPTPCAPASFERKNERNAEAKRKMALARERKTVKTLGIIMGTFILCWLP
+FFIVALVLPFCESSCHMPTLLGAIINWLGYSNSLLNPVIYAYFNKDFQNAFKKIIKCKFC
+RQ</amino-acid-sequence>
+    <gene-sequence format="FASTA">&gt;lcl|BSEQ0018935|5-hydroxytryptamine receptor 1A (HTR1A)
+ATGGATGTGCTCAGCCCTGGTCAGGGCAACAACACCACATCACCACCGGCTCCCTTTGAG
+ACCGGCGGCAACACTACTGGTATCTCCGACGTGACCGTCAGCTACCAAGTGATCACCTCT
+CTGCTGCTGGGCACGCTCATCTTCTGCGCGGTGCTGGGCAATGCGTGCGTGGTGGCTGCC
+ATCGCCTTGGAGCGCTCCCTGCAGAACGTGGCCAATTATCTTATTGGCTCTTTGGCGGTC
+ACCGACCTCATGGTGTCGGTGTTGGTGCTGCCCATGGCCGCGCTGTATCAGGTGCTCAAC
+AAGTGGACACTGGGCCAGGTAACCTGCGACCTGTTCATCGCCCTCGACGTGCTGTGCTGC
+ACCTCATCCATCTTGCACCTGTGCGCCATCGCGCTGGACAGGTACTGGGCCATCACGGAC
+CCCATCGACTACGTGAACAAGAGGACGCCCCGGCGCGCCGCTGCGCTCATCTCGCTCACT
+TGGCTTATTGGCTTCCTCATCTCTATCCCGCCCATGCTGGGCTGGCGCACCCCGGAAGAC
+CGCTCGGACCCCGACGCATGCACCATTAGCAAGGATCATGGCTACACTATCTATTCCACC
+TTTGGAGCTTTCTACATCCCGCTGCTGCTCATGCTGGTTCTCTATGGGCGCATATTCCGA
+GCTGCGCGCTTCCGCATCCGCAAGACGGTCAAAAAGGTGGAGAAGACCGGAGCGGACACC
+CGCCATGGAGCATCTCCCGCCCCGCAGCCCAAGAAGAGTGTGAATGGAGAGTCGGGGAGC
+AGGAACTGGAGGCTGGGCGTGGAGAGCAAGGCTGGGGGTGCTCTGTGCGCCAATGGCGCG
+GTGAGGCAAGGTGACGATGGCGCCGCCCTGGAGGTGATCGAGGTGCACCGAGTGGGCAAC
+TCCAAAGAGCACTTGCCTCTGCCCAGCGAGGCTGGTCCTACCCCTTGTGCCCCCGCCTCT
+TTCGAGAGGAAAAATGAGCGCAACGCCGAGGCGAAGCGCAAGATGGCCCTGGCCCGAGAG
+AGGAAGACAGTGAAGACGCTGGGCATCATCATGGGCACCTTCATCCTCTGCTGGCTGCCC
+TTCTTCATCGTGGCTCTTGTTCTGCCCTTCTGCGAGAGCAGCTGCCACATGCCCACCCTG
+TTGGGCGCCATAATCAATTGGCTGGGCTACTCCAACTCTCTGCTTAACCCCGTCATTTAC
+GCATACTTCAACAAGGACTTTCAAAACGCGTTTAAGAAGATCATTAAGTGTAAGTTCTGC
+CGCCAGTGA</gene-sequence>
+    <pfams>
+      <pfam>
+        <identifier>PF00001</identifier>
+        <name>7tm_1</name>
+      </pfam>
+    </pfams>
+    <go-classifiers>
+      <go-classifier>
+        <category>component</category>
+        <description>plasma membrane</description>
+      </go-classifier>
+      <go-classifier>
+        <category>component</category>
+        <description>integral component of plasma membrane</description>
+      </go-classifier>
+      <go-classifier>
+        <category>function</category>
+        <description>serotonin receptor activity</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>regulation of behavior</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>cell proliferation</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>serotonin metabolic process</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>exploration behavior</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>G-protein coupled receptor signaling pathway</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>regulation of serotonin secretion</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>positive regulation of cell proliferation</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>adenylate cyclase-inhibiting serotonin receptor signaling pathway</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>serotonin receptor signaling pathway</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>behavioral fear response</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>regulation of dopamine metabolic process</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>regulation of hormone secretion</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>vasoconstriction</description>
+      </go-classifier>
+    </go-classifiers>
+  </polypeptide>
+    </target>
+    <target position="4">
+      <id>BE0000393</id>
+      <name>5-hydroxytryptamine receptor 2B</name>
+      <organism>Human</organism>
+      <actions>
+        <action>antagonist</action>
+      </actions>
+      <references>
+        <articles>
+          <article>
+            <pubmed-id>26510944</pubmed-id>
+            <citation>McCormack PL: Cariprazine: First Global Approval. Drugs. 2015 Nov;75(17):2035-43. doi: 10.1007/s40265-015-0494-7.</citation>
+          </article>
+        </articles>
+        <textbooks/>
+        <links/>
+      </references>
+      <known-action>yes</known-action>
+      <polypeptide id="P41595" source="Swiss-Prot">
+    <name>5-hydroxytryptamine receptor 2B</name>
+    <general-function>Serotonin receptor activity</general-function>
+    <specific-function>G-protein coupled receptor for 5-hydroxytryptamine (serotonin). Also functions as a receptor for various ergot alkaloid derivatives and psychoactive substances. Ligand binding causes a conformation change that triggers signaling via guanine nucleotide-binding proteins (G proteins) and modulates the activity of down-stream effectors. Beta-arrestin family members inhibit signaling via G proteins and mediate activation of alternative signaling pathways. Signaling activates a phosphatidylinositol-calcium second messenger system that modulates the activity of phosphatidylinositol 3-kinase and down-stream signaling cascades and promotes the release of Ca(2+) ions from intracellular stores. Plays a role in the regulation of dopamine and 5-hydroxytryptamine release, 5-hydroxytryptamine uptake and in the regulation of extracellular dopamine and 5-hydroxytryptamine levels, and thereby affects neural activity. May play a role in the perception of pain. Plays a role in the regulation of behavior, including impulsive behavior. Required for normal proliferation of embryonic cardiac myocytes and normal heart development. Protects cardiomyocytes against apoptosis. Plays a role in the adaptation of pulmonary arteries to chronic hypoxia. Plays a role in vasoconstriction. Required for normal osteoblast function and proliferation, and for maintaining normal bone density. Required for normal proliferation of the interstitial cells of Cajal in the intestine.</specific-function>
+    <gene-name>HTR2B</gene-name>
+    <locus>2q36.3-q37.1</locus>
+    <cellular-location>Cell membrane</cellular-location>
+    <transmembrane-regions>57-79
+91-113
+130-151
+172-192
+217-239
+325-345
+361-382</transmembrane-regions>
+    <signal-regions/>
+    <theoretical-pi>9.47</theoretical-pi>
+    <molecular-weight>54297.41</molecular-weight>
+    <chromosome-location>2</chromosome-location>
+    <organism ncbi-taxonomy-id="9606">Human</organism>
+    <external-identifiers>
+      <external-identifier>
+        <resource>HUGO Gene Nomenclature Committee (HGNC)</resource>
+        <identifier>HGNC:5294</identifier>
+      </external-identifier>
+      <external-identifier>
+        <resource>GenAtlas</resource>
+        <identifier>HTR2B</identifier>
+      </external-identifier>
+      <external-identifier>
+        <resource>GenBank Gene Database</resource>
+        <identifier>X77307</identifier>
+      </external-identifier>
+      <external-identifier>
+        <resource>GenBank Protein Database</resource>
+        <identifier>475198</identifier>
+      </external-identifier>
+      <external-identifier>
+        <resource>IUPHAR</resource>
+        <identifier>7</identifier>
+      </external-identifier>
+      <external-identifier>
+        <resource>Guide to Pharmacology</resource>
+        <identifier>7</identifier>
+      </external-identifier>
+      <external-identifier>
+        <resource>UniProtKB</resource>
+        <identifier>P41595</identifier>
+      </external-identifier>
+      <external-identifier>
+        <resource>UniProt Accession</resource>
+        <identifier>5HT2B_HUMAN</identifier>
+      </external-identifier>
+    </external-identifiers>
+    <synonyms>
+      <synonym>5-HT-2B</synonym>
+      <synonym>Serotonin receptor 2B</synonym>
+    </synonyms>
+    <amino-acid-sequence format="FASTA">&gt;lcl|BSEQ0016078|5-hydroxytryptamine receptor 2B
+MALSYRVSELQSTIPEHILQSTFVHVISSNWSGLQTESIPEEMKQIVEEQGNKLHWAALL
+ILMVIIPTIGGNTLVILAVSLEKKLQYATNYFLMSLAVADLLVGLFVMPIALLTIMFEAM
+WPLPLVLCPAWLFLDVLFSTASIMHLCAISVDRYIAIKKPIQANQYNSRATAFIKITVVW
+LISIGIAIPVPIKGIETDVDNPNNITCVLTKERFGDFMLFGSLAAFFTPLAIMIVTYFLT
+IHALQKKAYLVKNKPPQRLTWLTVSTVFQRDETPCSSPEKVAMLDGSRKDKALPNSGDET
+LMRRTSTIGKKSVQTISNEQRASKVLGIVFFLFLLMWCPFFITNITLVLCDSCNQTTLQM
+LLEIFVWIGYVSSGVNPLVYTLFNKTFRDAFGRYITCNYRATKSVKTLRKRSSKIYFRNP
+MAENSKFFKKHGIRNGINPAMYQSPMRLRSSTIQSSSIILLDTLLLTENEGDKTEEQVSY
+V</amino-acid-sequence>
+    <gene-sequence format="FASTA">&gt;lcl|BSEQ0016079|5-hydroxytryptamine receptor 2B (HTR2B)
+ATGGCTCTCTCTTACAGAGTGTCTGAACTTCAAAGCACAATTCCTGAGCACATTTTGCAG
+AGCACCTTTGTTCACGTTATCTCTTCTAACTGGTCTGGATTACAGACAGAATCAATACCA
+GAGGAAATGAAACAGATTGTTGAGGAACAGGGAAATAAACTGCACTGGGCAGCTCTTCTG
+ATACTCATGGTGATAATACCCACAATTGGTGGAAATACCCTTGTTATTCTGGCTGTTTCA
+CTGGAGAAGAAGCTGCAGTATGCTACTAATTACTTTCTAATGTCCTTGGCGGTGGCTGAT
+TTGCTGGTTGGATTGTTTGTGATGCCAATTGCCCTCTTGACAATAATGTTTGAGGCTATG
+TGGCCCCTCCCACTTGTTCTATGTCCTGCCTGGTTATTTCTTGACGTTCTCTTTTCAACC
+GCATCCATCATGCATCTCTGTGCCATTTCAGTGGATCGTTACATAGCCATCAAAAAGCCA
+ATCCAGGCCAATCAATATAACTCACGGGCTACAGCATTCATCAAGATTACAGTGGTGTGG
+TTAATTTCAATAGGCATTGCCATTCCAGTCCCTATTAAAGGGATAGAGACTGATGTGGAC
+AACCCAAACAATATCACTTGTGTGCTGACAAAGGAACGTTTTGGCGATTTCATGCTCTTT
+GGCTCACTGGCTGCCTTCTTCACACCTCTTGCAATTATGATTGTCACCTACTTTCTCACT
+ATCCATGCTTTACAGAAGAAGGCTTACTTAGTCAAAAACAAGCCACCTCAACGCCTAACA
+TGGTTGACTGTGTCTACAGTTTTCCAAAGGGATGAAACACCTTGCTCGTCACCGGAAAAG
+GTGGCAATGCTGGATGGTTCTCGAAAGGACAAGGCTCTGCCCAACTCAGGTGATGAAACA
+CTTATGCGAAGAACATCCACAATTGGGAAAAAGTCAGTGCAGACCATTTCCAACGAACAG
+AGAGCCTCAAAGGTCCTAGGGATTGTGTTTTTCCTCTTTTTGCTTATGTGGTGTCCCTTC
+TTTATTACAAATATAACTTTAGTTTTATGTGATTCCTGTAACCAAACTACTCTCCAAATG
+CTCCTGGAGATATTTGTGTGGATAGGCTATGTTTCCTCAGGAGTGAATCCTTTGGTCTAC
+ACCCTCTTCAATAAGACATTTCGGGATGCATTTGGCCGATATATCACCTGCAATTACCGG
+GCCACAAAGTCAGTAAAAACTCTCAGAAAACGCTCCAGTAAGATCTACTTCCGGAATCCA
+ATGGCAGAGAACTCTAAGTTTTTCAAGAAACATGGAATTCGAAATGGGATTAACCCTGCC
+ATGTACCAGAGTCCAATGAGGCTCCGAAGTTCAACCATTCAGTCTTCATCAATCATTCTA
+CTAGATACGCTTCTCCTCACTGAAAATGAAGGTGACAAAACTGAAGAGCAAGTTAGTTAT
+GTATAG</gene-sequence>
+    <pfams>
+      <pfam>
+        <identifier>PF00001</identifier>
+        <name>7tm_1</name>
+      </pfam>
+    </pfams>
+    <go-classifiers>
+      <go-classifier>
+        <category>component</category>
+        <description>synapse</description>
+      </go-classifier>
+      <go-classifier>
+        <category>component</category>
+        <description>cytoplasm</description>
+      </go-classifier>
+      <go-classifier>
+        <category>component</category>
+        <description>neuronal cell body</description>
+      </go-classifier>
+      <go-classifier>
+        <category>component</category>
+        <description>plasma membrane</description>
+      </go-classifier>
+      <go-classifier>
+        <category>component</category>
+        <description>cell junction</description>
+      </go-classifier>
+      <go-classifier>
+        <category>component</category>
+        <description>integral component of plasma membrane</description>
+      </go-classifier>
+      <go-classifier>
+        <category>component</category>
+        <description>dendrite</description>
+      </go-classifier>
+      <go-classifier>
+        <category>function</category>
+        <description>drug binding</description>
+      </go-classifier>
+      <go-classifier>
+        <category>function</category>
+        <description>GTPase activator activity</description>
+      </go-classifier>
+      <go-classifier>
+        <category>function</category>
+        <description>serotonin receptor activity</description>
+      </go-classifier>
+      <go-classifier>
+        <category>function</category>
+        <description>serotonin binding</description>
+      </go-classifier>
+      <go-classifier>
+        <category>function</category>
+        <description>G-protein alpha-subunit binding</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>positive regulation of nitric-oxide synthase activity</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>neural crest cell differentiation</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>positive regulation of phosphatidylinositol biosynthetic process</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>G-protein coupled receptor internalization</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>positive regulation of ERK1 and ERK2 cascade</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>release of sequestered calcium ion into cytosol</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>G-protein coupled receptor signaling pathway</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>cardiac muscle hypertrophy</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>negative regulation of cell death</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>response to drug</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>positive regulation of cell proliferation</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>positive regulation of cytokine production</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>neural crest cell migration</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>intestine smooth muscle contraction</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>protein kinase C-activating G-protein coupled receptor signaling pathway</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>positive regulation of cytokine secretion</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>positive regulation of endothelial cell proliferation</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>regulation of behavior</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>phosphorylation</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>calcium-mediated signaling</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>protein kinase C signaling</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>positive regulation of cell division</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>heart morphogenesis</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>behavior</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>embryonic morphogenesis</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>positive regulation of I-kappaB kinase/NF-kappaB signaling</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>serotonin receptor signaling pathway</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>cellular response to amine stimulus</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>ERK1 and ERK2 cascade</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>cellular calcium ion homeostasis</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>cellular response to serotonin</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>phosphatidylinositol 3-kinase signaling</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>ion transmembrane transport</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>negative regulation of autophagy</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>activation of phospholipase C activity</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>cellular response to temperature stimulus</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>vasoconstriction</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>negative regulation of apoptotic process</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>positive regulation of MAP kinase activity</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>hepatic stellate cell activation</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>cGMP biosynthetic process</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>inositol phosphate metabolic process</description>
+      </go-classifier>
+    </go-classifiers>
+  </polypeptide>
+    </target>
+    <target position="5">
+      <id>BE0000451</id>
+      <name>5-hydroxytryptamine receptor 2A</name>
+      <organism>Human</organism>
+      <actions>
+        <action>antagonist</action>
+      </actions>
+      <references>
+        <articles>
+          <article>
+            <pubmed-id>26510944</pubmed-id>
+            <citation>McCormack PL: Cariprazine: First Global Approval. Drugs. 2015 Nov;75(17):2035-43. doi: 10.1007/s40265-015-0494-7.</citation>
+          </article>
+        </articles>
+        <textbooks/>
+        <links/>
+      </references>
+      <known-action>yes</known-action>
+      <polypeptide id="P28223" source="Swiss-Prot">
+    <name>5-hydroxytryptamine receptor 2A</name>
+    <general-function>Virus receptor activity</general-function>
+    <specific-function>G-protein coupled receptor for 5-hydroxytryptamine (serotonin). Also functions as a receptor for various drugs and psychoactive substances, including mescaline, psilocybin, 1-(2,5-dimethoxy-4-iodophenyl)-2-aminopropane (DOI) and lysergic acid diethylamide (LSD). Ligand binding causes a conformation change that triggers signaling via guanine nucleotide-binding proteins (G proteins) and modulates the activity of down-stream effectors. Beta-arrestin family members inhibit signaling via G proteins and mediate activation of alternative signaling pathways. Signaling activates phospholipase C and a phosphatidylinositol-calcium second messenger system that modulates the activity of phosphatidylinositol 3-kinase and promotes the release of Ca(2+) ions from intracellular stores. Affects neural activity, perception, cognition and mood. Plays a role in the regulation of behavior, including responses to anxiogenic situations and psychoactive substances. Plays a role in intestinal smooth muscle contraction, and may play a role in arterial vasoconstriction.(Microbial infection) Acts as a receptor for human JC polyomavirus/JCPyV.</specific-function>
+    <gene-name>HTR2A</gene-name>
+    <locus>13q14-q21</locus>
+    <cellular-location>Cell membrane</cellular-location>
+    <transmembrane-regions>76-99
+111-132
+149-171
+192-215
+234-254
+325-346
+363-384</transmembrane-regions>
+    <signal-regions/>
+    <theoretical-pi>7.72</theoretical-pi>
+    <molecular-weight>52602.58</molecular-weight>
+    <chromosome-location>13</chromosome-location>
+    <organism ncbi-taxonomy-id="9606">Human</organism>
+    <external-identifiers>
+      <external-identifier>
+        <resource>HUGO Gene Nomenclature Committee (HGNC)</resource>
+        <identifier>HGNC:5293</identifier>
+      </external-identifier>
+      <external-identifier>
+        <resource>GenAtlas</resource>
+        <identifier>HTR2A</identifier>
+      </external-identifier>
+      <external-identifier>
+        <resource>GenBank Gene Database</resource>
+        <identifier>S42168</identifier>
+      </external-identifier>
+      <external-identifier>
+        <resource>GenBank Protein Database</resource>
+        <identifier>36431</identifier>
+      </external-identifier>
+      <external-identifier>
+        <resource>IUPHAR</resource>
+        <identifier>6</identifier>
+      </external-identifier>
+      <external-identifier>
+        <resource>Guide to Pharmacology</resource>
+        <identifier>6</identifier>
+      </external-identifier>
+      <external-identifier>
+        <resource>UniProtKB</resource>
+        <identifier>P28223</identifier>
+      </external-identifier>
+      <external-identifier>
+        <resource>UniProt Accession</resource>
+        <identifier>5HT2A_HUMAN</identifier>
+      </external-identifier>
+    </external-identifiers>
+    <synonyms>
+      <synonym>5-HT-2</synonym>
+      <synonym>HTR2</synonym>
+      <synonym>Serotonin receptor 2A</synonym>
+    </synonyms>
+    <amino-acid-sequence format="FASTA">&gt;lcl|BSEQ0000899|5-hydroxytryptamine receptor 2A
+MDILCEENTSLSSTTNSLMQLNDDTRLYSNDFNSGEANTSDAFNWTVDSENRTNLSCEGC
+LSPSCLSLLHLQEKNWSALLTAVVIILTIAGNILVIMAVSLEKKLQNATNYFLMSLAIAD
+MLLGFLVMPVSMLTILYGYRWPLPSKLCAVWIYLDVLFSTASIMHLCAISLDRYVAIQNP
+IHHSRFNSRTKAFLKIIAVWTISVGISMPIPVFGLQDDSKVFKEGSCLLADDNFVLIGSF
+VSFFIPLTIMVITYFLTIKSLQKEATLCVSDLGTRAKLASFSFLPQSSLSSEKLFQRSIH
+REPGSYTGRRTMQSISNEQKACKVLGIVFFLFVVMWCPFFITNIMAVICKESCNEDVIGA
+LLNVFVWIGYLSSAVNPLVYTLFNKTYRSAFSRYIQCQYKENKKPLQLILVNTIPALAYK
+SSQLQMGQKKNSKQDAKTTDNDCSMVALGKQHSEEASKDNSDGVNEKVSCV</amino-acid-sequence>
+    <gene-sequence format="FASTA">&gt;lcl|BSEQ0020465|5-hydroxytryptamine receptor 2A (HTR2A)
+ATGGATATTCTTTGTGAAGAAAATACTTCTTTGAGCTCAACTACGAACTCCCTAATGCAA
+TTAAATGATGACACCAGGCTCTACAGTAATGACTTTAACTCCGGAGAAGCTAACACTTCT
+GATGCATTTAACTGGACAGTCGACTCTGAAAATCGAACCAACCTTTCCTGTGAAGGGTGC
+CTCTCACCGTCGTGTCTCTCCTTACTTCATCTCCAGGAAAAAAACTGGTCTGCTTTACTG
+ACAGCCGTAGTGATTATTCTAACTATTGCTGGAAACATACTCGTCATCATGGCAGTGTCC
+CTAGAGAAAAAGCTGCAGAATGCCACCAACTATTTCCTGATGTCACTTGCCATAGCTGAT
+ATGCTGCTGGGTTTCCTTGTCATGCCCGTGTCCATGTTAACCATCCTGTATGGGTACCGG
+TGGCCTCTGCCGAGCAAGCTTTGTGCAGTCTGGATTTACCTGGACGTGCTCTTCTCCACG
+GCCTCCATCATGCACCTCTGCGCCATCTCGCTGGACCGCTACGTCGCCATCCAGAATCCC
+ATCCACCACAGCCGCTTCAACTCCAGAACTAAGGCATTTCTGAAAATCATTGCTGTTTGG
+ACCATATCAGTAGGTATATCCATGCCAATACCAGTCTTTGGGCTACAGGACGATTCGAAG
+GTCTTTAAGGAGGGGAGTTGCTTACTCGCCGATGATAACTTTGTCCTGATCGGCTCTTTT
+GTGTCATTTTTCATTCCCTTAACCATCATGGTGATCACCTACTTTCTAACTATCAAGTCA
+CTCCAGAAAGAAGCTACTTTGTGTGTAAGTGATCTTGGCACACGGGCCAAATTAGCTTCT
+TTCAGCTTCCTCCCTCAGAGTTCTTTGTCTTCAGAAAAGCTCTTCCAGCGGTCGATCCAT
+AGGGAGCCAGGGTCCTACACAGGCAGGAGGACTATGCAGTCCATCAGCAATGAGCAAAAG
+GCATGCAAGGTGCTGGGCATCGTCTTCTTCCTGTTTGTGGTGATGTGGTGCCCTTTCTTC
+ATCACAAACATCATGGCCGTCATCTGCAAAGAGTCCTGCAATGAGGATGTCATTGGGGCC
+CTGCTCAATGTGTTTGTTTGGATCGGTTATCTCTCTTCAGCAGTCAACCCACTAGTCTAC
+ACACTGTTCAACAAGACCTATAGGTCAGCCTTTTCACGGTATATTCAGTGTCAGTACAAG
+GAAAACAAAAAACCATTGCAGTTAATTTTAGTGAACACAATACCGGCTTTGGCCTACAAG
+TCTAGCCAACTTCAAATGGGACAAAAAAAGAATTCAAAGCAAGATGCCAAGACAACAGAT
+AATGACTGCTCAATGGTTGCTCTAGGAAAGCAGCATTCTGAAGAGGCTTCTAAAGACAAT
+AGCGACGGAGTGAATGAAAAGGTGAGCTGTGTGTGA</gene-sequence>
+    <pfams>
+      <pfam>
+        <identifier>PF00001</identifier>
+        <name>7tm_1</name>
+      </pfam>
+    </pfams>
+    <go-classifiers>
+      <go-classifier>
+        <category>component</category>
+        <description>neuronal cell body</description>
+      </go-classifier>
+      <go-classifier>
+        <category>component</category>
+        <description>dendritic shaft</description>
+      </go-classifier>
+      <go-classifier>
+        <category>component</category>
+        <description>caveola</description>
+      </go-classifier>
+      <go-classifier>
+        <category>component</category>
+        <description>plasma membrane</description>
+      </go-classifier>
+      <go-classifier>
+        <category>component</category>
+        <description>cytoplasmic membrane-bounded vesicle</description>
+      </go-classifier>
+      <go-classifier>
+        <category>component</category>
+        <description>cytosol</description>
+      </go-classifier>
+      <go-classifier>
+        <category>component</category>
+        <description>axon</description>
+      </go-classifier>
+      <go-classifier>
+        <category>component</category>
+        <description>integral component of plasma membrane</description>
+      </go-classifier>
+      <go-classifier>
+        <category>component</category>
+        <description>cell body fiber</description>
+      </go-classifier>
+      <go-classifier>
+        <category>function</category>
+        <description>drug binding</description>
+      </go-classifier>
+      <go-classifier>
+        <category>function</category>
+        <description>1-(4-iodo-2,5-dimethoxyphenyl)propan-2-amine binding</description>
+      </go-classifier>
+      <go-classifier>
+        <category>function</category>
+        <description>virus receptor activity</description>
+      </go-classifier>
+      <go-classifier>
+        <category>function</category>
+        <description>serotonin binding</description>
+      </go-classifier>
+      <go-classifier>
+        <category>function</category>
+        <description>serotonin receptor activity</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>regulation of hormone secretion</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>serotonin receptor signaling pathway</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>memory</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>response to drug</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>detection of mechanical stimulus involved in sensory perception of pain</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>urinary bladder smooth muscle contraction</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>aging</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>cell death</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>phosphatidylinositol 3-kinase signaling</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>positive regulation of fat cell differentiation</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>protein localization to cytoskeleton</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>detection of temperature stimulus involved in sensory perception of pain</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>artery smooth muscle contraction</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>cellular calcium ion homeostasis</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>negative regulation of synaptic transmission, glutamatergic</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>synaptic transmission</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>temperature homeostasis</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>phospholipase C-activating serotonin receptor signaling pathway</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>activation of phospholipase C activity</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>positive regulation of peptidyl-tyrosine phosphorylation</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>positive regulation of phosphatidylinositol biosynthetic process</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>positive regulation of vasoconstriction</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>positive regulation of glycolytic process</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>release of sequestered calcium ion into cytosol</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>positive regulation of MAP kinase activity</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>behavioral response to cocaine</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>positive regulation of cell proliferation</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>regulation of behavior</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>negative regulation of potassium ion transport</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>sleep</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>positive regulation of ERK1 and ERK2 cascade</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>regulation of dopamine secretion</description>
+      </go-classifier>
+    </go-classifiers>
+  </polypeptide>
+    </target>
+    <target position="6">
+      <id>BE0000442</id>
+      <name>Histamine H1 receptor</name>
+      <organism>Human</organism>
+      <actions>
+        <action>antagonist</action>
+      </actions>
+      <references>
+        <articles>
+          <article>
+            <pubmed-id>26510944</pubmed-id>
+            <citation>McCormack PL: Cariprazine: First Global Approval. Drugs. 2015 Nov;75(17):2035-43. doi: 10.1007/s40265-015-0494-7.</citation>
+          </article>
+        </articles>
+        <textbooks/>
+        <links/>
+      </references>
+      <known-action>yes</known-action>
+      <polypeptide id="P35367" source="Swiss-Prot">
+    <name>Histamine H1 receptor</name>
+    <general-function>Histamine receptor activity</general-function>
+    <specific-function>In peripheral tissues, the H1 subclass of histamine receptors mediates the contraction of smooth muscles, increase in capillary permeability due to contraction of terminal venules, and catecholamine release from adrenal medulla, as well as mediating neurotransmission in the central nervous system.</specific-function>
+    <gene-name>HRH1</gene-name>
+    <locus>3p25</locus>
+    <cellular-location>Cell membrane</cellular-location>
+    <transmembrane-regions>30-52
+63-83
+102-123
+144-164
+190-210
+417-438
+451-470</transmembrane-regions>
+    <signal-regions/>
+    <theoretical-pi>9.58</theoretical-pi>
+    <molecular-weight>55783.61</molecular-weight>
+    <chromosome-location>3</chromosome-location>
+    <organism ncbi-taxonomy-id="9606">Human</organism>
+    <external-identifiers>
+      <external-identifier>
+        <resource>HUGO Gene Nomenclature Committee (HGNC)</resource>
+        <identifier>HGNC:5182</identifier>
+      </external-identifier>
+      <external-identifier>
+        <resource>GenAtlas</resource>
+        <identifier>HRH1</identifier>
+      </external-identifier>
+      <external-identifier>
+        <resource>GenBank Gene Database</resource>
+        <identifier>Z34897</identifier>
+      </external-identifier>
+      <external-identifier>
+        <resource>GenBank Protein Database</resource>
+        <identifier>510296</identifier>
+      </external-identifier>
+      <external-identifier>
+        <resource>IUPHAR</resource>
+        <identifier>262</identifier>
+      </external-identifier>
+      <external-identifier>
+        <resource>Guide to Pharmacology</resource>
+        <identifier>262</identifier>
+      </external-identifier>
+      <external-identifier>
+        <resource>UniProtKB</resource>
+        <identifier>P35367</identifier>
+      </external-identifier>
+      <external-identifier>
+        <resource>UniProt Accession</resource>
+        <identifier>HRH1_HUMAN</identifier>
+      </external-identifier>
+    </external-identifiers>
+    <synonyms>
+      <synonym>H1R</synonym>
+    </synonyms>
+    <amino-acid-sequence format="FASTA">&gt;lcl|BSEQ0016092|Histamine H1 receptor
+MSLPNSSCLLEDKMCEGNKTTMASPQLMPLVVVLSTICLVTVGLNLLVLYAVRSERKLHT
+VGNLYIVSLSVADLIVGAVVMPMNILYLLMSKWSLGRPLCLFWLSMDYVASTASIFSVFI
+LCIDRYRSVQQPLRYLKYRTKTRASATILGAWFLSFLWVIPILGWNHFMQQTSVRREDKC
+ETDFYDVTWFKVMTAIINFYLPTLLMLWFYAKIYKAVRQHCQHRELINRSLPSFSEIKLR
+PENPKGDAKKPGKESPWEVLKRKPKDAGGGSVLKSPSQTPKEMKSPVVFSQEDDREVDKL
+YCFPLDIVHMQAAAEGSSRDYVAVNRSHGQLKTDEQGLNTHGASEISEDQMLGDSQSFSR
+TDSDTTTETAPGKGKLRSGSNTGLDYIKFTWKRLRSHSRQYVSGLHMNRERKAAKQLGFI
+MAAFILCWIPYFIFFMVIAFCKNCCNEHLHMFTIWLGYINSTLNPLIYPLCNENFKKTFK
+RILHIRS</amino-acid-sequence>
+    <gene-sequence format="FASTA">&gt;lcl|BSEQ0016093|Histamine H1 receptor (HRH1)
+ATGAGCCTCCCCAATTCCTCCTGCCTCTTAGAAGACAAGATGTGTGAGGGCAACAAGACC
+ACTATGGCCAGCCCCCAGCTGATGCCCCTGGTGGTGGTCCTGAGCACTATCTGCTTGGTC
+ACAGTAGGGCTCAACCTGCTGGTGCTGTATGCCGTACGGAGTGAGCGGAAGCTCCACACT
+GTGGGGAACCTGTACATCGTCAGCCTCTCGGTGGCGGACTTGATCGTGGGTGCCGTCGTC
+ATGCCTATGAACATCCTCTACCTGCTCATGTCCAAGTGGTCACTGGGCCGTCCTCTCTGC
+CTCTTTTGGCTTTCCATGGACTATGTGGCCAGCACAGCGTCCATTTTCAGTGTCTTCATC
+CTGTGCATTGATCGCTACCGCTCTGTCCAGCAGCCCCTCAGGTACCTTAAGTATCGTACC
+AAGACCCGAGCCTCGGCCACCATTCTGGGGGCCTGGTTTCTCTCTTTTCTGTGGGTTATT
+CCCATTCTAGGCTGGAATCACTTCATGCAGCAGACCTCGGTGCGCCGAGAGGACAAGTGT
+GAGACAGACTTCTATGATGTCACCTGGTTCAAGGTCATGACTGCCATCATCAACTTCTAC
+CTGCCCACCTTGCTCATGCTCTGGTTCTATGCCAAGATCTACAAGGCCGTACGACAACAC
+TGCCAGCACCGGGAGCTCATCAATAGGTCCCTCCCTTCCTTCTCAGAAATTAAGCTGAGG
+CCAGAGAACCCCAAGGGGGATGCCAAGAAACCAGGGAAGGAGTCTCCCTGGGAGGTTCTG
+AAAAGGAAGCCAAAAGATGCTGGTGGTGGATCTGTCTTGAAGTCACCATCCCAAACCCCC
+AAGGAGATGAAATCCCCAGTTGTCTTCAGCCAAGAGGATGATAGAGAAGTAGACAAACTC
+TACTGCTTTCCACTTGATATTGTGCACATGCAGGCTGCGGCAGAGGGGAGTAGCAGGGAC
+TATGTAGCCGTCAACCGGAGCCATGGCCAGCTCAAGACAGATGAGCAGGGCCTGAACACA
+CATGGGGCCAGCGAGATATCAGAGGATCAGATGTTAGGTGATAGCCAATCCTTCTCTCGA
+ACGGACTCAGATACCACCACAGAGACAGCACCAGGCAAAGGCAAATTGAGGAGTGGGTCT
+AACACAGGCCTGGATTACATCAAGTTTACTTGGAAGAGGCTCCGCTCGCATTCAAGACAG
+TATGTATCTGGGTTGCACATGAACCGCGAAAGGAAGGCCGCCAAACAGTTGGGTTTTATC
+ATGGCAGCCTTCATCCTCTGCTGGATCCCTTATTTCATCTTCTTCATGGTCATTGCCTTC
+TGCAAGAACTGTTGCAATGAACATTTGCACATGTTCACCATCTGGCTGGGCTACATCAAC
+TCCACACTGAACCCCCTCATCTACCCCTTGTGCAATGAGAACTTCAAGAAGACATTCAAG
+AGAATTCTGCATATTCGCTCCTAA</gene-sequence>
+    <pfams>
+      <pfam>
+        <identifier>PF00001</identifier>
+        <name>7tm_1</name>
+      </pfam>
+    </pfams>
+    <go-classifiers>
+      <go-classifier>
+        <category>component</category>
+        <description>cytoplasm</description>
+      </go-classifier>
+      <go-classifier>
+        <category>component</category>
+        <description>plasma membrane</description>
+      </go-classifier>
+      <go-classifier>
+        <category>component</category>
+        <description>nucleoplasm</description>
+      </go-classifier>
+      <go-classifier>
+        <category>component</category>
+        <description>integral component of plasma membrane</description>
+      </go-classifier>
+      <go-classifier>
+        <category>function</category>
+        <description>histamine binding</description>
+      </go-classifier>
+      <go-classifier>
+        <category>function</category>
+        <description>G-protein coupled receptor activity</description>
+      </go-classifier>
+      <go-classifier>
+        <category>function</category>
+        <description>histamine receptor activity</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>modulation of synaptic transmission</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>positive regulation of vasoconstriction</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>memory</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>regulation of synaptic plasticity</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>inflammatory response</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>visual learning</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>regulation of vasoconstriction</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>positive regulation of inositol trisphosphate biosynthetic process</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>cellular response to histamine</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>regulation of vascular permeability</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>G-protein coupled receptor signaling pathway</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>eosinophil chemotaxis</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>sensory perception of chemical stimulus</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>inositol phosphate-mediated signaling</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>phospholipase C-activating G-protein coupled receptor signaling pathway</description>
+      </go-classifier>
+    </go-classifiers>
+  </polypeptide>
+    </target>
+  </targets>
+  <enzymes>
+    <enzyme position="1">
+      <id>BE0002638</id>
+      <name>Cytochrome P450 3A4</name>
+      <organism>Human</organism>
+      <actions>
+        <action>substrate</action>
+      </actions>
+      <references>
+        <articles>
+          <article>
+            <pubmed-id>23320989</pubmed-id>
+            <citation>Citrome L: Cariprazine: chemistry, pharmacodynamics, pharmacokinetics, and metabolism, clinical efficacy, safety, and tolerability. Expert Opin Drug Metab Toxicol. 2013 Feb;9(2):193-206. doi: 10.1517/17425255.2013.759211.</citation>
+          </article>
+        </articles>
+        <textbooks/>
+        <links/>
+      </references>
+      <known-action>unknown</known-action>
+      <polypeptide id="P08684" source="Swiss-Prot">
+    <name>Cytochrome P450 3A4</name>
+    <general-function>Vitamin d3 25-hydroxylase activity</general-function>
+    <specific-function>Cytochromes P450 are a group of heme-thiolate monooxygenases. In liver microsomes, this enzyme is involved in an NADPH-dependent electron transport pathway. It performs a variety of oxidation reactions (e.g. caffeine 8-oxidation, omeprazole sulphoxidation, midazolam 1'-hydroxylation and midazolam 4-hydroxylation) of structurally unrelated compounds, including steroids, fatty acids, and xenobiotics. Acts as a 1,8-cineole 2-exo-monooxygenase. The enzyme also hydroxylates etoposide (PubMed:11159812). Catalyzes 4-beta-hydroxylation of cholesterol. May catalyze 25-hydroxylation of cholesterol in vitro (PubMed:21576599).</specific-function>
+    <gene-name>CYP3A4</gene-name>
+    <locus>7q21.1</locus>
+    <cellular-location>Endoplasmic reticulum membrane</cellular-location>
+    <transmembrane-regions>2-22</transmembrane-regions>
+    <signal-regions/>
+    <theoretical-pi>8.25</theoretical-pi>
+    <molecular-weight>57342.67</molecular-weight>
+    <chromosome-location>7</chromosome-location>
+    <organism ncbi-taxonomy-id="9606">Human</organism>
+    <external-identifiers>
+      <external-identifier>
+        <resource>HUGO Gene Nomenclature Committee (HGNC)</resource>
+        <identifier>HGNC:2637</identifier>
+      </external-identifier>
+      <external-identifier>
+        <resource>GenAtlas</resource>
+        <identifier>CYP3A4</identifier>
+      </external-identifier>
+      <external-identifier>
+        <resource>GenBank Gene Database</resource>
+        <identifier>M18907</identifier>
+      </external-identifier>
+      <external-identifier>
+        <resource>Guide to Pharmacology</resource>
+        <identifier>1337</identifier>
+      </external-identifier>
+      <external-identifier>
+        <resource>UniProtKB</resource>
+        <identifier>P08684</identifier>
+      </external-identifier>
+      <external-identifier>
+        <resource>UniProt Accession</resource>
+        <identifier>CP3A4_HUMAN</identifier>
+      </external-identifier>
+    </external-identifiers>
+    <synonyms>
+      <synonym>1,8-cineole 2-exo-monooxygenase</synonym>
+      <synonym>1.14.13.-</synonym>
+      <synonym>Albendazole monooxygenase</synonym>
+      <synonym>Albendazole sulfoxidase</synonym>
+      <synonym>Cholesterol 25-hydroxylase</synonym>
+      <synonym>CYP3A3</synonym>
+      <synonym>CYPIIIA3</synonym>
+      <synonym>CYPIIIA4</synonym>
+      <synonym>Cytochrome P450 3A3</synonym>
+      <synonym>Cytochrome P450 HLp</synonym>
+      <synonym>Cytochrome P450 NF-25</synonym>
+      <synonym>Cytochrome P450-PCN1</synonym>
+      <synonym>Nifedipine oxidase</synonym>
+      <synonym>Quinine 3-monooxygenase</synonym>
+      <synonym>Taurochenodeoxycholate 6-alpha-hydroxylase</synonym>
+    </synonyms>
+    <amino-acid-sequence format="FASTA">&gt;lcl|BSEQ0021936|Cytochrome P450 3A4
+MALIPDLAMETWLLLAVSLVLLYLYGTHSHGLFKKLGIPGPTPLPFLGNILSYHKGFCMF
+DMECHKKYGKVWGFYDGQQPVLAITDPDMIKTVLVKECYSVFTNRRPFGPVGFMKSAISI
+AEDEEWKRLRSLLSPTFTSGKLKEMVPIIAQYGDVLVRNLRREAETGKPVTLKDVFGAYS
+MDVITSTSFGVNIDSLNNPQDPFVENTKKLLRFDFLDPFFLSITVFPFLIPILEVLNICV
+FPREVTNFLRKSVKRMKESRLEDTQKHRVDFLQLMIDSQNSKETESHKALSDLELVAQSI
+IFIFAGYETTSSVLSFIMYELATHPDVQQKLQEEIDAVLPNKAPPTYDTVLQMEYLDMVV
+NETLRLFPIAMRLERVCKKDVEINGMFIPKGVVVMIPSYALHRDPKYWTEPEKFLPERFS
+KKNKDNIDPYIYTPFGSGPRNCIGMRFALMNMKLALIRVLQNFSFKPCKETQIPLKLSLG
+GLLQPEKPVVLKVESRDGTVSGA</amino-acid-sequence>
+    <gene-sequence format="FASTA">&gt;lcl|BSEQ0021937|Cytochrome P450 3A4 (CYP3A4)
+ATGGCTCTCATCCCAGACTTGGCCATGGAAACCTGGCTTCTCCTGGCTGTCAGCCTGGTG
+CTCCTCTATCTATATGGAACCCATTCACATGGACTTTTTAAGAAGCTTGGAATTCCAGGG
+CCCACACCTCTGCCTTTTTTGGGAAATATTTTGTCCTACCATAAGGGCTTTTGTATGTTT
+GACATGGAATGTCATAAAAAGTATGGAAAAGTGTGGGGCTTTTATGATGGTCAACAGCCT
+GTGCTGGCTATCACAGATCCTGACATGATCAAAACAGTGCTAGTGAAAGAATGTTATTCT
+GTCTTCACAAACCGGAGGCCTTTTGGTCCAGTGGGATTTATGAAAAGTGCCATCTCTATA
+GCTGAGGATGAAGAATGGAAGAGATTACGATCATTGCTGTCTCCAACCTTCACCAGTGGA
+AAACTCAAGGAGATGGTCCCTATCATTGCCCAGTATGGAGATGTGTTGGTGAGAAATCTG
+AGGCGGGAAGCAGAGACAGGCAAGCCTGTCACCTTGAAAGACGTCTTTGGGGCCTACAGC
+ATGGATGTGATCACTAGCACATCATTTGGAGTGAACATCGACTCTCTCAACAATCCACAA
+GACCCCTTTGTGGAAAACACCAAGAAGCTTTTAAGATTTGATTTTTTGGATCCATTCTTT
+CTCTCAATAATCTTTCCATTCCTCATCCCAATTCTTGAAGTATTAAATATCTGTGTGTTT
+CCAAGAGAAGTTACAAATTTTTTAAGAAAATCTGTAAAAAGGATGAAAGAAAGTCGCCTC
+GAAGATACACAAAAGCACCGAGTGGATTTCCTTCAGCTGATGATTGACTCTCAGAATTCA
+AAAGAAACTGAGTCCCACAAAGCTCTGTCCGATCTGGAGCTCGTGGCCCAATCAATTATC
+TTTATTTTTGCTGGCTATGAAACCACGAGCAGTGTTCTCTCCTTCATTATGTATGAACTG
+GCCACTCACCCTGATGTCCAGCAGAAACTGCAGGAGGAAATTGATGCAGTTTTACCCAAT
+AAGGCACCACCCACCTATGATACTGTGCTACAGATGGAGTATCTTGACATGGTGGTGAAT
+GAAACGCTCAGATTATTCCCAATTGCTATGAGACTTGAGAGGGTCTGCAAAAAAGATGTT
+GAGATCAATGGGATGTTCATTCCCAAAGGGGTGGTGGTGATGATTCCAAGCTATGCTCTT
+CACCGTGACCCAAAGTACTGGACAGAGCCTGAGAAGTTCCTCCCTGAAAGATTCAGCAAG
+AAGAACAAGGACAACATAGATCCTTACATATACACACCCTTTGGAAGTGGACCCAGAAAC
+TGCATTGGCATGAGGTTTGCTCTCATGAACATGAAACTTGCTCTAATCAGAGTCCTTCAG
+AACTTCTCCTTCAAACCTTGTAAAGAAACACAGATCCCCCTGAAATTAAGCTTAGGAGGA
+CTTCTTCAACCAGAAAAACCCGTTGTTCTAAAGGTTGAGTCAAGGGATGGCACCGTAAGT
+GGAGCCTGA</gene-sequence>
+    <pfams>
+      <pfam>
+        <identifier>PF00067</identifier>
+        <name>p450</name>
+      </pfam>
+    </pfams>
+    <go-classifiers>
+      <go-classifier>
+        <category>component</category>
+        <description>intracellular membrane-bounded organelle</description>
+      </go-classifier>
+      <go-classifier>
+        <category>component</category>
+        <description>cytoplasm</description>
+      </go-classifier>
+      <go-classifier>
+        <category>component</category>
+        <description>endoplasmic reticulum membrane</description>
+      </go-classifier>
+      <go-classifier>
+        <category>component</category>
+        <description>integral component of membrane</description>
+      </go-classifier>
+      <go-classifier>
+        <category>function</category>
+        <description>oxidoreductase activity</description>
+      </go-classifier>
+      <go-classifier>
+        <category>function</category>
+        <description>vitamin D3 25-hydroxylase activity</description>
+      </go-classifier>
+      <go-classifier>
+        <category>function</category>
+        <description>aromatase activity</description>
+      </go-classifier>
+      <go-classifier>
+        <category>function</category>
+        <description>iron ion binding</description>
+      </go-classifier>
+      <go-classifier>
+        <category>function</category>
+        <description>albendazole monooxygenase activity</description>
+      </go-classifier>
+      <go-classifier>
+        <category>function</category>
+        <description>caffeine oxidase activity</description>
+      </go-classifier>
+      <go-classifier>
+        <category>function</category>
+        <description>heme binding</description>
+      </go-classifier>
+      <go-classifier>
+        <category>function</category>
+        <description>quinine 3-monooxygenase activity</description>
+      </go-classifier>
+      <go-classifier>
+        <category>function</category>
+        <description>monooxygenase activity</description>
+      </go-classifier>
+      <go-classifier>
+        <category>function</category>
+        <description>taurochenodeoxycholate 6alpha-hydroxylase activity</description>
+      </go-classifier>
+      <go-classifier>
+        <category>function</category>
+        <description>steroid binding</description>
+      </go-classifier>
+      <go-classifier>
+        <category>function</category>
+        <description>oxygen binding</description>
+      </go-classifier>
+      <go-classifier>
+        <category>function</category>
+        <description>steroid hydroxylase activity</description>
+      </go-classifier>
+      <go-classifier>
+        <category>function</category>
+        <description>vitamin D 24-hydroxylase activity</description>
+      </go-classifier>
+      <go-classifier>
+        <category>function</category>
+        <description>enzyme binding</description>
+      </go-classifier>
+      <go-classifier>
+        <category>function</category>
+        <description>testosterone 6-beta-hydroxylase activity</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>steroid catabolic process</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>oxidation-reduction process</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>steroid metabolic process</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>drug catabolic process</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>lipid metabolic process</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>heterocycle metabolic process</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>xenobiotic metabolic process</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>monoterpenoid metabolic process</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>drug metabolic process</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>oxidative demethylation</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>androgen metabolic process</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>calcitriol biosynthetic process from calciol</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>vitamin D metabolic process</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>exogenous drug catabolic process</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>alkaloid catabolic process</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>small molecule metabolic process</description>
+      </go-classifier>
+    </go-classifiers>
+  </polypeptide>
+      <inhibition-strength>unknown</inhibition-strength>
+      <induction-strength>unknown</induction-strength>
+    </enzyme>
+    <enzyme position="2">
+      <id>BE0002363</id>
+      <name>Cytochrome P450 2D6</name>
+      <organism>Human</organism>
+      <actions>
+        <action>substrate</action>
+      </actions>
+      <references>
+        <articles>
+          <article>
+            <pubmed-id>23320989</pubmed-id>
+            <citation>Citrome L: Cariprazine: chemistry, pharmacodynamics, pharmacokinetics, and metabolism, clinical efficacy, safety, and tolerability. Expert Opin Drug Metab Toxicol. 2013 Feb;9(2):193-206. doi: 10.1517/17425255.2013.759211.</citation>
+          </article>
+        </articles>
+        <textbooks/>
+        <links/>
+      </references>
+      <known-action>unknown</known-action>
+      <polypeptide id="P10635" source="Swiss-Prot">
+    <name>Cytochrome P450 2D6</name>
+    <general-function>Steroid hydroxylase activity</general-function>
+    <specific-function>Responsible for the metabolism of many drugs and environmental chemicals that it oxidizes. It is involved in the metabolism of drugs such as antiarrhythmics, adrenoceptor antagonists, and tricyclic antidepressants.</specific-function>
+    <gene-name>CYP2D6</gene-name>
+    <locus>22q13.1</locus>
+    <cellular-location>Endoplasmic reticulum membrane</cellular-location>
+    <transmembrane-regions/>
+    <signal-regions/>
+    <theoretical-pi>7.26</theoretical-pi>
+    <molecular-weight>55768.94</molecular-weight>
+    <chromosome-location>22</chromosome-location>
+    <organism ncbi-taxonomy-id="9606">Human</organism>
+    <external-identifiers>
+      <external-identifier>
+        <resource>HUGO Gene Nomenclature Committee (HGNC)</resource>
+        <identifier>HGNC:2625</identifier>
+      </external-identifier>
+      <external-identifier>
+        <resource>GenAtlas</resource>
+        <identifier>CYP2D6</identifier>
+      </external-identifier>
+      <external-identifier>
+        <resource>GenBank Gene Database</resource>
+        <identifier>M20403</identifier>
+      </external-identifier>
+      <external-identifier>
+        <resource>GenBank Protein Database</resource>
+        <identifier>181350</identifier>
+      </external-identifier>
+      <external-identifier>
+        <resource>Guide to Pharmacology</resource>
+        <identifier>1329</identifier>
+      </external-identifier>
+      <external-identifier>
+        <resource>UniProtKB</resource>
+        <identifier>P10635</identifier>
+      </external-identifier>
+      <external-identifier>
+        <resource>UniProt Accession</resource>
+        <identifier>CP2D6_HUMAN</identifier>
+      </external-identifier>
+    </external-identifiers>
+    <synonyms>
+      <synonym>1.14.14.1</synonym>
+      <synonym>Cholesterol 25-hydroxylase</synonym>
+      <synonym>CYP2DL1</synonym>
+      <synonym>CYPIID6</synonym>
+      <synonym>Cytochrome P450-DB1</synonym>
+      <synonym>Debrisoquine 4-hydroxylase</synonym>
+    </synonyms>
+    <amino-acid-sequence format="FASTA">&gt;lcl|BSEQ0004641|Cytochrome P450 2D6
+MGLEALVPLAVIVAIFLLLVDLMHRRQRWAARYPPGPLPLPGLGNLLHVDFQNTPYCFDQ
+LRRRFGDVFSLQLAWTPVVVLNGLAAVREALVTHGEDTADRPPVPITQILGFGPRSQGVF
+LARYGPAWREQRRFSVSTLRNLGLGKKSLEQWVTEEAACLCAAFANHSGRPFRPNGLLDK
+AVSNVIASLTCGRRFEYDDPRFLRLLDLAQEGLKEESGFLREVLNAVPVLLHIPALAGKV
+LRFQKAFLTQLDELLTEHRMTWDPAQPPRDLTEAFLAEMEKAKGNPESSFNDENLRIVVA
+DLFSAGMVTTSTTLAWGLLLMILHPDVQRRVQQEIDDVIGQVRRPEMGDQAHMPYTTAVI
+HEVQRFGDIVPLGVTHMTSRDIEVQGFRIPKGTTLITNLSSVLKDEAVWEKPFRFHPEHF
+LDAQGHFVKPEAFLPFSAGRRACLGEPLARMELFLFFTSLLQHFSFSVPTGQPRPSHHGV
+FAFLVSPSPYELCAVPR</amino-acid-sequence>
+    <gene-sequence format="FASTA">&gt;lcl|BSEQ0019275|Cytochrome P450 2D6 (CYP2D6)
+ATGGGGCTAGAAGCACTGGTGCCCCTGGCCGTGATAGTGGCCATCTTCCTGCTCCTGGTG
+GACCTGATGCACCGGCGCCAACGCTGGGCTGCACGCTACCCACCAGGCCCCCTGCCACTG
+CCCGGGCTGGGCAACCTGCTGCATGTGGACTTCCAGAACACACCATACTGCTTCGACCAG
+TTGCGGCGCCGCTTCGGGGACGTGTTCAGCCTGCAGCTGGCCTGGACGCCGGTGGTCGTG
+CTCAATGGGCTGGCGGCCGTGCGCGAGGCGCTGGTGACCCACGGCGAGGACACCGCCGAC
+CGCCCGCCTGTGCCCATCACCCAGATCCTGGGTTTCGGGCCGCGTTCCCAAGGGGTGTTC
+CTGGCGCGCTATGGGCCCGCGTGGCGCGAGCAGAGGCGCTTCTCCGTGTCCACCTTGCGC
+AACTTGGGCCTGGGCAAGAAGTCGCTGGAGCAGTGGGTGACCGAGGAGGCCGCCTGCCTT
+TGTGCCGCCTTCGCCAACCACTCCGGACGCCCCTTTCGCCCCAACGGTCTCTTGGACAAA
+GCCGTGAGCAACGTGATCGCCTCCCTCACCTGCGGGCGCCGCTTCGAGTACGACGACCCT
+CGCTTCCTCAGGCTGCTGGACCTAGCTCAGGAGGGACTGAAGGAGGAGTCGGGCTTTCTG
+CGCGAGGTGCTGAATGCTGTCCCCGTCCTCCTGCATATCCCAGCGCTGGCTGGCAAGGTC
+CTACGCTTCCAAAAGGCTTTCCTGACCCAGCTGGATGAGCTGCTAACTGAGCACAGGATG
+ACCTGGGACCCAGCCCAGCCCCCCCGAGACCTGACTGAGGCCTTCCTGGCAGAGATGGAG
+AAGGCCAAGGGGAACCCTGAGAGCAGCTTCAATGATGAGAACCTGCGCATAGTGGTGGCT
+GACCTGTTCTCTGCCGGGATGGTGACCACCTCGACCACGCTGGCCTGGGGCCTCCTGCTC
+ATGATCCTACATCCGGATGTGCAGCGCCGTGTCCAACAGGAGATCGACGACGTGATAGGG
+CAGGTGCGGCGACCAGAGATGGGTGACCAGGCTCACATGCCCTACACCACTGCCGTGATT
+CATGAGGTGCAGCGCTTTGGGGACATCGTCCCCCTGGGTGTGACCCATATGACATCCCGT
+GACATCGAAGTACAGGGCTTCCGCATCCCTAAGGGAACGACACTCATCACCAACCTGTCA
+TCGGTGCTGAAGGATGAGGCCGTCTGGGAGAAGCCCTTCCGCTTCCACCCCGAACACTTC
+CTGGATGCCCAGGGCCACTTTGTGAAGCCGGAGGCCTTCCTGCCTTTCTCAGCAGGCCGC
+CGTGCATGCCTCGGGGAGCCCCTGGCCCGCATGGAGCTCTTCCTCTTCTTCACCTCCCTG
+CTGCAGCACTTCAGCTTCTCGGTGCCCACTGGACAGCCCCGGCCCAGCCACCATGGTGTC
+TTTGCTTTCCTGGTGAGCCCATCCCCCTATGAGCTTTGTGCTGTGCCCCGCTAG</gene-sequence>
+    <pfams>
+      <pfam>
+        <identifier>PF00067</identifier>
+        <name>p450</name>
+      </pfam>
+    </pfams>
+    <go-classifiers>
+      <go-classifier>
+        <category>component</category>
+        <description>cytoplasm</description>
+      </go-classifier>
+      <go-classifier>
+        <category>component</category>
+        <description>mitochondrion</description>
+      </go-classifier>
+      <go-classifier>
+        <category>component</category>
+        <description>endoplasmic reticulum</description>
+      </go-classifier>
+      <go-classifier>
+        <category>component</category>
+        <description>endoplasmic reticulum membrane</description>
+      </go-classifier>
+      <go-classifier>
+        <category>function</category>
+        <description>drug binding</description>
+      </go-classifier>
+      <go-classifier>
+        <category>function</category>
+        <description>oxidoreductase activity</description>
+      </go-classifier>
+      <go-classifier>
+        <category>function</category>
+        <description>iron ion binding</description>
+      </go-classifier>
+      <go-classifier>
+        <category>function</category>
+        <description>heme binding</description>
+      </go-classifier>
+      <go-classifier>
+        <category>function</category>
+        <description>arachidonic acid epoxygenase activity</description>
+      </go-classifier>
+      <go-classifier>
+        <category>function</category>
+        <description>monooxygenase activity</description>
+      </go-classifier>
+      <go-classifier>
+        <category>function</category>
+        <description>steroid hydroxylase activity</description>
+      </go-classifier>
+      <go-classifier>
+        <category>function</category>
+        <description>aromatase activity</description>
+      </go-classifier>
+      <go-classifier>
+        <category>function</category>
+        <description>oxygen binding</description>
+      </go-classifier>
+      <go-classifier>
+        <category>function</category>
+        <description>oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, reduced flavin or flavoprotein as one donor, and incorporation of one atom of oxygen</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>drug catabolic process</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>small molecule metabolic process</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>heterocycle metabolic process</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>oxidation-reduction process</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>monoterpenoid metabolic process</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>steroid metabolic process</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>oxidative demethylation</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>xenobiotic metabolic process</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>arachidonic acid metabolic process</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>drug metabolic process</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>coumarin metabolic process</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>exogenous drug catabolic process</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>negative regulation of binding</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>alkaloid catabolic process</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>isoquinoline alkaloid metabolic process</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>negative regulation of cellular organofluorine metabolic process</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>alkaloid metabolic process</description>
+      </go-classifier>
+    </go-classifiers>
+  </polypeptide>
+      <inhibition-strength>unknown</inhibition-strength>
+      <induction-strength>unknown</induction-strength>
+    </enzyme>
+  </enzymes>
+  <carriers/>
+  <transporters/>
+</drug>
