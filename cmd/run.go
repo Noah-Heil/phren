@@ -33,7 +33,7 @@ var drug Drugbanktype
 // runCmd represents the run command
 var runCmd = &cobra.Command{
 	Use:   "run",
-	Short: "A brief description of your command",
+	Short: "Runs the CLI portion of the project",
 	Long: `A longer description that spans multiple lines and likely contains examples
 and usage of using your command. For example:
 

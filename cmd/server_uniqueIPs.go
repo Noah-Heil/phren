@@ -13,7 +13,7 @@ import (
 	colorable "github.com/mattn/go-colorable"
 )
 
-// Page
+// Page ...
 type Page struct {
 	Title string
 	Body  []byte
