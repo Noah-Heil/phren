@@ -186,7 +186,7 @@ func (t *Drugbanktype) MarshalXML(e *xml.Encoder, start xml.StartElement) error 
 	return e.EncodeElement(layout, start)
 }
 
-// UnmarshalXML unloads XML from drugbanktype structure
+// UnmarshalXML unloads XML into drugbanktype structure
 func (t *Drugbanktype) UnmarshalXML(d *xml.Decoder, start xml.StartElement) error {
 	type T Drugbanktype
 	var overlay struct {

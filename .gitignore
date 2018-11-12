@@ -17,9 +17,16 @@
 .DS_Store
 
 db/fulldatabase.xml
+db/testdb.xml
 
 # ignore the binaries
 phren
 
 .vscode/
 debug
+
+tmp
+
+gin.log
+
+gin-bin

@@ -23,6 +23,7 @@ and usage of using your command.`,
 
 		router := gin.Default()
 
+		router.Use(gin.Recovery())
 		router.Use(cors.Default())
 
 		router.Use(static.Serve("/", static.LocalFile("./views", true)))
@@ -41,9 +42,16 @@ and usage of using your command.`,
 			api.GET("/ip", ClientIPHandler)
 			api.GET("/uniqueip", IPAddressHandler)
 
+			// Ok now lets get some drug api's set up
+			apiDrug := api.Group("/drug")
+
+			apiDrug.GET("/", RootDrugHandler)
+			apiDrug.GET("/:drug", DrugHandler)
+			apiDrug.GET("/:drug/classifications", DrugClassificationsHandler)
 		}
 
-		router.Run(":80")
+		// router.Run(":80")
+		router.Run(":8112")
 	},
 }
 
